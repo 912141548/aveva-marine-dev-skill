@@ -1,11 +1,11 @@
 ---
 name: aveva-marine-dev-skill
-description: AVEVA Marine(PDMS 系)12.1 SP4 二次开发全栈知识库与审计工具集。覆盖 PML1/PML2 宏与表单、.NET Addin、marAPI、Vitesse Python、Isodraft/Draft 出图、Hull 船体、Paragon 规格库、Router 布线、Spooler 管件车间、MDS 支吊架等全部模块的穷举命令参考(47 份官方源码实证文档,全部带文件行号出处)。凡是涉及 AVEVA Marine、PDMS、PML 语言、PML1 宏、Design/Draft 模块、AVEVA 二次开发、addin 开发、uic、命令写法查询(如 NEW/CONNECT/SPREF/DETAIL)、错误码 (m,c) 解释、PML 代码审查、PML 表单编写、船体 Hull 脚本、Vitesse Python 的任务都应使用本技能——即使用户没有明确说"查知识库",只要提到 AVEVA 12.1 开发相关的问题就先加载本技能。
+description: AVEVA Marine(PDMS 系)12.1 SP4 二次开发全栈知识库与审计工具集。覆盖 PML1/PML2 宏与表单、.NET Addin 与 PDMS .NET Public Interface 全 API 参考(C#/VB.NET,18 命名空间 360 类型:DbElement/DbAttribute/Project/MDB/Filters/Geometry/PdmsStandalone)、marAPI、Vitesse Python、Isodraft/Draft 出图、Hull 船体、Paragon 规格库、Router 布线、Spooler 管件车间、MDS 支吊架等全部模块的穷举命令参考(48 份实证文档+380 份类型级 API 文档,全部带出处)。凡是涉及 AVEVA Marine、PDMS、PML 语言、PML1 宏、Design/Draft 模块、AVEVA 二次开发、addin 开发、uic、C#/.NET 调 PDMS API、DbElement/MDB/过滤器查询、命令写法查询(如 NEW/CONNECT/SPREF/DETAIL)、错误码 (m,c) 解释、PML 代码审查、PML 表单编写、船体 Hull 脚本、Vitesse Python 的任务都应使用本技能——即使用户没有明确说"查知识库",只要提到 AVEVA/PDMS 12.1 开发相关的问题就先加载本技能。
 ---
 
 # AVEVA Marine 二开知识库技能
 
-本技能是一个基于官方安装目录全量实证的 AVEVA Marine 12.1 SP4 二次开发知识库（源自 6075 个 PML 源码文件逐文件扫描 + 140 本官方手册全文 + 400 DLL 机器反射 + 全部 PDMSUI 宏树编目，约 16000 文件），配套可运行的 PML 审计工具与端到端模板。
+本技能是一个基于官方安装目录全量实证的 AVEVA Marine 12.1 SP4 二次开发知识库（源自 6075 个 PML 源码文件逐文件扫描 + 140 本官方手册全文 + 400 DLL 机器反射 + 全部 PDMSUI 宏树编目，约 16000 文件），配套可运行的 PML 审计工具与端到端模板；另并入 PDMS .NET Public Interface 全量 API 参考（18 命名空间 360 类型，已对 12.1 SP4 逐类型核对）。
 
 **使用原则**：先查导航与总索引，再进具体文档；所有结论都带源码行号可回查；不要凭记忆编造 API——本知识库存在的意义就是替代猜测。
 
@@ -19,16 +19,19 @@ references/
 ├── specs/                              ← 规范三件套(写码前必读)
 │   ├── PML生成规范.md / PML审核规范.md / PML记忆-语法硬约束.md
 │   └── 规范修订建议-待并入.md
-├── guides/                             ← 15 份专题速查(按需读)
+├── guides/                             ← 16 份专题速查(按需读)
 │   ├── AVEVA-Marine-PML开发技能.md      环境/启动链/部署
 │   ├── Marine-PML表单语法精要.md        setup form 体系
 │   ├── Marine-PML对象API字典精要.md     对象方法签名(防猜第一步)
 │   ├── Marine-PML错误码速查.md          模块号+(m,c) 语义
 │   ├── Marine-PML任务写法速查.md        34 任务官方写法
 │   ├── Marine-EDG事件系统精要.md        3D 交互拾取
+│   ├── PDMS-NET-API使用总纲.md          ← 【.NET 开发必读】DbElement/MDB/Filters 全 API 使用说明+任务模式
 │   ├── AVEVA-Marine-NET开发技能.md / NET-API用法Cookbook.md / marAPI调用姿势表.md / uic定制与部署调试手册.md
 │   ├── Marine-Vitesse-Python轨道速查.md
 │   └── (PDMSUI宏机制/公共库目录/帮助文档地图/TTY自检脚本)
+├── dotnet-api/                         ← PDMS .NET Public Interface 全 API 文档(18 命名空间 360 类型,英文原文,带 INDEX)
+│   └── 按命名空间分目录: Aveva.Pdms.Database(134)/Filters(45)/Geometry/Presentation/... 每类型一个 .md
 ├── volumes/                            ← 十七卷穷举命令本+权威表(查命令写法的核心)
 │   ├── Marine-总索引.md                 ← 【查命令词第一站】1122 条:674 命令+255 对象+193 kcs 函数
 │   ├── Marine-元素操作命令大全.md        卷一:30+元素类型 NEW/属性/连接/定位
@@ -63,6 +66,7 @@ examples/   ← 2 个可部署工程包(starter-kit-mycollect/mybrowser)
 | 查某命令词/类/函数是否存在 | volumes/Marine-总索引.md → 锚回卷文档 |
 | 写 PML 表单 | guides/表单语法精要 → templates/模板① → specs/生成规范 |
 | 写 .NET 停靠窗 addin | templates/模板② → guides/NET Cookbook → uic 手册排错表 |
+| 查 PDMS .NET API（类/成员签名、DbElement/MDB/Filters 用法） | guides/PDMS-NET-API使用总纲.md → dotnet-api/<命名空间>/<类型>.md |
 | 查错误码 (m,c) | guides/错误码速查(§1 模块号+§5 域化表) |
 | 查元素合法属性/挂载位置 | volumes/元素类型属性权威表(DMRM 27 类) |
 | UDA 怎么写/怎么复位 | volumes/属性操作写法全编 §2/§5 |
@@ -127,3 +131,5 @@ grep -i "MarHullPan" data/marapi_reflection.txt # marAPI 托管 API 全表
 ## 版权与免责
 
 本知识库为用户研究整理的**原创分析与索引**；引用的命令语法/代码片段仅用于互操作与学习目的，AVEVA、PDMS、AVEVA Marine 等商标与原始文档版权归 AVEVA Solutions Limited 所有。**未随仓库分发任何 AVEVA 原始文件**（手册全文/源码目录需从你的合法安装处生成）。
+
+`references/dotnet-api/` 目录的 .NET API 文档来自开源项目 [garychemis/PDMS-12.1-Net-skill](https://github.com/garychemis/PDMS-12.1-Net-skill)（MIT License, Copyright (c) 2026 圆肥），并入前已对 12.1 SP4 逐类型核对（360 类命中 357）；原许可全文见 `references/dotnet-api/LICENSE.txt`。

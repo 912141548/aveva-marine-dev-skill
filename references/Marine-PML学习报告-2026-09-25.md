@@ -1862,3 +1862,27 @@ F. 等价旧 VAR PICK 命令(PML1→PML2 迁移对照表)
 
 - gh CLI 未装；用 `git credential fill` 从 Windows 凭据管理器取 GitHub token 调 REST API 建仓
 - git 走已配置代理 127.0.0.1:33210；推送 main 分支成功，commit 36b4e65
+
+
+---
+
+## 第 93 轮（2026-10-12）：外部 .NET 技能下载核对并糅合（garychemis/PDMS-12.1-Net-skill）
+
+### 下载与核对
+
+- 来源：github.com/garychemis/PDMS-12.1-Net-skill（MIT License, Copyright (c) 2026 圆肥）——PDMS .NET Public Interface 全量 API 参考（18 命名空间 360 类型 + 使用总纲 + 3 个 evals）
+- **逐类型核对（机器验证）**：360 个文档类型 × 本机 OH12.1.SP4 反射数据（key_types.csv 归一化嵌套类型 + PDMSFilters.dll 实时反射 68 公有类型）→ **命中 357（99.2%）**
+- 3 个版本差异类型（文档有、12.1 SP4 无）：`AttributeCompoundFilter`（本版对应 CompoundFilter+CombineType）、`BooleanOperator`（本版对应 CombineType）、`AssemblyPlanningFilter`（本版 PDMSFilters.dll 未收录）
+- 成员级抽查全通过：DbAttributeInstance 公有静态字段 3989 个（NAMN/DESC/APOS/ASORI/OWNER 实锤）、DbExpression 存在且 Parse 2 个重载、DbElement.IsNull/IsDeleted 属性存在
+- 核对脚本存档：PML语料erify_dotnet_api_vs_install.py（可重跑）
+
+### 糅合结果（已并入 aveva-marine-dev-skill 仓库）
+
+- `references/dotnet-api/`：380 份类型文档（保留 INDEX）+ 原 README/LICENSE/evals（加并入说明头）
+- `references/guides/PDMS-NET-API使用总纲.md`：原 SKILL.md 剥离 frontmatter + 溯源与核对结论头
+- 我方 SKILL.md：description 扩 .NET 关键词（C#/DbElement/MDB/Filters）、知识地图加 dotnet-api 层、路由表加 .NET API 查询行、版权节加第三方说明
+- 我方 README.md：特性表 .NET 行升级、结构树加 dotnet-api、新增"第三方内容与致谢"节
+
+### 意义
+
+这是知识库首次引入外部贡献内容并完成**入库前机器核对**（逐类型对安装反射）——把"所有 API 必须有出处/可回查"的库原则延伸到了外部内容治理上。

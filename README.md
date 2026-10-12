@@ -13,7 +13,7 @@
 |---|---|
 | **PML1 / PML2** | 语法规范、表单体系、对象 API 字典（25804 方法签名）、错误码 390+、任务写法频次 |
 | **命令穷举（十七卷）** | 元素操作 / Draft 出图 / Router 布线 / 规格库 / 属性写法 / Isodraft / Hull / Vitesse / Spooler / MDS 支吊架 / 横切命令族 / 设计 UI 宏树，全部带源码文件行号 |
-| **.NET Addin** | 184 个 PMLNetCallable 类机器验证全清单、ServiceManager/Command 模式、uic 定制、部署排错 |
+| **.NET Addin / PDMS .NET API** | **PDMS .NET Public Interface 全 API 参考**（18 命名空间 360 类型，已对 12.1 SP4 逐类型核对 99.2%，含 DbElement/DbAttribute/MDB/Filters/Geometry/PdmsStandalone 完整成员签名）、184 个 PMLNetCallable 类机器验证全清单、ServiceManager/Command 模式、uic 定制、部署排错 |
 | **marAPI** | 调用姿势表 + 反射全表（1413 行）|
 | **Vitesse Python** | kcs_* 全函数（193 项索引）、四扩展机制（Trigger/Context_Menu/Basic_Design/_TBhook_）|
 | **工具链** | PML 审计器（16 条规则、官方 6075 文件零误报）、.NET 一致性检查、一键自检、知识库自检 |
@@ -39,7 +39,9 @@ git clone https://github.com/erbi112211-boop/aveva-marine-dev-skill.git .agents/
 │   ├── 00-START HERE-工作区导航.md    # 第一入口
 │   ├── AVEVA开发工作流一页纸.md        # 七阶段 SOP
 │   ├── specs/    (4)  规范三件套: 生成规范/审核规范/记忆+修订建议
-│   ├── guides/   (15) 专题速查: 表单/对象字典/错误码/EDG/marAPI/uic...
+│   ├── guides/   (16) 专题速查: 表单/对象字典/错误码/EDG/marAPI/uic/PDMS-NET-API总纲...
+│   ├── dotnet-api/ (380) PDMS .NET Public Interface 全 API 文档
+│   │                    (18 命名空间 360 类型, 已对 12.1 SP4 逐类型核对 99.2%)
 │   ├── volumes/  (20) 十七卷穷举命令本 + 元素属性权威表 + 总索引(1122 条) + 实例精讲
 │   └── templates/(5)  端到端模板: 收集导出/NET停靠窗/批量改库/出图/Vitesse
 ├── scripts/                    # 可运行工具 (Python 3)
@@ -86,6 +88,11 @@ grep "61,721" references/guides/Marine-PML错误码速查.md         # ROUTE 布
 
 1. 修改 `scripts/_scan_pml.py` 等脚本中的源树路径（默认 `E:\AVEVA\Marine\OH12.1.SP4`）
 2. 源码索引：`python scripts/_scan_pml.py`；手册：`python scripts/_extract_chm_pdfs.py`（需系统 `hh.exe`）；XLS：`python scripts/extract_xls.py`
+
+## 第三方内容与致谢
+
+- `references/dotnet-api/` 与 `references/guides/PDMS-NET-API使用总纲.md` 来自开源项目 [garychemis/PDMS-12.1-Net-skill](https://github.com/garychemis/PDMS-12.1-Net-skill)（MIT License, Copyright (c) 2026 圆肥），原许可全文保留在 `references/dotnet-api/LICENSE.txt`。
+- 并入前已对照本机 AVEVA Marine 12.1 SP4 的反射数据（`Aveva.Pdms.*` v12.1.4.64）**逐类型核对：360 个类型命中 357（99.2%）**，成员级抽查（DbElement.IsNull、DbAttributeInstance 属性实例字段、DbExpression.Parse 等）全部通过。3 个本版不存在的类型已在总纲中标注替换方案。
 
 ## 版权与免责
 

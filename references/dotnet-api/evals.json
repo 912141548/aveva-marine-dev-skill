@@ -1,0 +1,23 @@
+{
+  "skill_name": "aveva-pdms-dotnet",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我要写一个 PDMS 独立程序（standalone），用 C# 打开一个项目和一个 MDB，然后遍历 WORLD 数据库下所有 EQUIPMENT 元素，把它们的名字打印出来。帮我写出完整代码。",
+      "expected_output": "使用 Aveva.Pdms.Standalone 的 PdmsStandalone.Start()/Open(...)/Finish() 生命周期；WORLD 元素用 MDB.GetFirstWorld(DbType)（返回 DbElement）或 Db.World 属性取得；遍历成员用 Db.WorldMembers()（返回 DbElement[] 数组）/FirstMember 等；用 DbElement.GetAsString(DbAttributeInstance.NAME) 读名字；代码可编译且 API 签名与 references/docs 一致",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "在 PDMS 数据库里，我怎么用 .NET API 判断一个元素是否被删除？还有怎么给元素设置位置和方向？给我代码示例。",
+      "expected_output": "指出用 DbElement.IsDeleted 属性判断删除；位置用 DbAttributeInstance.APOS + Position.Create，方向用 DbAttributeInstance.ASORI + Orientation.Create(Direction, Direction)；SetAttribute 写属性、GetPosition 读位置；API 签名准确",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想在 PDMS 里用过滤器查找所有名字以 PUMP- 开头的元素，再把它们遍历一遍。AVEVA PDMS .NET 的过滤器（Aveva.PDMS.Database.Filters）怎么用？",
+      "expected_output": "使用 AttributeValueFilter(DbAttribute, TestOperator, object) 构造过滤条件（TestOperator.Equals 等），AndFilter 组合，BaseFilter.Valid(element) 判断匹配；指出官方文档将 AttributeValueFilter/AttributeRangeFilter/AttributeLikeFilter 等属性过滤器标注 CLASS IS UNDER REVIEW - DO NOT USE（仅用于教学/试验，正式代码优先用 AndFilter/OrFilter/TypeFilter/TrueFilter/FalseFilter）；指出官方 CHM 未记载过滤测试值支持通配符（不要默认 \"PUMP-*\" 可用）；给出完整示例",
+      "files": []
+    }
+  ]
+}
