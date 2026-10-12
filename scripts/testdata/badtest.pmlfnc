@@ -1,0 +1,12 @@
+define function !!badTest() is ARRAY
+  !x = 1 == 2
+  if (!x gt 5)
+    !y = a // b
+  endif
+  if (!x gt 3) then
+    !z = !c && !d
+  endif
+  q var !w
+  !CE = 'oops'
+  return !x
+endfunction

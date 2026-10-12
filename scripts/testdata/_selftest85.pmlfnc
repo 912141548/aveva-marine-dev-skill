@@ -1,0 +1,48 @@
+-- 第 85 轮新规则自测样本:前半段为必须检出的违规,后半段为必须放行的合法近邻
+define function !!selftest85() is ARRAY
+
+  !result = ARRAY()
+
+  -- [违规] PML2 属性关键字复位
+  !!ce.hbore = unset
+  !this.desc = default
+
+  -- [违规] 幽灵命令
+  RUNLOCK
+  NEW SPWE /GHOST
+  CDATE /OLD
+  CATL /OLDCAT
+
+  -- [违规] HML 语句缺分号
+  !mhp.stmtExec(0, 'PAN, X, DT=301, Z=0')
+  !stmt = 'BOU, X=1000'
+
+  -- [合法] 属性正常赋值
+  !!ce.hbore = !bore
+  !this.desc = !desc.val
+
+  -- [合法] 命令式复位(681 处官方范式)
+  PURP unset
+  MATREF nulref
+  MSTYLE default
+
+  -- [合法] 字符串哨兵(字符串内容被剔除)
+  !this.desc.val = 'unset'
+  !func = 'default'
+
+  -- [合法] HML 语句以分号收尾
+  !mhp.stmtExec(0, !statement)
+  !stmt = 'NOT,R100, COR=1(1)5;'
+  !stmt = 'PAN,' & !name & ';'
+
+  -- [合法] unset() 判定方法(带 () 与右值形态)
+  !ok = !!ce.spref.unset()
+  skip if (!this.bore.unset())
+
+  -- [合法] 变量名含 ghost 词根(行首非命令形态)
+  !cdateList = ARRAY()
+  !!ce.smaximum = 0
+
+  return !result
+
+endfunction

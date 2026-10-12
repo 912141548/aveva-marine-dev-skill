@@ -1,0 +1,61 @@
+------------------------------------------------------------------------
+--
+-- File:            mybatchdesc.pmlfnc
+--   Type:          Function Definition
+--   Module:        myco
+--   Author:        myco
+--   Created:       2026-09-26
+-- Description:     Batch update DESC on collected elements, undoable,
+--                  with progress + per-item error isolation (template 3)
+------------------------------------------------------------------------
+-- Methods defined:
+--  Method call                      Return   Description
+--  ===========                      ======   ===========
+--  !!myBatchDesc(ARRAY,STRING)      ARRAY    batch update, returns failed refs
+------------------------------------------------------------------------
+
+define function !!myBatchDesc(!elems is ARRAY, !newDesc is STRING) is ARRAY
+
+  !failed = ARRAY()
+  if (!elems.size() eq 0) then
+    !!alert.warning('Nothing to update.')
+    return !failed
+  endif
+
+  -- undo layer: command-level mark
+  MARKDB 'MyCo batch description update'
+
+  -- progress layer
+  !!FMSYS.setInterrupt(!!fmstop.stopButton)
+  !increment = 100 / !elems.size()
+
+  do !i index !elems
+    !!ce = !elems[!i]
+    handle (2,109)
+      !failed.append(!elems[!i].ref.noquote())
+      !!FMSYS.setProgress(!i * !increment)
+      skip
+    elsehandle (41,319)
+      !failed.append(!elems[!i].ref.noquote() & ' (no write access)')
+      !!FMSYS.setProgress(!i * !increment)
+      skip
+    elsehandle NONE
+      !!ce.desc = !newDesc
+    elsehandle ANY
+      !failed.append(!elems[!i].ref.noquote() & ' (error ' & !!error.text & ')')
+    endhandle
+    !!FMSYS.setProgress(!i * !increment)
+  enddo
+  !!FMSYS.setProgress(0)
+
+  if (!failed.size() eq 0) then
+    savework
+    !!alert.message(!elems.size().string() & ' elements updated.')
+  else
+    !!alert.warning(!failed.size().string() & ' of ' & !elems.size().string() &
+                    ' failed. Successful items are NOT saved yet.')
+  endif
+  return !failed
+
+endfunction
+-- End of function !!myBatchDesc

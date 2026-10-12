@@ -1,0 +1,1413 @@
+﻿##### marAPI.dll
+## ns:  (435 types)
+  [special] $_s__CatchableTypeArray$_extraBytes_12
+  [special] $_s__CatchableTypeArray$_extraBytes_4
+  [special] $_s__CatchableTypeArray$_extraBytes_8
+  [special] $_s__RTTIBaseClassArray$_extraBytes_12
+  [special] $_s__RTTIBaseClassArray$_extraBytes_16
+  [special] $_s__RTTIBaseClassArray$_extraBytes_4
+  [special] $_s__RTTIBaseClassArray$_extraBytes_8
+  [special] $_TypeDescriptor$_extraBytes_102
+  [special] $_TypeDescriptor$_extraBytes_15
+  [special] $_TypeDescriptor$_extraBytes_17
+  [special] $_TypeDescriptor$_extraBytes_19
+  [special] $_TypeDescriptor$_extraBytes_20
+  [special] $_TypeDescriptor$_extraBytes_21
+  [special] $_TypeDescriptor$_extraBytes_22
+  [special] $_TypeDescriptor$_extraBytes_23
+  [special] $_TypeDescriptor$_extraBytes_24
+  [special] $_TypeDescriptor$_extraBytes_25
+  [special] $_TypeDescriptor$_extraBytes_26
+  [special] $_TypeDescriptor$_extraBytes_27
+  [special] $_TypeDescriptor$_extraBytes_30
+  [special] $_TypeDescriptor$_extraBytes_31
+  [special] $_TypeDescriptor$_extraBytes_32
+  [special] $_TypeDescriptor$_extraBytes_42
+  [special] $_TypeDescriptor$_extraBytes_46
+  [special] $_TypeDescriptor$_extraBytes_48
+  [special] $_TypeDescriptor$_extraBytes_50
+  [special] $_TypeDescriptor$_extraBytes_52
+  [special] $_TypeDescriptor$_extraBytes_54
+  [special] $UnnamedClass$0x015b17ef$301$
+  [special] $UnnamedClass$0x015b17ef$302$
+  [special] $UnnamedClass$0x015b17ef$303$
+  [special] $UnnamedClass$0x015b17ef$304$
+  [special] $UnnamedClass$0x015b17ef$309$
+  [special] $UnnamedClass$0x015b17ef$310$
+  [special] $UnnamedClass$0x015b17ef$311$
+  [special] $UnnamedClass$0x21524d74$154$
+  [special] $UnnamedClass$0x21524d74$155$
+  [special] $UnnamedClass$0x21524d74$165$
+  [special] $UnnamedClass$0x21524d74$166$
+  [special] $UnnamedClass$0x21524d74$167$
+  [special] $UnnamedClass$0x21524d74$168$
+  [special] $UnnamedClass$0x21524d74$169$
+  [special] $UnnamedClass$0x21524d74$170$
+  [special] $UnnamedClass$0x21524d74$171$
+  [special] $UnnamedClass$0x21524d74$172$
+  [special] $UnnamedClass$0x21524d74$267$
+  [special] $UnnamedClass$0x21524d74$268$
+  [special] $UnnamedClass$0x21524d74$269$
+  [special] $UnnamedClass$0x21524d74$270$
+  [special] $UnnamedClass$0x21524d74$271$
+  [special] $UnnamedClass$0x21524d74$368$
+  [special] $UnnamedClass$0x21524d74$369$
+  [special] $UnnamedClass$0x21524d74$370$
+  [special] $UnnamedClass$0x21524d74$371$
+  [special] $UnnamedClass$0x21524d74$376$
+  [special] $UnnamedClass$0x21524d74$377$
+  [special] $UnnamedClass$0x21524d74$378$
+  [special] $UnnamedClass$0x21524d74$74$
+  [special] $UnnamedClass$0x21524d74$76$
+  [special] $UnnamedClass$0x59be3cbb$301$
+  [special] $UnnamedClass$0x59be3cbb$302$
+  [special] $UnnamedClass$0x59be3cbb$303$
+  [special] $UnnamedClass$0x59be3cbb$304$
+  [special] $UnnamedClass$0x59be3cbb$309$
+  [special] $UnnamedClass$0x59be3cbb$310$
+  [special] $UnnamedClass$0x59be3cbb$311$
+  [special] $UnnamedClass$0x60d43557$301$
+  [special] $UnnamedClass$0x60d43557$302$
+  [special] $UnnamedClass$0x60d43557$303$
+  [special] $UnnamedClass$0x60d43557$304$
+  [special] $UnnamedClass$0x60d43557$309$
+  [special] $UnnamedClass$0x60d43557$310$
+  [special] $UnnamedClass$0x60d43557$311$
+  [special] $UnnamedClass$0x64b03064$301$
+  [special] $UnnamedClass$0x64b03064$302$
+  [special] $UnnamedClass$0x64b03064$303$
+  [special] $UnnamedClass$0x64b03064$304$
+  [special] $UnnamedClass$0x64b03064$309$
+  [special] $UnnamedClass$0x64b03064$310$
+  [special] $UnnamedClass$0x64b03064$311$
+  [special] $UnnamedClass$0xe05711a8$301$
+  [special] $UnnamedClass$0xe05711a8$302$
+  [special] $UnnamedClass$0xe05711a8$303$
+  [special] $UnnamedClass$0xe05711a8$304$
+  [special] $UnnamedClass$0xe05711a8$309$
+  [special] $UnnamedClass$0xe05711a8$310$
+  [special] $UnnamedClass$0xe05711a8$311$
+  [special] $UnnamedClass$0xe152211f$301$
+  [special] $UnnamedClass$0xe152211f$302$
+  [special] $UnnamedClass$0xe152211f$303$
+  [special] $UnnamedClass$0xe152211f$304$
+  [special] $UnnamedClass$0xe152211f$309$
+  [special] $UnnamedClass$0xe152211f$310$
+  [special] $UnnamedClass$0xe152211f$311$
+  [special] __enative_startup_state
+  [special] __MIDL___MIDL_itf_objidl_0000_0046_0001
+  [special] __MIDL___MIDL_itf_objidl_0000_0046_0002
+  [special] __MIDL_IBindStatusCallback_0001
+  [special] __MIDL_IBindStatusCallback_0002
+  [special] __MIDL_IBindStatusCallback_0003
+  [special] __MIDL_IBindStatusCallback_0004
+  [special] __MIDL_IBindStatusCallback_0005
+  [special] __MIDL_IBindStatusCallback_0006
+  [special] __MIDL_ICodeInstall_0001
+  [special] __MIDL_IInternetSecurityManager_0001
+  [special] __MIDL_IInternetSecurityManager_0002
+  [special] __MIDL_IInternetSecurityManager_0003
+  [special] __MIDL_IInternetZoneManager_0001
+  [special] __MIDL_IInternetZoneManager_0002
+  [special] __MIDL_IMonikerProp_0001
+  [special] __s_GUID
+  [special] _ACL_INFORMATION_CLASS
+  [special] _ACTIVATION_CONTEXT_INFO_CLASS
+  [special] _APTTYPE
+  [special] _AUDIT_EVENT_TYPE
+  [special] _BIN_TYPES
+  [special] _bstr_t
+  [special] _CHANGER_DEVICE_PROBLEM_TYPE
+  [special] _CM_ERROR_CONTROL_TYPE
+  [special] _CM_SERVICE_LOAD_TYPE
+  [special] _CM_SERVICE_NODE_TYPE
+  [special] _Collvec
+  [special] _com_error
+  [special] _COMPUTER_NAME_FORMAT
+  [special] _Ctypevec
+  [special] _Cvtvec
+  [special] _DETECTION_TYPE
+  [special] _DEVICE_POWER_STATE
+  [special] _devicemodeA
+  [special] _devicemodeW
+  [special] _DLLVERSIONINFO
+  [special] _ELEMENT_TYPE
+  [special] _ENLISTMENT_INFORMATION_CLASS
+  [special] _EXCEPTION_DISPOSITION
+  [special] _EXCEPTION_POINTERS
+  [special] _FILETIME
+  [special] _FINDEX_INFO_LEVELS
+  [special] _FINDEX_SEARCH_OPS
+  [special] _GET_FILEEX_INFO_LEVELS
+  [special] _GUID
+  [special] _HEAP_INFORMATION_CLASS
+  [special] _IDL_CS_CONVERT
+  [special] _IMAGE_DOS_HEADER
+  [special] _iobuf
+  [special] _JOBOBJECTINFOCLASS
+  [special] _KTMOBJECT_TYPE
+  [special] _LARGE_INTEGER
+  [special] _ldiv_t
+  [special] _LOGICAL_PROCESSOR_RELATIONSHIP
+  [special] _MANDATORY_LEVEL
+  [special] _MEDIA_TYPE
+  [special] _MEMORY_RESOURCE_NOTIFICATION_TYPE
+  [special] _OVERLAPPED
+  [special] _PARTITION_STYLE
+  [special] _PROC_THREAD_ATTRIBUTE_NUM
+  [special] _PROCESSOR_CACHE_TYPE
+  [special] _PS_RATE_PHASE
+  [special] _RESOURCEMANAGER_INFORMATION_CLASS
+  [special] _RPC_ASYNC_EVENT
+  [special] _RPC_HTTP_REDIRECTOR_STAGE
+  [special] _RPC_NOTIFICATION_TYPES
+  [special] _RTL_CRITICAL_SECTION
+  [special] _s__CatchableType
+  [special] _s__RTTIBaseClassDescriptor2
+  [special] _s__RTTIClassHierarchyDescriptor
+  [special] _s__RTTICompleteObjectLocator
+  [special] _s__ThrowInfo
+  [special] _SC_ACTION_TYPE
+  [special] _SC_ENUM_TYPE
+  [special] _SC_STATUS_TYPE
+  [special] _SECURITY_ATTRIBUTES
+  [special] _SECURITY_IMPERSONATION_LEVEL
+  [special] _SID_NAME_USE
+  [special] _STORAGE_ASSOCIATION_TYPE
+  [special] _STORAGE_BUS_TYPE
+  [special] _STORAGE_ID_NAA_FORMAT
+  [special] _STORAGE_IDENTIFIER_CODE_SET
+  [special] _STORAGE_IDENTIFIER_TYPE
+  [special] _STORAGE_MEDIA_TYPE
+  [special] _STORAGE_PORT_CODE_SET
+  [special] _STORAGE_PROPERTY_ID
+  [special] _STORAGE_QUERY_TYPE
+  [special] _STREAM_INFO_LEVELS
+  [special] _SYSTEM_POWER_STATE
+  [special] _SYSTEMTIME
+  [special] _tagINTERNETFEATURELIST
+  [special] _tagOIBDG_FLAGS
+  [special] _tagPARSEACTION
+  [special] _tagPI_FLAGS
+  [special] _tagPSUACTION
+  [special] _tagQUERYOPTION
+  [special] _TAPE_DRIVE_PROBLEM_TYPE
+  [special] _THDTYPE
+  [special] _TOKEN_ELEVATION_TYPE
+  [special] _TOKEN_INFORMATION_CLASS
+  [special] _TOKEN_TYPE
+  [special] _TP_CALLBACK_ENVIRON
+  [special] _TRANSACTION_INFORMATION_CLASS
+  [special] _TRANSACTION_OUTCOME
+  [special] _TRANSACTION_STATE
+  [special] _TRANSACTIONMANAGER_INFORMATION_CLASS
+  [special] _ULARGE_INTEGER
+  [special] _URLZONEREG
+  [special] _USER_MARSHAL_CB_TYPE
+  [special] _variant_t
+  [special] _WRITE_CACHE_CHANGE
+  [special] _WRITE_CACHE_ENABLE
+  [special] _WRITE_CACHE_TYPE
+  [special] _WRITE_THROUGH
+  [special] <unnamed-type-s>
+  [special] <unnamed-type-u>
+  [special] <unnamed-type-u>
+  [special] <unnamed-type-u>
+  [special] AnnoScope
+  [special] BasPliCharVar1
+  [special] BasPliCharVar10
+  [special] BasPliCharVar100
+  [special] BasPliCharVar1000
+  [special] BasPliCharVar1024
+  [special] BasPliCharVar120
+  [special] BasPliCharVar126
+  [special] BasPliCharVar128
+  [special] BasPliCharVar13
+  [special] BasPliCharVar130
+  [special] BasPliCharVar132
+  [special] BasPliCharVar16
+  [special] BasPliCharVar160
+  [special] BasPliCharVar18
+  [special] BasPliCharVar2
+  [special] BasPliCharVar20
+  [special] BasPliCharVar200
+  [special] BasPliCharVar22
+  [special] BasPliCharVar24
+  [special] BasPliCharVar25
+  [special] BasPliCharVar255
+  [special] BasPliCharVar256
+  [special] BasPliCharVar26
+  [special] BasPliCharVar30
+  [special] BasPliCharVar300
+  [special] BasPliCharVar32
+  [special] BasPliCharVar36
+  [special] BasPliCharVar4
+  [special] BasPliCharVar40
+  [special] BasPliCharVar400
+  [special] BasPliCharVar401
+  [special] BasPliCharVar42
+  [special] BasPliCharVar48
+  [special] BasPliCharVar5
+  [special] BasPliCharVar50
+  [special] BasPliCharVar500
+  [special] BasPliCharVar512
+  [special] BasPliCharVar52
+  [special] BasPliCharVar6
+  [special] BasPliCharVar600
+  [special] BasPliCharVar62
+  [special] BasPliCharVar63
+  [special] BasPliCharVar64
+  [special] BasPliCharVar7
+  [special] BasPliCharVar72
+  [special] BasPliCharVar76
+  [special] BasPliCharVar78
+  [special] BasPliCharVar8
+  [special] BasPliCharVar80
+  [special] BasPliCharVarMax
+  [special] BasPliCharVarStatementMax
+  [special] BasPliSbString
+  [special] BasSbTime
+  [special] BasString
+  [special] BasStringTool
+  [special] Data_t
+  [special] EAxis
+  [special] EAxis
+  [special] EContinuityType
+  [special] EFormat
+  [special] EHExceptionRecord
+  [special] EHParameters
+  [special] gcroot<System::String ^>
+  [special] GeoPoint2d
+  [special] GeoPoint3d
+  [special] GeoVector2d
+  [special] GeoVector3d
+  [special] HDC__
+  [special] HINSTANCE__
+  [special] HKEY__
+  [special] HmiQwf61d_asr
+  [special] HmiQwf61d_box
+  [special] HmiQwf61d_lim_box
+  [special] HmiQwf61d_pnt
+  [special] HmiQwf61d_prof
+  [special] HmiQwf61d_ref
+  [special] HmiQwf61d_seg
+  [special] HmiQwf61d_tra
+  [special] HmiQwf61d_ud_prof
+  [special] HRSRC__
+  [special] HWND__
+  [special] ICatRegister
+  [special] IConnectionPoint
+  [special] IConnectionPointContainer
+  [special] IDispatch
+  [special] IErrorInfo
+  [special] IGlobalInterfaceTable
+  [special] IMAGE_AUX_SYMBOL_TYPE
+  [special] IMalloc
+  [special] IMPORT_OBJECT_NAME_TYPE
+  [special] IMPORT_OBJECT_TYPE
+  [special] IObjectWithSite
+  [special] IPersistStream
+  [special] IRegistrar
+  [special] IRegistrarBase
+  [special] ISequentialStream
+  [special] IStream
+  [special] ITypeLib
+  [special] IUnknown
+  [special] lconv
+  [special] localeinfo_struct
+  [special] MarGUI
+  [special] MarHullPPITools
+  [special] MarPicture
+  [special] MarPictureExportArea
+  [special] MarPictureExportFormat
+  [special] MarVitesse
+  [special] MarVitesseObject
+  [special] mStiffenerData
+  [special] mStiffenerDimensions
+  [special] MthBasic
+  [special] PIDMSI_STATUS_VALUE
+  [special] ReplacesCorHdrNumericDefines
+  [special] RPC_ADDRESS_CHANGE_TYPE
+  [special] sSeamRecord
+  [special] SYSGEOCLASS
+  [special] SYSGEOTYPE
+  [special] SYSNLS_FUNCTION
+  [special] tagACTCTXW
+  [special] tagACTIVATEFLAGS
+  [special] tagADVF
+  [special] tagApplicationType
+  [special] tagAspectInfoFlag
+  [special] tagBIND_FLAGS
+  [special] tagBINDSPEED
+  [special] tagBINDSTATUS
+  [special] tagBINDSTRING
+  [special] tagCALLCONV
+  [special] tagCALLTYPE
+  [special] tagCHANGEKIND
+  [special] tagCLSCTX
+  [special] tagCOINIT
+  [special] tagCOMSD
+  [special] tagCOWAIT_FLAGS
+  [special] tagCTRLINFO
+  [special] tagCY
+  [special] tagDATADIR
+  [special] tagDCOM_CALL_STATE
+  [special] tagDEC
+  [special] tagDESCKIND
+  [special] tagDISCARDCACHE
+  [special] tagDISPPARAMS
+  [special] tagDOCHOSTUIDBLCLKDispatch
+  [special] tagDocHostUIFlagDispatch
+  [special] tagDOMNodeType
+  [special] tagDVASPECT
+  [special] tagDVASPECT2
+  [special] tagEOLE_AUTHENTICATION_CAPABILITIES
+  [special] tagEXCEPINFO
+  [special] tagEXTCONN
+  [special] tagExtendedErrorParamTypes
+  [special] tagExtentMode
+  [special] tagFUNCFLAGS
+  [special] tagFUNCKIND
+  [special] tagGUIDKIND
+  [special] tagHITRESULT
+  [special] tagINVOKEKIND
+  [special] tagLIBFLAGS
+  [special] tagLOCKTYPE
+  [special] tagMEMCTX
+  [special] tagMKREDUCE
+  [special] tagMKSYS
+  [special] tagMSG
+  [special] tagMSHCTX
+  [special] tagMSHLFLAGS
+  [special] tagOLECLOSE
+  [special] tagOLECONTF
+  [special] tagOLEDCFLAGS
+  [special] tagOLEGETMONIKER
+  [special] tagOLELINKBIND
+  [special] tagOLEMISC
+  [special] tagOLERENDER
+  [special] tagOLEUPDATE
+  [special] tagOLEVERBATTRIB
+  [special] tagOLEWHICHMK
+  [special] tagPENDINGMSG
+  [special] tagPENDINGTYPE
+  [special] tagPERCEIVED
+  [special] tagPictureAttributes
+  [special] tagPOINTERINACTIVE
+  [special] tagPROPBAG2_TYPE
+  [special] tagPROPPAGESTATUS
+  [special] tagPROPVARIANT
+  [special] tagQACONTAINERFLAGS
+  [special] tagREADYSTATE
+  [special] tagRECT
+  [special] tagREGCLS
+  [special] tagREGKIND
+  [special] tagSAFEARRAY
+  [special] tagSERVERCALL
+  [special] tagSF_TYPE
+  [special] tagSHCOLSTATE
+  [special] tagShutdownType
+  [special] tagSTATFLAG
+  [special] tagSTDMSHLFLAGS
+  [special] tagSTGC
+  [special] tagSTGMOVE
+  [special] tagSTGTY
+  [special] tagSTREAM_SEEK
+  [special] tagSTRRET_TYPE
+  [special] tagSYSKIND
+  [special] tagTEXTMETRICA
+  [special] tagTEXTMETRICW
+  [special] tagTLIBATTR
+  [special] tagTYMED
+  [special] tagTYPEFLAGS
+  [special] tagTYPEKIND
+  [special] tagTYSPEC
+  [special] tagUASFLAGS
+  [special] tagURLTEMPLATE
+  [special] tagURLZONE
+  [special] tagUSERCLASSTYPE
+  [special] tagVARFLAGS
+  [special] tagVARIANT
+  [special] tagVARKIND
+  [special] tagVIEWSTATUS
+  [special] tagXFORMCOORDS
+  [special] tagXMLEMEM_TYPE
+  [special] tm
+  [special] type_info
+  [special] VARENUM
+## ns: <CppImplementationDetails> (152 types)
+  [special] $ArrayType$$$BY00$$CB_W
+  [special] $ArrayType$$$BY00$$CBD
+  [special] $ArrayType$$$BY00D
+  [special] $ArrayType$$$BY00Q6MPBXXZ
+  [special] $ArrayType$$$BY01$$CBD
+  [special] $ArrayType$$$BY01$$CBH
+  [special] $ArrayType$$$BY01D
+  [special] $ArrayType$$$BY01Q6AXXZ
+  [special] $ArrayType$$$BY01VCComVariant@ATL@@
+  [special] $ArrayType$$$BY02$$CBD
+  [special] $ArrayType$$$BY02D
+  [special] $ArrayType$$$BY02Q6AXXZ
+  [special] $ArrayType$$$BY03$$CBD
+  [special] $ArrayType$$$BY03$$CBUtypemap@?1??VTFromRegType@CRegParser@ATL@@KAHPBDAAG@Z@
+  [special] $ArrayType$$$BY03N
+  [special] $ArrayType$$$BY03Q6AXXZ
+  [special] $ArrayType$$$BY04$$CBD
+  [special] $ArrayType$$$BY04D
+  [special] $ArrayType$$$BY04Q6AXXZ
+  [special] $ArrayType$$$BY05$$CB_W
+  [special] $ArrayType$$$BY05$$CBD
+  [special] $ArrayType$$$BY05D
+  [special] $ArrayType$$$BY05Q6AXXZ
+  [special] $ArrayType$$$BY06$$CB_W
+  [special] $ArrayType$$$BY06$$CBD
+  [special] $ArrayType$$$BY06Q6AXXZ
+  [special] $ArrayType$$$BY07$$CBD
+  [special] $ArrayType$$$BY07D
+  [special] $ArrayType$$$BY08$$CB_W
+  [special] $ArrayType$$$BY08$$CBD
+  [special] $ArrayType$$$BY08Q6AXXZ
+  [special] $ArrayType$$$BY09$$CB_W
+  [special] $ArrayType$$$BY09$$CBD
+  [special] $ArrayType$$$BY09Q6AXXZ
+  [special] $ArrayType$$$BY0A@P6AHXZ
+  [special] $ArrayType$$$BY0A@P6AXXZ
+  [special] $ArrayType$$$BY0BA@$$CBD
+  [special] $ArrayType$$$BY0BA@Q6AXXZ
+  [special] $ArrayType$$$BY0BAA@D
+  [special] $ArrayType$$$BY0BAAA@D
+  [special] $ArrayType$$$BY0BAE@_W
+  [special] $ArrayType$$$BY0BAE@D
+  [special] $ArrayType$$$BY0BAG@D
+  [special] $ArrayType$$$BY0BAO@D
+  [special] $ArrayType$$$BY0BB@$$CBD
+  [special] $ArrayType$$$BY0BC@$$CBD
+  [special] $ArrayType$$$BY0BD@$$CBD
+  [special] $ArrayType$$$BY0BE@$$CBD
+  [special] $ArrayType$$$BY0BF@$$CBD
+  [special] $ArrayType$$$BY0BG@$$CBD
+  [special] $ArrayType$$$BY0BH@$$CBD
+  [special] $ArrayType$$$BY0BI@$$CBD
+  [special] $ArrayType$$$BY0BJ@$$CBD
+  [special] $ArrayType$$$BY0BK@$$CBD
+  [special] $ArrayType$$$BY0BL@$$CBD
+  [special] $ArrayType$$$BY0BM@$$CBD
+  [special] $ArrayType$$$BY0BN@$$CBD
+  [special] $ArrayType$$$BY0BO@$$CBD
+  [special] $ArrayType$$$BY0BP@$$CBD
+  [special] $ArrayType$$$BY0CA@$$CB_W
+  [special] $ArrayType$$$BY0CA@$$CBD
+  [special] $ArrayType$$$BY0CA@D
+  [special] $ArrayType$$$BY0CAI@_W
+  [special] $ArrayType$$$BY0CAM@_W
+  [special] $ArrayType$$$BY0CB@$$CBD
+  [special] $ArrayType$$$BY0CC@$$CBD
+  [special] $ArrayType$$$BY0CF@$$CBD
+  [special] $ArrayType$$$BY0CG@$$CBD
+  [special] $ArrayType$$$BY0DM@D
+  [special] $ArrayType$$$BY0EA@_W
+  [special] $ArrayType$$$BY0EA@D
+  [special] $ArrayType$$$BY0FG@$$CBD
+  [special] $ArrayType$$$BY0GM@D
+  [special] $ArrayType$$$BY0IA@D
+  [special] $ArrayType$$$BY0IH@$$CBD
+  [special] $ArrayType$$$BY0L@$$CB_W
+  [special] $ArrayType$$$BY0L@$$CBD
+  [special] $ArrayType$$$BY0L@Q6AXXZ
+  [special] $ArrayType$$$BY0M@$$CBD
+  [special] $ArrayType$$$BY0M@Q6AXXZ
+  [special] $ArrayType$$$BY0M@QBD
+  [special] $ArrayType$$$BY0N@$$CB_W
+  [special] $ArrayType$$$BY0N@$$CBD
+  [special] $ArrayType$$$BY0N@Q6AXXZ
+  [special] $ArrayType$$$BY0O@$$CBD
+  [special] $ArrayType$$$BY0O@$$CBUkeymap@?1??HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAD@Z@
+  [special] $ArrayType$$$BY0P@$$CBD
+  [special] $ArrayType$$$BY0P@Q6AXXZ
+  [special] $PTMType$PQtagVARIANT@@_J
+  [special] $PTMType$PQtagVARIANT@@_K
+  [special] $PTMType$PQtagVARIANT@@D
+  [special] $PTMType$PQtagVARIANT@@E
+  [special] $PTMType$PQtagVARIANT@@F
+  [special] $PTMType$PQtagVARIANT@@G
+  [special] $PTMType$PQtagVARIANT@@H
+  [special] $PTMType$PQtagVARIANT@@I
+  [special] $PTMType$PQtagVARIANT@@J
+  [special] $PTMType$PQtagVARIANT@@K
+  [special] $PTMType$PQtagVARIANT@@M
+  [special] $PTMType$PQtagVARIANT@@N
+  [special] $PTMType$PQtagVARIANT@@PA_J
+  [special] $PTMType$PQtagVARIANT@@PA_K
+  [special] $PTMType$PQtagVARIANT@@PA_W
+  [special] $PTMType$PQtagVARIANT@@PAD
+  [special] $PTMType$PQtagVARIANT@@PAE
+  [special] $PTMType$PQtagVARIANT@@PAF
+  [special] $PTMType$PQtagVARIANT@@PAG
+  [special] $PTMType$PQtagVARIANT@@PAH
+  [special] $PTMType$PQtagVARIANT@@PAI
+  [special] $PTMType$PQtagVARIANT@@PAJ
+  [special] $PTMType$PQtagVARIANT@@PAK
+  [special] $PTMType$PQtagVARIANT@@PAM
+  [special] $PTMType$PQtagVARIANT@@PAN
+  [special] $PTMType$PQtagVARIANT@@PAPA_W
+  [special] $PTMType$PQtagVARIANT@@PAPAUIDispatch@@
+  [special] $PTMType$PQtagVARIANT@@PAPAUIUnknown@@
+  [special] $PTMType$PQtagVARIANT@@PATtagCY@@
+  [special] $PTMType$PQtagVARIANT@@PAUIDispatch@@
+  [special] $PTMType$PQtagVARIANT@@PAUIUnknown@@
+  [special] $PTMType$PQtagVARIANT@@TtagCY@@
+  [special] $PTMType$QQtagVARIANT@@_J
+  [special] $PTMType$QQtagVARIANT@@_K
+  [special] $PTMType$QQtagVARIANT@@D
+  [special] $PTMType$QQtagVARIANT@@E
+  [special] $PTMType$QQtagVARIANT@@F
+  [special] $PTMType$QQtagVARIANT@@G
+  [special] $PTMType$QQtagVARIANT@@H
+  [special] $PTMType$QQtagVARIANT@@I
+  [special] $PTMType$QQtagVARIANT@@J
+  [special] $PTMType$QQtagVARIANT@@K
+  [special] $PTMType$QQtagVARIANT@@M
+  [special] $PTMType$QQtagVARIANT@@N
+  [special] $PTMType$QQtagVARIANT@@PA_J
+  [special] $PTMType$QQtagVARIANT@@PA_K
+  [special] $PTMType$QQtagVARIANT@@PA_W
+  [special] $PTMType$QQtagVARIANT@@PAD
+  [special] $PTMType$QQtagVARIANT@@PAE
+  [special] $PTMType$QQtagVARIANT@@PAF
+  [special] $PTMType$QQtagVARIANT@@PAG
+  [special] $PTMType$QQtagVARIANT@@PAH
+  [special] $PTMType$QQtagVARIANT@@PAI
+  [special] $PTMType$QQtagVARIANT@@PAJ
+  [special] $PTMType$QQtagVARIANT@@PAK
+  [special] $PTMType$QQtagVARIANT@@PAM
+  [special] $PTMType$QQtagVARIANT@@PAN
+  [special] $PTMType$QQtagVARIANT@@PAPA_W
+  [special] $PTMType$QQtagVARIANT@@PAPAUIDispatch@@
+  [special] $PTMType$QQtagVARIANT@@PAPAUIUnknown@@
+  [special] $PTMType$QQtagVARIANT@@PATtagCY@@
+  [special] $PTMType$QQtagVARIANT@@PAUIDispatch@@
+  [special] $PTMType$QQtagVARIANT@@PAUIUnknown@@
+  [special] $PTMType$QQtagVARIANT@@TtagCY@@
+## ns: <CrtImplementationDetails> (10 types)
+  [special] ActivationContext
+  [special] AtExitLock
+  [special] DefaultDomain
+  [special] LanguageSupport
+  [special] NativeDll
+  [special] Progress
+  [special] State
+  [special] State
+  [special] ThisModule
+  [special] TriBool
+## ns: ATL (95 types)
+  [special] _ATL_CATMAP_ENTRY
+  [special] _ATL_COM_MODULE70
+  [special] _ATL_INTMAP_ENTRY
+  [special] _ATL_MODULE70
+  [special] _ATL_OBJMAP_ENTRY30
+  [special] _ATL_REGMAP_ENTRY
+  [special] _ATL_TERMFUNC_ELEM
+  [special] _ATL_WIN_MODULE70
+  [special] _AtlAptCreateObjData
+  [special] _AtlCreateWndData
+  [special] _NoAddRefReleaseOnCComPtr<ICatRegister>
+  [special] _NoAddRefReleaseOnCComPtr<IConnectionPoint>
+  [special] _NoAddRefReleaseOnCComPtr<IConnectionPointContainer>
+  [special] _NoAddRefReleaseOnCComPtr<IMalloc>
+  [special] _NoAddRefReleaseOnCComPtr<IPersistStream>
+  [special] _NoAddRefReleaseOnCComPtr<ITypeLib>
+  [special] _NoAddRefReleaseOnCComPtr<IUnknown>
+  [special] ATLSTRINGRESOURCEIMAGE
+  [special] CAtlAutoThreadModuleT<ATL::CAtlAutoThreadModule\,ATL::CComSimpleThreadAllocator\,4294967295>
+  [special] CAtlBaseModule
+  [special] CAtlComModule
+  [special] CAtlException
+  [special] CAtlModule
+  [special] CAtlModuleT<ATL::CComModule>
+  [special] CAtlReleaseManagedClassFactories
+  [special] CAtlStringMgr
+  [special] CAtlWinModule
+  [special] CAutoVectorPtr<char>
+  [special] CAutoVectorPtr<wchar_t>
+  [special] CComApartment
+  [special] CComAutoCriticalSection
+  [special] CComAutoDeleteCriticalSection
+  [special] CComBSTR
+  [special] CComCriticalSection
+  [special] CComCritSecLock<ATL::CComCriticalSection>
+  [special] CComFakeCriticalSection
+  [special] CComHeap
+  [special] CComModule
+  [special] CComMultiThreadModel
+  [special] CComPtr<ICatRegister>
+  [special] CComPtr<IConnectionPoint>
+  [special] CComPtr<IConnectionPointContainer>
+  [special] CComPtr<IDispatch>
+  [special] CComPtr<IMalloc>
+  [special] CComPtr<IPersistStream>
+  [special] CComPtr<ITypeLib>
+  [special] CComPtr<IUnknown>
+  [special] CComPtrBase<ICatRegister>
+  [special] CComPtrBase<IConnectionPoint>
+  [special] CComPtrBase<IConnectionPointContainer>
+  [special] CComPtrBase<IDispatch>
+  [special] CComPtrBase<IMalloc>
+  [special] CComPtrBase<IPersistStream>
+  [special] CComPtrBase<ITypeLib>
+  [special] CComPtrBase<IUnknown>
+  [special] CComQIPtr<IUnknown\,\&IID_IUnknown>
+  [special] CComSafeDeleteCriticalSection
+  [special] CComSimpleThreadAllocator
+  [special] CComVariant
+  [special] CCritSecLock
+  [special] CCRTAllocator
+  [special] CCRTHeap
+  [special] CExpansionVector
+  [special] CExpansionVectorEqualHelper
+  [special] CFixedStringLog
+  [special] CFixedStringMgr
+  [special] CGlobalAllocator
+  [special] CGlobalHeap
+  [special] CHandle
+  [special] ChTraitsCRT<wchar_t>
+  [special] ChTraitsOS<wchar_t>
+  [special] ClassesAllowedInStream
+  [special] CLocalAllocator
+  [special] CLocalHeap
+  [special] CNilStringData
+  [special] CParseBuffer
+  [special] CRegKey
+  [special] CRegObject
+  [special] CRegParser
+  [special] CSimpleArray<unsigned short\,ATL::CSimpleArrayEqualHelper<unsigned short> >
+  [special] CSimpleMap<char \*\,wchar_t \*\,ATL::CExpansionVectorEqualHelper>
+  [special] CStringData
+  [special] CTempBuffer<char\,1024\,ATL::CCRTAllocator>
+  [special] CTempBuffer<char\,128\,ATL::CCRTAllocator>
+  [special] CTempBuffer<char\,256\,ATL::CCRTAllocator>
+  [special] CTempBuffer<unsigned char\,256\,ATL::CCRTAllocator>
+  [special] CTempBuffer<wchar_t\,128\,ATL::CCRTAllocator>
+  [special] CTraceCategory
+  [special] CWin32Heap
+  [special] IAtlAutoThreadModule
+  [special] IAtlMemMgr
+  [special] IAtlStringMgr
+  [special] IFixedStringLog
+  [special] Wrapper<char \*>
+  [special] Wrapper<wchar_t \*>
+## ns: ATL.?HKeyFromString@CRegParser@ATL@@$$FKAPAUHKEY__@@PAD@Z.__l2 (1 types)
+  [special] keymap
+## ns: ATL.?VTFromRegType@CRegParser@ATL@@$$FKAHPBDAAG@Z.__l2 (1 types)
+  [special] typemap
+## ns: ATL._ATL_SAFE_ALLOCA_IMPL (2 types)
+  [special] CAtlSafeAllocBufferManager<ATL::CCRTAllocator>
+  [special] CAtlSafeAllocBufferNode
+## ns: ATL.<AtlImplementationDetails> (1 types)
+  [special] CComModuleHelper
+## ns: Aveva.Marine.DataExtraction (1 types)
+  MarDex  |  ctor()  |  Assign(MarDex); Extract(String); ExtractPML(String); NextResult(); NextResultPML(); GetCommandString(); GetInt(); GetIntPML(); GetReal(); GetString(); GetBox(); GetReavec3d(Double*,Double*,Double*); GetReavec3dPML(Double&,Double&,Double&); GetReavec2d(Double*,Double*); GetReavec2dPML(Double&,Double&); GetIndexedreal(Double); GetIndexedreal(Int32); SolveIntersectionCurve(String,MarElementHandle); SolveIntersectionCurve(String,MarPlane); SolveIntersectionCurvePML(String,MarElementHandle); SolveIntersectionCurvePML(String,MarPlane); SolveIntersectionSpaceCurve(String,MarElementHandle); SolveIntersectionSpaceCurve(String,MarPlane); SolveIntersectionSpaceCurvePML(String,MarElementHandle); SolveIntersectionSpaceCurvePML(String,MarPlane); CreateRestrictedPlane(MarPoint,MarVector,MarPoint,MarPoint); SolveIntersectionPoints(String,MarLine,MarPoint,MarPoint,Hashtable&,Hashtable&); SolveIntersectionPoints(String,MarLine,MarPoint,MarPoint,MarPoint[]&,MarVector[]&); SolveIntersectionPoints(String,MarLine,Hashtable&,Hashtable&); SolveIntersectionPoints(String,MarLine,MarPoint[]&,MarVector[]&); SolveIntersectionCurvePlane(MarContour,MarPlane,Hashtable&,Hashtable&); SolveIntersectionCurvePlane(MarContour,MarPlane,MarPoint[]&,MarVector[]&); Dispose()
+## ns: Aveva.Marine.Design (19 types)
+  MarChm  |  ctor()  |  Assign(MarChm); RemarkingLengthExt(Double,String,MarModel,MarModel,MarModel); RemarkingLengthExt(Int32,String,MarModel,MarModel,MarModel); RemarkingLength(MarModel,MarModel,MarModel); RunXML(String,String); RunXMLPML(String,String); OutputXML(Hashtable,String); OutputXML(MarModel[],String); CurvePrincipalCreate(String,String,MarPoint,MarPoint); CurvePrincipalCreate(String,String,MarPoint,MarPoint,String); CurvePlanarCreate(String,MarPlane,MarPoint,MarPoint); CurvePlanarCreate(String,MarPlane,MarPoint,MarPoint,String); StiffenerSplit(MarModel,MarPlane); StiffenerSplit(MarModel,MarModel); StiffenerCombine(MarModel,MarModel); StiffenerToProfdb(MarModel); StiffenerPropGet(MarModel); StiffenerPropSet(MarModel,MarShStiffProp); PlatePropGetExt(MarModel,String); PlatePropGet(MarModel); PlatePropSet(MarModel,MarShPlateProp); PlatePropSetExt(MarModel,MarShPlateProp,String); Store(MarModel); Skip(MarModel); Recreate(MarModel); DeleteCurvedObject(MarModel); ViewShellXNew(MarShellXViewOptions); ViewBodyPlanNew(MarBodyPlanViewOptions); ViewModify(MarElementHandle); ViewRecreate(MarElementHandle); ViewCurvedPanelNew(MarModel,MarCurvedPanelView); ViewCurvedPanelNew(MarModel,MarSymbolicView); ViewShProfNew(MarModel); ViewDevPlaNew(MarModel); CPanHoleCreate(String,MarPanHoleOptions); ViewPinJigNew(MarPinJig); ViewPinJigNewPML(MarPinJig); FramesIntersectingPanel(MarFrames); FramesIntersectingPanelPML(MarFrames); ClosestJigPillar(MarClosestJigPillar,Double&,String&); ClosestJigPillar(MarClosestJigPillar,Int32&,String&); Dispose()
+  MarCopyPanOptions  |  ctor(Void*); ctor()  |  Assign(MarCopyPanOptions); Dispose()
+  MarHoleManager  |  ctor()  |  CreateHole(String,Hashtable,Hashtable,Hashtable,String,Hashtable); DeleteHole(String); Assign(MarHoleManager); Dispose()
+  MarHullPan  |  ctor()  |  Assign(MarHullPan); PanInit(String,String); PanStorageSingle(String); PanModify(String,Double); PanModify(String,Int32); PanSkipSingle(String); StmtExec(Double,String); StmtExec(Int32,String); StmtExecSingle(Double,String,String); StmtExecSingle(Int32,String,String); GroupGet(String,Double); GroupGet(String,Int32); GroupNext(String,Double,Double); GroupNext(String,Int32,Int32); StmtGet(String,Double); StmtGet(String,Int32); NumErr(); NumErrPML(); ErrCode(Double); ErrCode(Int32); ErrMess(Double); ErrMess(Int32); Editor(String); ComponentGet(String,Double); ComponentGet(String,Int32); ComponentIdTranslate(Double,Double); ComponentIdTranslate(Int32,Int32); DocumentReferenceAdd(MarDocumentReference,String); DocumentReferenceGet(String); DocumentReferenceGetPML(String); DocumentReferenceRemove(MarDocumentReference,String); PanActivate(String); PanActivate(Hashtable); PanActivate(String[]); PanListActive(); PanListActivePML(); PanStore(); PanStore(String); PanStore(Hashtable); PanStore(String[]); PanSkip(); PanSkip(String); PanSkip(Hashtable); PanSkip(String[]); PanMove(String,MarMovePanOptions); PanMove(Hashtable,MarMovePanOptions); PanMove(String[],MarMovePanOptions); PanCopy(String,MarCopyPanOptions); PanCopy(Hashtable,MarCopyPanOptions); PanCopy(String[],MarCopyPanOptions); PanDelete(); PanDelete(String); PanDelete(Hashtable); PanDelete(String[]); PanRecreate(); PanRecreate(Hashtable); PanRecreate(String[]); PanSplit(String,MarSplitPanOptions); PanSplit(Hashtable,MarSplitPanOptions); PanSplit(String[],MarSplitPanOptions); PanTopology(MarModel,String); PanTopologyPML(MarModel,String); PanRemoveSeam(String,Double); PanRemoveSeam(String,Int32); PanGroupDelete(String,Double); PanGroupDelete(String,Int32); PanGroupDivide(String,Double,Hashtable); PanGroupDivide(String,Int32,MarModel[]); PanStiSplitByPlane(Double,String); PanStiSplitByPlane(Int32,String); PanStiSplitByModel(Double,Double); PanStiSplitByModel(Int32,Int32); PanSchemeRunModeGet(); PanSchemeRunModeSet(MarRunModeOptions); ViewDetailNew(Double,MarElementHandle); ViewDetailNew(Int32,MarElementHandle); ViewSymbolicRecreate(MarElementHandle); ViewSymbolicModify(MarElementHandle); PanRename(String,String,String); PanCurveCreate(MarElementHandle,String,String,Double,MarContourPlanar,String&); PanCurveCreate(MarElementHandle,String,String,Int32,MarContourPlanar,String&); PanCurveStore(MarElementHandle,String,MarContourPlanar); DefaultValueSet(String); DefaultValueGet(String); GetNotchPoints(String,Double,MarContourPlanar); GetCutoutPoints(String,Double,Double,MarContourPlanar); GetNearbySeams(String); GetStiffData(String,Double,Double,String,Boolean); GetShellStiffData(String,String,Double,Double,Boolean); GetShellStiffPar(String,String,Double,Double); GetPanelStiffPar(String,Double,Double,String); GetShellStiffFreeName(Double,String,Double,String&); Dispose()
+  MarHullPPI  |  ctor()  |  Assign(MarHullPPI); RunPPI(String,String,String); Dispose()
+  MarModelStruct  |  ctor()  |  Assign(MarModelStruct); BlockNew(String,MarPoint,MarPoint); BlockDelete(String); Dispose()
+  MarMovePanOptions  |  ctor(Void*); ctor()  |  SetPrincipalPlane(Double,Double,String); SetPrincipalPlane(Int32,Int32,String); GetPrincipalPlane(Double&,Double&,String&); GetPrincipalPlane(Int32&,Int32&,String&); SetThreePoints(MarPoint,MarPoint,MarPoint); GetThreePoints(MarPoint&,MarPoint&,MarPoint&); SetPlaneObject(String); Assign(MarMovePanOptions); Dispose()
+  MarPanelSchema  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarPanelSchema); SetValue(String,String,String); SetValue(Double,String,String); SetValue(Int32,String,String); GetValue(String,String); GetValue(Double,String); GetValue(Int32,String); GetStatements(); GetStatementsPML(); SplitKeyword(String); SplitKeywordPML(String); MergeKeyword(String[]); MergeKeywordPML(Hashtable); SplitStatement(String); SplitStatementPML(String); MergeStatement(String[]); MergeStatementPML(Hashtable); ValuesToDict(String[],String,String,String); ValuesToDict(String,String,String,String); ValuesToDictPML(Hashtable,String,String,String); DictToValues(StringStringDictionary); DictToValuesPML(StringStringDictionary); GetStatementAsValues(Int32); GetStatementAsValues(String); GetStatementFromValues(StringStringDictionary[]); Dispose()
+  MarPanHoleOptions  |  ctor(Void*); ctor()  |  SetOriginAlongLine(MarPoint,MarPoint); SetOriginAlongAxis(Double,MarPoint,Double); SetOriginAlongAxis(Int32,MarPoint,Int32); SetOriginAsStored(Double,MarPoint); SetOriginAsStored(Int32,MarPoint); IsOriginAlongAxis(); IsOriginAlongLine(); IsOriginAsStored(); GetOriginAlongLine(MarPoint&,MarPoint&); GetOriginAlongAxis(Double&,MarPoint&,Double&); GetOriginAlongAxis(Int32&,MarPoint&,Int32&); GetOriginAsStored(Double&,MarPoint&); GetOriginAsStored(Int32&,MarPoint&); Assign(MarPanHoleOptions); Dispose()
+  MarSeamRecord  |  ctor()  |  Assign(MarSeamRecord); Dispose()
+  MarShPlateProp  |  ctor(Void*); ctor()  |  Assign(MarShPlateProp); Dispose()
+  MarSplitPanOptions  |  ctor(Void*); ctor()  |  AddPanelMapping(String,String,String); Assign(MarSplitPanOptions); Dispose()
+  MarStiffPar  |  ctor()  |  Assign(MarStiffPar); Dispose()
+  MarStiffRecord  |  ctor()  |  Assign(MarStiffRecord); Dispose()
+  MarUtilDexPan  |  ctor()  |  Assign(MarUtilDexPan); getIntegerValue(String); getIntegerValuePML(String); getRealValue(String); getStringValue(String); getRealVector3D(String); getRealVector3DPML(String); getRealVector2D(String); getRealVector2DPML(String); getBox(String); getBoxPML(String); getReaListValue(String); getReaListValuePML(String); getCompInd(String,String,String,String,String); getCompIndPML(String,String,String,String,String); Dispose()
+  MarUtilPan  |  ctor()  |  Assign(MarUtilPan); getBox(String,Double&,Double&,Double&,Double&); getPlane(String,Double&,Double&,MarPoint&,MarVector&,MarVector&,MarVector&); getPlane(String,Int32&,Double&,MarPoint&,MarVector&,MarVector&,MarVector&); getLimitEnds(String,Double,MarPointPlanar&,MarPointPlanar&); getLimitEnds(String,Int32,MarPointPlanar&,MarPointPlanar&); getUname(String,String,String&); Dispose()
+  MarUtilPanSch  |  ctor()  |  Assign(MarUtilPanSch); getGeoInit(Double,String); getGeoInit(Int32,String); getGeo(Double,String,Double); getGeo(Int32,String,Int32); getGeo(Double,String,String); getGeo(Int32,String,String); getGeoRepSSE(Double,String,Double,Double,Double); getGeoRepSSE(Int32,String,Int32,Int32,Int32); getRef(String,Double,Double); getRef(String,Int32,Int32); getGeoRepT(Double,String,Hashtable); getGeoRepT(Int32,String,Int32[]); getDefSurf(Double); getDefSurf(Int32); expandGeoRep(String); expandGeoRepPML(String); Dispose()
+  MarUtilPos  |  ctor()  |  Assign(MarUtilPos); frp(); frpPML(); lyp(); lypPML(); lzp(); lzpPML(); Dispose()
+  SeamRecord  |  ctor()  |  Assign(SeamRecord); Dispose()
+## ns: Aveva.Marine.Design.MarJigPillar (3 types)
+  MarClosestJigPillar  |  ctor(Void*); ctor(String,String,String); ctor()  |  Assign(MarClosestJigPillar); Dispose()
+  MarFrames  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarFrames); Dispose()
+  MarPinJig  |  ctor(Void*); ctor()  |  Assign(MarPinJig); Dispose()
+## ns: Aveva.Marine.Design.MarShStiffProperties (4 types)
+  MarShEndCut  |  ctor(Void*); ctor()  |  GetParameter(Double); GetParameter(Int32); SetParameter(Double); Assign(MarShEndCut); Dispose()
+  MarShEndDef  |  ctor(Void*); ctor()  |  Assign(MarShEndDef); Dispose()
+  MarShProfData  |  ctor(Void*); ctor()  |  SetParameter(Double); GetParameter(Double); GetParameter(Int32); Assign(MarShProfData); Dispose()
+  MarShStiffProp  |  ctor(Void*); ctor()  |  SetPerpendicular(Double); SetPerpendicular(Int32); SetProfileType(Double); SetProfileType(Int32); SetProfileParameter(Double); GetProfileType(); GetProfileTypePML(); GetProfileParameter(Double); GetProfileParameter(Int32); GetEnd1(); GetEnd2(); Assign(MarShStiffProp); Dispose()
+## ns: Aveva.Marine.Drafting (23 types)
+  MarBodyPlanViewOptions  |  ctor(Void*); ctor()  |  Assign(MarBodyPlanViewOptions); Dispose()
+  MarCaptureRegionPlanar  |  ctor(Void*); ctor()  |  Assign(MarCaptureRegionPlanar); SetRectangle(MarRectanglePlanar); SetContour(MarContourPlanar); SetInside(); SetOutside(); SetCut(); SetNoCut(); SetBoundaryInfinite(); Dispose()
+  MarColour  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarColour); Dispose()
+  MarCPanDist  |  ctor()  |  Assign(MarCPanDist); TrimNum(Double,Double); TrimNum(Double,Int32); CPanDist(String,String,String,String,Double,Double,String); CPanDist(String,String,String,String,Int32,Int32,String); Dispose()
+  MarCursorType  |  ctor(Void*); ctor()  |  SetCrossHair(); SetRubberBand(MarPointPlanar); SetRubberRectangle(MarPointPlanar); SetRubberCircle(MarPointPlanar); SetDragCursor(MarHighlightSet,MarPointPlanar); GetCursorType(); Assign(MarCursorType); Dispose()
+  MarDocumentReference  |  ctor(Void*); ctor()  |  Dispose()
+  MarDrafting  |  ctor()  |  Dispose(); ElementParentGet(MarElementHandle); ElementIsContour(MarElementHandle); ElementIsView(MarElementHandle); ElementIsSubpicture(MarElementHandle); ElementIsSubview(MarElementHandle); ElementIsComponent(MarElementHandle); ElementIsText(MarElementHandle); ElementIsSymbol(MarElementHandle); ElementIsNote(MarElementHandle); ElementIsPosno(MarElementHandle); ElementIsDimension(MarElementHandle); ElementIsHatch(MarElementHandle); ElementIsLabel(MarElementHandle); ElementIsBurningSketch(MarElementHandle); ElementIsDetailSketch(MarElementHandle); ElementIsNesting(MarElementHandle); ElementIsHead(MarElementHandle); ElementIsGeometry(MarElementHandle); ElementIsGeneralView(MarElementHandle); ElementIsSymbolicView(MarElementHandle); ElementIsSectionView(MarElementHandle); ElementIsFormView(MarElementHandle); ElementIsDetailView(MarElementHandle); ElementIsShellxView(MarElementHandle); ElementIsDevplaView(MarElementHandle); ElementIsTemplView(MarElementHandle); ElementIsDevstiView(MarElementHandle); ElementIsBodyplanView(MarElementHandle); ElementIsCurpanelView(MarElementHandle); ElementIsCross(MarElementHandle); ElementIsCloud(MarElementHandle); ElementIsImpliedModelPart(MarElementHandle); GeocontourFunction(Double,MarContourPlanar); GeocontourFunction(Int32,MarContourPlanar); GeocontourFunction(Double,MarContourPlanar,MarPointPlanar); GeocontourFunction(Int32,MarContourPlanar,MarPointPlanar); IsPointInsideContour(MarContourPlanar,MarPointPlanar); ReferenceMove(MarElementHandle,MarPointPlanar); HullMarkCreate(String,String,String,String,Double,MarVector,Double,Double,Double,Double,Double,Double,MarPoint,MarVector,Double); HullMarkCreate(String,String,String,String,Int32,MarVector,Int32,Int32,Int32,Int32,Int32,Int32,MarPoint,MarVector,Int32); ShdNew(MarElementHandle); ShdProjectionSet(MarTransformation); ShdAutoscale(); ShdZoomBox(MarPoint,MarPoint); ViewMove(MarElementHandle,MarVectorPlanar); ViewScale(MarElementHandle,Double); ViewScale(MarElementHandle,Double,MarPointPlanar); ViewReflect(MarElementHandle,Double); ViewReflect(MarElementHandle,Int32); ViewReflect(MarElementHandle,Double,MarPointPlanar); ViewReflect(MarElementHandle,Int32,MarPointPlanar); PointTransform(MarElementHandle,MarPoint); ViewRestrictionAreaGet(MarElementHandle); ViewProjectionGet(MarElementHandle); ViewProjectionSet(MarElementHandle,MarVector,MarVector); ViewProjectionSet(MarElementHandle,MarVector,MarVector,Double); ViewProjectionSet(MarElementHandle,MarVector,MarVector,Int32); ViewSlice(MarElementHandle,MarPoint,MarPoint); ViewSlice(MarElementHandle); ViewSlicedepthGet(MarElementHandle,Double&,Double&,Double&); ViewSlicedepthGet(MarElementHandle,Int32&,Double&,Double&); ViewSlicedepthGet(MarElementHandle); ViewSlicePlanesGet(MarElementHandle); ViewSlicePlanesGetPML(MarElementHandle); ViewSymbolicModelTra(MarElementHandle); ViewSectionModelTra(MarElementHandle); ModelDelete(MarModel); ModelDelete(MarModel,MarElementHandle); FindModel(String,String); ModelDraw(Hashtable,MarElementHandle); ModelDraw(MarModel[],MarElementHandle); ModelDraw(MarModel); ModelDraw(MarModel,MarElementHandle); ModelColourSet(MarModel,MarColour); ModelColourSet(MarModel,MarColour,MarElementHandle); ModelLayerSet(MarModel,MarLayer); ModelLayerSet(MarModel,MarLayer,MarElementHandle); ModelIdentify(MarPointPlanar,MarModel,MarElementHandle,MarElementHandle); ModelIdentify(MarPointPlanar,MarModel); ModelHandleGet(MarModel); ModelHandleGetPML(MarModel); ViewIdentify(MarPointPlanar); ViewIdentify(MarPointPlanar,MarPictWinExt); ViewIdentify(String); ViewIdentify(String,MarPictWinExt); ViewIdentifyByPaddDbRef(String); SubviewIdentify(String); SubviewIdentify(MarPointPlanar); SubviewIdentifyByPaddDbRef(String); ComponentIdentify(String); ComponentIdentify(MarPointPlanar); ComponentIdentifyByPaddDbRef(String); DimIdentify(MarPointPlanar); NoteIdentify(MarPointPlanar); PosnoIdentify(MarPointPlanar); HatchIdentify(MarPointPlanar); LabelIdentify(MarPointPlanar); TextIdentify(MarPointPlanar); SymbolIdentify(MarPointPlanar); ContourIdentify(MarPointPlanar); PointIdentify(MarPointPlanar); GeometryIdentify(MarPointPlanar); GeometryIdentifyByPaddDbRef(String); VolumePrimIdentify(MarPointPlanar); VolumePrimIdentifyPML(MarPointPlanar); ModelCapture(MarCaptureRegionPlanar); DimCapture(MarCaptureRegionPlanar); NoteCapture(MarCaptureRegionPlanar); PosnoCapture(MarCaptureRegionPlanar); HatchCapture(MarCaptureRegionPlanar); LabelCapture(MarCaptureRegionPlanar); TextCapture(MarCaptureRegionPlanar); SymbolCapture(MarCaptureRegionPlanar); ContourCapture(MarCaptureRegionPlanar); PointCapture(MarCaptureRegionPlanar); GeometryCapture(MarCaptureRegionPlanar); ViewCapture(MarCaptureRegionPlanar); SubviewCapture(MarCaptureRegionPlanar); ComponentCapture(MarCaptureRegionPlanar); ModelCapturePML(MarCaptureRegionPlanar); DimCapturePML(MarCaptureRegionPlanar); NoteCapturePML(MarCaptureRegionPlanar); PosnoCapturePML(MarCaptureRegionPlanar); HatchCapturePML(MarCaptureRegionPlanar); LabelCapturePML(MarCaptureRegionPlanar); TextCapturePML(MarCaptureRegionPlanar); SymbolCapturePML(MarCaptureRegionPlanar); ContourCapturePML(MarCaptureRegionPlanar); PointCapturePML(MarCaptureRegionPlanar); GeometryCapturePML(MarCaptureRegionPlanar); ViewCapturePML(MarCaptureRegionPlanar); SubviewCapturePML(MarCaptureRegionPlanar); ComponentCapturePML(MarCaptureRegionPlanar); ContourPropertiesGet(MarElementHandle); SymbolPropertiesGet(MarElementHandle); TextPropertiesGet(MarElementHandle); ModelPropertiesGet(MarElementHandle); ElementColourSet(MarElementHandle,MarColour); ElementColourGet(MarElementHandle); ElementLinetypeGet(MarElementHandle); ElementLinetypeSet(MarElementHandle,MarLinetype); ElementLayerGet(MarElementHandle); ElementLayerSet(MarElementHandle,MarLayer); ElementIdentify(String); ElementIdentifyByPaddDbRef(String); ElementDelete(MarElementHandle); DeleteByArea(Hashtable,Double,MarContourPlanar); DeleteByArea(MarElementHandle[],Int32,MarContourPlanar); ElementTransform(MarElementHandle); ElementTransform(MarElementHandle,MarTransformationPlanar); ElementTransformationGet(MarElementHandle); ElementCopy(MarElementHandle); ElementCopy(MarElementHandle,MarElementHandle); ElementExtentGet(); ElementExtentGet(MarElementHandle); ElementVisibilitySet(MarElementHandle,Boolean); ElementVisibilityGet(MarElementHandle); ElementTransformationRedefine(MarElementHandle,MarTransformationPlanar); ElementDbrefGet(MarElementHandle); ElementDESIDbrefGet(MarElementHandle); ElementPADDDbrefGet(MarElementHandle); ElementDePersist(MarElementHandle); ElementDePersistPML(MarElementHandle); ElementIsDePersisted(MarElementHandle); DwgPrint(MarPrintOptions); ElementChildFirstGet(); ElementChildFirstGet(MarElementHandle); ElementSiblingNextGet(MarElementHandle); SubpictureCurrentSet(); SubpictureCurrentSet(MarElementHandle); SubpictureCurrentGet(); SubpictureCurrentGetPML(); ViewRecreate(MarElementHandle); ViewSymbolicModify(MarElementHandle); ViewSectionModify(MarElementHandle); ViewShellXNew(MarShellXViewOptions); ViewBodyPlanNew(MarBodyPlanViewOptions); ViewCurvedModify(MarElementHandle); ViewShellXModify(MarElementHandle); ViewBodyPlanModify(MarElementHandle); ViewCurvedPanelNew(MarModel,MarCurvedPanelView); ViewCurvedPanelNew(MarModel,MarSymbolicView); ViewShProfNew(MarModel); ViewDevPlaNew(MarModel); SubviewNew(); SubviewNew(String); ComponentNew(); ComponentNew(String); SubpictureNameSet(MarElementHandle,String); SubpictureNameGet(MarElementHandle); SubpictureSave(MarElementHandle,Double,String); SubpictureSave(MarElementHandle,Int32,String); SubpictureSave(MarElementHandle,String); SubpictureSave(MarElementHandle); SubpictureSave(MarElementHandle,Double); SubpictureSave(MarElementHandle,Int32); SubpictureInsert(String); SubpictureInsert(String,Double); SubpictureInsert(String,Int32); SubpictureInsert(String,Double,MarElementHandle); SubpictureInsert(String,Int32,MarElementHandle); SubpictureInsert(String,MarElementHandle); SubpictureInsert(String,MarElementHandle,Double); SubpictureInsert(String,MarElementHandle,Int32); PlatePartInsert(String,MarPointPlanar); FormInsert(String); SubpictureTransfer(MarElementHandle,String,Int32); SubpictureTransfer(MarElementHandle,String); SubpictureTransfer(MarElementHandle,String,Double); IntersectPointsGet(Object,Object,MarPointPlanar,MarPointPlanar); IntersectPointsGet(Object,Object,MarPointPlanar,MarPointPlanar,Double[]); IntersectPointsGet(Object,Object,MarPointPlanar,MarPointPlanar,Double[],Int32); IntersectPointsGet(Object,Object,MarPointPlanar,MarPointPlanar,Double[],Int32,Double); IntersectPointsGetPML(Hashtable,MarPointPlanar,MarPointPlanar); IntersectPointsGetPML(Hashtable,MarPointPlanar,MarPointPlanar,Hashtable); IntersectPointsGetPML(Hashtable,MarPointPlanar,MarPointPlanar,Hashtable,Double); IntersectPointsGetPML(Hashtable,MarPointPlanar,MarPointPlanar,Hashtable,Double,Double); TextNew(MarText); TextNew(String,MarPointPlanar); RuleTextNew(String,Double); RuleTextNew(String,Int32); TextLength(String); TextLength(MarText); SymbolNew(MarSymbol); SymbolNew(Double,Double,MarPointPlanar); SymbolNew(Int32,Int32,MarPointPlanar); DimLinearNew(MarPolygon,Double,MarVector,MarPointPlanar,MarVector,Double,Double); DimLinearNew(MarPolygon,Int32,MarVector,MarPointPlanar,MarVector,Int32,Int32); DimLinearNew(MarPolygon,Double,MarVector,MarPointPlanar,MarVector,MarElementHandle,Double); DimLinearNew(MarPolygon,Int32,MarVector,MarPointPlanar,MarVector,MarElementHandle,Int32); DimLinearNew(MarPolygon,Double,MarVector,MarPointPlanar,MarVector); DimLinearNew(MarPolygon,Int32,MarVector,MarPointPlanar,MarVector); DimLinearNew(MarPolygonPlanar,Double,MarVectorPlanar,MarPointPlanar); DimLinearNew(MarPolygonPlanar,Int32,MarVectorPlanar,MarPointPlanar); DimDiameterNew(MarArcPlanar); DimDiameterNew(MarArcPlanar,MarPointPlanar); DimDiameterNew(MarArcPlanar,MarPointPlanar,MarPointPlanar); DimDiameterNew(MarCirclePlanar); DimDiameterNew(MarCirclePlanar,MarPointPlanar); DimDiameterNew(MarCirclePlanar,MarPointPlanar,MarPointPlanar); DimRadiusNew(MarArcPlanar); DimRadiusNew(MarArcPlanar,MarPointPlanar); DimRadiusNew(MarArcPlanar,MarPointPlanar,MarPointPlanar); DimRadiusNew(MarCirclePlanar); DimRadiusNew(MarCirclePlanar,MarPointPlanar); DimRadiusNew(MarCirclePlanar,MarPointPlanar,MarPointPlanar); DimAngleNew(MarRlinePlanar,MarRlinePlanar,MarPointPlanar,MarPointPlanar); DimPoint3d(MarPoint,MarPointPlanar,Double,Double,String); DimPoint3d(MarPoint,MarPointPlanar,Double,Double,String,MarElementHandle); DimShellNew(MarElementHandle,Hashtable,Hashtable,Hashtable); DimShellNew(MarElementHandle,MarModel[],MarModel[],MarModel[]); DimShellNew(MarElementHandle,Hashtable,Hashtable,Hashtable,Double); DimShellNew(MarElementHandle,MarModel[],MarModel[],MarModel[],Int32); DimShellNew(MarElementHandle,Hashtable,Hashtable,Hashtable,Double,MarColour); DimShellNew(MarElementHandle,MarModel[],MarModel[],MarModel[],Int32,MarColour); HatchNew(MarElementHandle); HatchNew(MarContourPlanar); HatchIslandNew(MarElementHandle,MarElementHandle); HatchIslandNew(MarElementHandle,MarContourPlanar); NoteNew(String,MarPolygonPlanar); PosnoNew(String,MarPolygonPlanar); CloudNew(MarElementHandle,MarPolygonPlanar); CloudNew(MarElementHandle,MarRectanglePlanar); CrossNew(MarElementHandle,MarText,MarRlinePlanar,MarRlinePlanar); RulerNew(MarElementHandle,MarPointPlanar,Double,Double,Double,Double,MarText); RulerNew(MarElementHandle,MarPointPlanar,Double,Int32,Int32,Int32,MarText); DimShellNewExt(MarElementHandle,Double,String,Hashtable,Hashtable,Hashtable); DimShellNewExt(MarElementHandle,Int32,String,MarModel[],MarModel[],MarModel[]); DimShellNewExt(MarElementHandle,Double,String,Hashtable,Hashtable,Hashtable,Double); DimShellNewExt(MarElementHandle,Int32,String,MarModel[],MarModel[],MarModel[],Int32); DimShellNewExt(MarElementHandle,Double,String,Hashtable,Hashtable,Hashtable,Double,MarColour); DimShellNewExt(MarElementHandle,Int32,String,MarModel[],MarModel[],MarModel[],Int32,MarColour); PipeRestrSymbolNew(MarElementHandle,MarPointPlanar,MarPointPlanar); GeneralRestrSymbolNew(MarElementHandle,MarPointPlanar,MarPointPlanar,Double); GeneralRestrSymbolNew(MarElementHandle,MarPointPlanar,MarPointPlanar,Int32); PositionRulerNew(Double,MarElementHandle,MarPointPlanar,MarPointPlanar); PositionRulerNew(Int32,MarElementHandle,MarPointPlanar,MarPointPlanar); CoordAxisNew(MarElementHandle); CoordAxisNew(MarElementHandle,MarPointPlanar); ElementHighlight(Hashtable); ElementHighlight(MarElementHandle[]); ElementHighlight(MarElementHandle); ModelHighlight(MarModel); ModelHighlight(MarModel,MarElementHandle); HighlightOff(Double); HighlightOff(Int32); HighlightOff(MarElementHandle); ArcHighlight(MarArcPlanar); CircleHighlight(MarCirclePlanar); ConicHighlight(MarConicPlanar); ContourHighlight(MarContourPlanar); EllipseHighlight(MarEllipsePlanar); LineHighlight(MarRlinePlanar); PointHighlight(MarPointPlanar); PointHighlight(MarPointPlanar,Double); PointHighlight(MarPointPlanar,Int32); RectangleHighligh(MarRectanglePlanar); SplineHighlight(MarPolygonPlanar); ViewRotate(MarElementHandle,Double); ViewRotate(MarElementHandle,Double,MarPointPlanar); DwgRepaint(); DwgReloadBackingSheet(); DwgZoom(MarRectanglePlanar); DwgValidate(Hashtable,Hashtable); DwgValidate(MarModel[]&,MarModel[]&); DwgPurge(); DwgPurge(Int32); DwgPurge(Int32,Int32); DwgPurge(Int32,Int32,Int32); DwgPurgePML(); DwgPurgePML(Double); DwgPurgePML(Double,Double); DwgPurgePML(Double,Double,Double); ZoomExtentGet(); DwgTypeListGet(); DwgTypeListGetPML(); DwgPropertiesSet(MarCommonProperties); DwgPropertiesGet(); DocumentReferenceAdd(MarDocumentReference); DocumentReferenceRemove(MarDocumentReference); DocumentReferenceGet(); DocumentReferenceGetPML(); DwgReferenceShow(Double,Hashtable); DwgReferenceShow(Int32,MarElementHandle[]); DwgReferenceShow(Double,MarElementHandle); DwgReferenceShow(Int32,MarElementHandle); DwgReferenceShow(Double); DwgReferenceShow(Int32); DwgPack(); PsketchOpen(String,Double,Double); PsketchOpen(String,Double); PsketchOpen(String,Int32,Int32); PsketchOpen(String,Int32); DwgSizeGet(); DwgSizeGetPML(); DwgRevisionFreeze(); DwgRevisionUnfreeze(); DwgRevisionNew(String,String); ColourSet(Double); ColourSet(Int32); ColourSet(MarColour); ColourGet(); LinetypeSet(Double); LinetypeSet(Int32); LinetypeSet(MarLinetype); LinetypeGet(); LayerSet(MarLayer); LayerGet(); LayerShowAll(); LayerShow(Hashtable); LayerShow(MarLayer[]); LayerShow(MarLayer); LayerHide(Hashtable); LayerHide(MarLayer[]); LayerHide(MarLayer); DwgLayersIsShown(); DwgLayersIsHidden(); DwgLayersHiddenGet(); DwgLayersHiddenGetPML(); DwgLayersShownGet(); DwgLayersShownGetPML(); HatchPatternSet(Double,Double); StdHatchPatternSet(Double); StdHatchPatternSet(Int32); UserdefHatchPatternSet(Double,Double); UserdefHatchPatternSet(Int32,Int32); NoteSymbolSet(Int32); NoteSymbolGet(); NoteSymbolSetPML(Double); NoteSymbolGetPML(); PosnoSymbolSet(Int32); PosnoSymbolGet(); PosnoSymbolSetPML(Double); PosnoSymbolGetPML(); PosnoHeightSet(Double); PosnoHeightGet(); TextHeightSet(Double); TextHeightGet(); TextAspectSet(Double); TextAspectGet(); TextSlantSet(Double); TextSlantGet(); TextRotationSet(Double); TextRotationGet(); TextAsciiFontSet(Int32); TextAsciiFontGet(); TextAsciiFontSetPML(Double); TextAsciiFontGetPML(); TextIlspSet(Double); TextIlspGet(); TextVectorFontSet(Int32); TextVectorFontGet(); TextVectorFontSetPML(Double); TextVectorFontGetPML(); TextBoldSet(Boolean); TextBoldGet(); TextItalicSet(Boolean); TextItalicGet(); TextUnderlineSet(Boolean); TextUnderlineGet(); TextStrikeoutSet(Boolean); TextStrikeoutGet(); SymbolRotationSet(Double); SymbolRotationGet(); SymbolHeightSet(Double); SymbolHeightGet(); DefaultValueSet(String); DefaultValueGet(String); LinetypeDisplaySettingsGet(); LinetypeDisplaySettingsSet(MarLineTypeDisplaySettings); ArcNew(MarArcPlanar); CircleNew(MarCirclePlanar); ConicNew(MarConicPlanar); ContourNew(MarContourPlanar); EllipseNew(MarEllipsePlanar); LineNew(MarRlinePlanar); PointNew(MarPointPlanar); RectangleNew(MarRectanglePlanar,Double); RectangleNew(MarRectanglePlanar); SplineNew(MarPolygonPlanar); ViewNew(String); ViewNew(String,MarVector,MarVector); ViewDetailNew(Double,MarElementHandle); ViewDetailNew(Int32,MarElementHandle); ViewSymbolicNew(MarSymbolicView); ViewSymbolicNew(String,MarPoint,MarVector,MarVector,Double,Double,MarBox); ViewSectionNew(MarSymbolicView); ViewSectionNew(String,MarPoint,MarVector,MarVector,Double,Double,MarBox); Assign(MarDrafting); DwgClose(); DwgNew(String,String,String,String); DwgNew(String,String,Double,String); DwgNew(String,String,Int32,String); DwgNew(String,String,String); DwgNew(String,String,Double); DwgNew(String,String,Int32); DwgNew(String,String); DwgNew(String); DwgSave(); DwgCurrent(); DwgIsModified(); DwgActivate(String); DwgActivate(String,String); DwgActivate(String,String,Double); DwgActivate(String,String,Int32); DwgActivate(String,String,Double,String); DwgActivate(String,String,Int32,String); DwgActivate(String,String,Double,String,Double); DwgActivate(String,String,Int32,String,Int32); DwgActivate(String,Double); DwgActivate(String,Int32); DwgActivate(String,Double,Double); DwgActivate(String,Int32,Int32); DwgActivate(String,Double,Double,String); DwgActivate(String,Int32,Int32,String); DwgActivate(String,Double,Double,String,Double); DwgActivate(String,Int32,Int32,String,Int32); DwgOpen(String,Double); DwgOpen(String,Int32); DwgOpen(String,Double,Double); DwgOpen(String,Int32,Int32); DwgOpen(String,Double,Double,String); DwgOpen(String,Int32,Int32,String); DwgOpen(String,Double,Double,String,Double); DwgOpen(String,Int32,Int32,String,Int32); DwgOpen(String); DwgOpen(String,String); DwgOpen(String,String,Double); DwgOpen(String,String,Int32); DwgOpen(String,String,Double,String); DwgOpen(String,String,Int32,String); DwgOpen(String,String,Double,String,Double); DwgOpen(String,String,Int32,String,Int32); DwgOpenAsCopy(String,String,Double); DwgDelete(String,String); DwgDelete(String,Double); DwgDelete(String,Int32); DwgDelete(String); DwgCanel(); DwgCancel(); DwgExist(String,String); DwgExist(String,Double); DwgExist(String,Int32); DwgExist(String); DwgSaveAs(String,Double,String); DwgSaveAs(String,Int32,String); DwgSaveAs(String,String,String); DwgSaveAs(String,Double); DwgSaveAs(String,Int32); DwgSaveAs(String,String); DwgSaveAs(String); DwgCopy(String,String,String,Double); DwgCopy(String,String,String); DwgNameGet(); FormNameGet(); DwgDxfExport(String); DwgDxfExport(String,Double); DwgDxfExport(String,Int32); DwgDxfExport(String,Double,Double); DwgDxfExport(String,Int32,Int32); DwgDxfExport(String,Double,Double,Double); DwgDxfExport(String,Int32,Int32,Int32); DwgDxfExport(String,Double,Double,Double,Double); DwgDxfExport(String,Int32,Int32,Int32,Int32); DwgDxf3dExport(String,Hashtable); DwgDxf3dExport(String,MarElementHandle[]); DwgDxf3dExport(String,Hashtable,Double); DwgDxf3dExport(String,MarElementHandle[],Int32); DwgDxf3dExport(String,Hashtable,Double,Double); DwgDxf3dExport(String,MarElementHandle[],Int32,Int32); DwgDxf3dExport(String,Hashtable,Double,Double,Double); DwgDxf3dExport(String,MarElementHandle[],Int32,Int32,Int32); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar,Double); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar,Int32); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar,Double,Double); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar,Int32,Int32); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar,Double,Double,Double); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar,Int32,Int32,Int32); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar,Double,Double,Double,Double); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar,Int32,Int32,Int32,Int32); DwgDxf2d3dExport(String,Hashtable,MarVectorPlanar,MarVectorPlanar,Double,Double,Double,Double,Double); DwgDxf2d3dExport(String,MarElementHandle[],MarVectorPlanar,MarVectorPlanar,Int32,Int32,Int32,Int32,Int32); DwgDxfImport(String,String,Double); DwgDxfImport(String,String,String,Double); DwgDxfImport(String,String,Int32); DwgDxfImport(String,String,String,Int32); DwgDxfImport(String,String); DwgDxfImport(String,String,String); DwgWmfExport(String); DwgHPGLExport(String); DwgHPGL2Export(String,Int32,Int32,Int32,MarRectanglePlanar); DwgHPGL2Export(String,Int32,Int32); DwgHPGL2Export(String,Double,Double,Double,MarRectanglePlanar); DwgHPGL2Export(String,Double,Double); DwgSVGExport(String,Int32,Int32,Int32,MarRectanglePlanar); DwgSVGExport(String,Int32,Int32); DwgSVGExport(String,Double,Double,Double,MarRectanglePlanar); DwgSVGExport(String,Double,Double); DwgTIFExport(String,Int32,Int32,Int32,MarRectanglePlanar); DwgTIFExport(String,Int32,Int32); DwgTIFExport(String,Double,Double,Double,MarRectanglePlanar); DwgTIFExport(String,Double,Double); DwgPreviewBmpExport(String,Double,String); DwgPreviewBmpExport(String,Int32,String); DwgSDBImport(String,String,Double,Double); DwgSDBImport(String,String,Double); DwgSDBImport(String,String); DwgSDBExport(String); DwgSnapshotLoad(String); DwgSnapshotSave(String); DwgSnapshotCompare(String); DwgSnapshotCompare()
+  MarDrawTable  |  ctor()  |  Assign(MarDrawTable); AddTable(Hashtable,MarElementHandle,String); AddTable(String[,],MarElementHandle,String); Dispose()
+  MarElementHandle  |  ctor(Void*); ctor()  |  Assign(MarElementHandle); Dispose()
+  MarHighlightSet  |  ctor(Void*); ctor()  |  AddGeometry2D(MarContourPlanar,MarLinetype); AddGeometry2D(MarRectanglePlanar,MarLinetype); AddGeometry2D(MarArcPlanar,MarLinetype); AddGeometry2D(MarPointPlanar,MarLinetype); AddGeometry2D(MarContourPlanar); AddGeometry2D(MarRectanglePlanar); AddGeometry2D(MarArcPlanar); AddGeometry2D(MarPointPlanar); AddGeometry3D(MarPolygon,MarElementHandle,MarLinetype); AddGeometry3D(MarPoint,MarElementHandle,MarLinetype); AddGeometry3D(MarPolygon,MarElementHandle); AddGeometry3D(MarPoint,MarElementHandle); AddGeometry3D(MarPolygon); AddGeometry3D(MarPoint); AddModel(MarModel); AddSubpicture(MarElementHandle); Reset(); Assign(MarHighlightSet); Dispose()
+  MarLayer  |  ctor(Void*); ctor(Double); ctor(Int32); ctor()  |  Assign(MarLayer); GetDescription(); Dispose()
+  MarLinetype  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarLinetype); GetLinetypes(); GetAliasName(String); GetSystemName(String); GetAliasNameTab(); GetSystemNameTab(); GetAliasNameTabPML(); GetSystemNameTabPML(); Dispose()
+  MarLineTypeDisplaySettings  |  ctor(Void*); ctor()  |  Assign(MarLineTypeDisplaySettings); Dispose()
+  MarModel  |  ctor(Void*); ctor()  |  Assign(MarModel); Dispose()
+  MarPictWinExt  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarPictWinExt); Dispose()
+  MarPrintOptions  |  ctor(Void*); ctor()  |  Assign(MarPrintOptions); Dispose()
+  MarProfSymb  |  ctor()  |  Assign(MarProfSymb); getSymb(Double); getSymb(Int32); Dispose()
+  MarShellXViewOptions  |  ctor(Void*); ctor()  |  SetSelectBlocks(Hashtable); SetSelectBlocks(String[]); GetPanels(Double&,Hashtable&); GetPanels(Int32&,String[]&); GetBlocks(Double&,Hashtable&); GetBlocks(Int32&,String[]&); SetSelectSeams(Hashtable); SetSelectSeams(String[]); GetSeams(Double&,Hashtable&); GetSeams(Int32&,String[]&); SetSelectLongitudals(Hashtable); SetSelectLongitudals(String[]); GetLongitudals(Double&,Hashtable&); GetLongitudals(Int32&,String[]&); SetSelectTransversals(Hashtable); SetSelectTransversals(String[]); GetTransversals(Double&,Hashtable&); GetTransversals(Int32&,String[]&); GetCurves(); GetCurvesPML(); Assign(MarShellXViewOptions); Dispose(); SetDevelopedFromX(Double); SetDevelopedFromY(Double); SetDevelopedFromZ(Double); GetDevelopedFrom(Double&,Double&); GetDevelopedFrom(Int32&,Double&); SetSternLimits(Double,Double); SetSternLimits(Int32,Double); SetSternLimits(Double,Hashtable); SetSternLimits(Int32,String[]); SetStemLimits(Double,Double); SetStemLimits(Int32,Double); SetStemLimits(Double,Hashtable); SetStemLimits(Int32,String[]); GetSternLimits(Double&,Double&,Hashtable&); GetSternLimits(Int32&,Double&,String[]&); GetStemLimits(Double&,Double&,Hashtable&); GetStemLimits(Int32&,Double&,String[]&); SetUpperLimits(Double,Double); SetUpperLimits(Int32,Double); SetUpperLimits(Double,Hashtable); SetUpperLimits(Int32,String[]); GetUpperLimits(Double&,Double&,Hashtable&); GetUpperLimits(Int32&,Double&,String[]&); SetLowerLimits(Double,Double); SetLowerLimits(Int32,Double); SetLowerLimits(Double,Hashtable); SetLowerLimits(Int32,String[]); GetLowerLimits(Double&,Double&,Hashtable&); GetLowerLimits(Int32&,Double&,String[]&); GetSideCode(); GetSideCodePML(); SetSelectPanels(Hashtable); SetSelectPanels(String[])
+  MarSymbol  |  ctor(Void*); ctor(Double,Double); ctor(Int32,Int32); ctor()  |  IsDetectable(); SetSpaceHeight(Double); SetTrueHeight(Double); SetTrueHeightAndWidth(Double,Double); SetReflectionInUAxis(); IsReflectedInUAxis(); SetReflectionInVAxis(); IsReflectedInVAxis(); SetNoReflection(); IsReflected(); Assign(MarSymbol); Dispose()
+  MarSymbollist  |  ctor(Void*); ctor(Double,Double); ctor(Int32,Int32); ctor()  |  AddSymbol(Double,Double); AddSymbol(Int32,Int32); Assign(MarSymbollist); Dispose()
+  MarText  |  ctor(Void*); ctor(String); ctor()  |  Assign(MarText); ToString(); Dispose()
+  SPattern  |  ctor(Void*)  |  
+  SPatternLength  |  ctor(Void*)  |  
+## ns: Aveva.Marine.Drafting.MarConfNoteRec (4 types)
+  MarReferenceSymbol  |  ctor(Void*); ctor(Double,Double,Double); ctor(Int32,Int32,Double); ctor()  |  getRecord(); getRecordPML(); Assign(MarReferenceSymbol); Dispose()
+  MarSymbol  |  ctor(Void*); ctor(Double,Double,Double,Double,Double,Double,Double,Double); ctor(Int32,Int32,Double,Int32,Double,Double,Double,Int32); ctor()  |  getRecord(); getRecordPML(); Assign(MarSymbol); Dispose()
+  MarText  |  ctor(Void*); ctor(String,Double,Double,Double,Double,Double,Double); ctor(String,Double,Int32,Double,Double,Double,Double); ctor()  |  getRecord(); getRecordPML(); Assign(MarText); Dispose()
+  MarTextInSymbol  |  ctor(Void*); ctor(String,Double,Double,Double,Double,Double); ctor(String,Double,Int32,Int32,Double,Int32); ctor()  |  getRecord(); getRecordPML(); Assign(MarTextInSymbol); Dispose()
+## ns: Aveva.Marine.Drafting.MarInterpretationObject (2 types)
+  MarCurvedPanelView  |  ctor(Void*); ctor()  |  Assign(MarCurvedPanelView); Dispose()
+  MarSymbolicView  |  ctor(Void*); ctor()  |  Dispose(); SetPlaneByX(Double); SetPlaneByY(Double); SetPlaneByZ(Double); SetPlaneBy3Points(MarPoint,MarPoint,MarPoint); SetPlaneByPanel(String,Double,Double,Double,Double); SetPlaneByPanel(String,Int32,Int32,Int32,Int32); SetPlaneByCurve(String,Double); SetPlaneByCurve(String,Int32); SetPlaneByRSO(String,Double); SetPlaneByRSO(String,Int32); SetDepth(Double,Double); GetDepth(Double&,Double&); SetLimits(MarPoint,MarPoint); GetLimits(MarPoint&,MarPoint&); SetShellCurves(Double,Hashtable); SetShellCurves(Int32,String[]); SetPanelsFilter(Hashtable,Double); SetPanelsFilter(String[],Int32); SetBlocksFilter(Hashtable,Double); SetBlocksFilter(String[],Int32); Assign(MarSymbolicView)
+## ns: Aveva.Marine.Drafting.MarSketchDimensioning (2 types)
+  MarDimensionSet  |  ctor(Void*); ctor()  |  AddLinearDim(MarPointPlanar,MarPointPlanar,MarVectorPlanar,MarPointPlanar,String); AddAngleDim(MarRlinePlanar,MarRlinePlanar,MarPointPlanar,MarPointPlanar,String,Double,Double,Double); AddAngleDim(MarRlinePlanar,MarRlinePlanar,MarPointPlanar,MarPointPlanar,String,Int32,Int32,Int32); AddRadiusDim(MarPointPlanar,String); AddCustomDim(MarPointPlanar,String); Reset(); Assign(MarDimensionSet); Dispose()
+  MarProfileSketch  |  ctor(Void*); ctor()  |  Assign(MarProfileSketch); Dispose()
+## ns: Aveva.Marine.Geometry (24 types)
+  MarArc  |  ctor(Void*); ctor(MarPoint,MarPoint,MarVector); ctor()  |  Assign(MarArc); Dispose()
+  MarArcPlanar  |  ctor(Void*); ctor(MarPointPlanar,MarPointPlanar,Double); ctor()  |  Assign(MarArcPlanar); Dispose()
+  MarBox  |  ctor(Void*); ctor(MarPoint,MarVector,MarVector,Double,Double,Double); ctor()  |  Assign(MarBox); IsEmpty(); SetAxisParallelBox(Double,Double,Double,Double,Double,Double); SetAxisParallelBox(MarPoint,MarPoint); Dispose()
+  MarCircle  |  ctor(Void*); ctor(MarPoint,MarVector,Double); ctor()  |  Assign(MarCircle); Dispose()
+  MarCirclePlanar  |  ctor(Void*); ctor(MarPointPlanar,Double); ctor()  |  HasPoint(MarPointPlanar); IsPointOnCircle(MarPointPlanar); GetTangentPoints(MarPointPlanar); GetTangentPoints(MarPointPlanar,MarPointPlanar,MarCirclePlanar); GetTangentPointsPML(MarPointPlanar); GetTangentPointsPML(MarPointPlanar,MarPointPlanar,MarCirclePlanar); TangentAtPoint(MarPointPlanar,MarPointPlanar); Assign(MarCirclePlanar); Dispose()
+  MarConicPlanar  |  ctor(Void*); ctor(MarPointPlanar,MarPointPlanar,MarVectorPlanar,Double); ctor()  |  Assign(MarConicPlanar); Dispose()
+  MarContour  |  ctor(Void*); ctor()  |  Assign(MarContour); AddLine(MarPoint); AddArc(MarPoint,MarVector); IsPoint(); SetPoint(MarPoint); Dispose()
+  MarContourPlanar  |  ctor(Void*); ctor(MarPointPlanar); ctor()  |  Assign(MarContourPlanar); AddLine(MarPointPlanar); AddArc(MarPointPlanar,Double); IsPoint(); SetPoint(MarPointPlanar); IsClosed(); IsInside(MarPointPlanar); Length(); Area(); Distance(MarPointPlanar); IsPointOnContour(MarPointPlanar); GetPointOnContour(MarPointPlanar); Direction(); DirectionPML(); GetCenterPoint(MarPointPlanar,MarPointPlanar,Double); Dispose()
+  MarEllipsePlanar  |  ctor(Void*); ctor(MarPointPlanar,MarPointPlanar); ctor()  |  Assign(MarEllipsePlanar); Dispose()
+  MarGencylinder  |  ctor(Void*); ctor(MarPoint,MarVector,Double,MarContourPlanar)  |  Assign(MarGencylinder); Dispose()
+  MarLine  |  ctor(Void*); ctor(MarPoint,MarVector); ctor()  |  ScalarComponentOfVector(MarVector); VectorComponentOfVector(MarVector,MarVector); Transform(MarTransformation); Assign(MarLine); Dispose()
+  MarLinePlanar  |  ctor(Void*); ctor(MarPointPlanar,MarVectorPlanar); ctor()  |  ScalarComponentOfVector(MarVectorPlanar); VectorComponentOfVector(MarVectorPlanar,MarVectorPlanar); Assign(MarLinePlanar); Dispose()
+  MarPlane  |  ctor(Void*); ctor(MarPoint,MarVector); ctor()  |  IntersectLine(MarLine,MarPoint); IntersectLinePML(MarLine,MarPoint); Transform(MarTransformation); Assign(MarPlane); Dispose()
+  MarPoint  |  ctor(Void*); ctor(Double,Double,Double); ctor()  |  DistanceToPoint(MarPoint); Round(Double); Round(Int32); SetCoordinates(Double,Double,Double); SetFromMidpoint(MarPoint,MarPoint); SetFromPoint(MarPoint); Transform(MarTransformation); Assign(MarPoint); Dispose()
+  MarPointPlanar  |  ctor(Void*); ctor(Double,Double); ctor()  |  DistanceToPoint(MarPointPlanar); Move(Double,Double); Round(Double); Round(Int32); SetCoordinates(Double,Double); SetFromMidpoint(MarPointPlanar,MarPointPlanar); SetFromPoint(MarPointPlanar); Assign(MarPointPlanar); Dispose()
+  MarPolygon  |  ctor(Void*); ctor(MarPoint); ctor()  |  AddPoint(MarPoint); GetNoOfPoints(); GetNoOfPointsPML(); GetPoint(Double); GetPoint(Int32); Assign(MarPolygon); Dispose()
+  MarPolygonPlanar  |  ctor(Void*); ctor(MarPointPlanar); ctor()  |  AddPoint(MarPointPlanar); len(); lenPML(); add(MarPolygonPlanar); Assign(MarPolygonPlanar); Dispose()
+  MarRectanglePlanar  |  ctor(Void*); ctor(Double,Double,Double,Double); ctor(MarPointPlanar,MarPointPlanar); ctor()  |  Assign(MarRectanglePlanar); SetCorners(Double,Double,Double,Double); SetCorners(MarPointPlanar,MarPointPlanar); IsEmpty(); SetEmpty(); Dispose()
+  MarRline  |  ctor(Void*); ctor(MarPoint,MarPoint); ctor()  |  Assign(MarRline); Dispose()
+  MarRlinePlanar  |  ctor(Void*); ctor(MarPointPlanar,MarPointPlanar); ctor()  |  Assign(MarRlinePlanar); Dispose()
+  MarTransformation  |  ctor(Void*); ctor()  |  Combine(MarTransformation); GetByRow(Double&,Hashtable); GetByRow(Int32&,Double[,]); Invert(); ReflectX(); ReflectY(); ReflectZ(); Rotate(MarPoint,MarVector,Double); SetByRow(Double,Hashtable); SetByRow(Int32,Double[,]); SetByRowFromArray(Double,Hashtable); SetByRowFromArray(Int32,Double[]); SetFromPointAndTwoVectors(MarPoint,MarVector,MarVector); SetFromPointAndThreeVectors(MarPoint,MarVector,MarVector,MarVector); SetFromTransformation(MarTransformation); Translate(MarVector); Assign(MarTransformation); Dispose()
+  MarTransformationPlanar  |  ctor(Void*); ctor()  |  Assign(MarTransformationPlanar); IdentityTransf(); Translate(MarVectorPlanar); Rotate(MarPointPlanar,Double); Scale(Double); Reflect(MarPointPlanar,MarVectorPlanar); Combine(MarTransformationPlanar); Invert(); GetByRow(Double&,Hashtable); GetByRow(Int32&,Double[,]); GetScale(); GetScalePML(); GetXYShear(); GetTranslation(); GetTranslationPML(); GetRotation(); GetReflection(); Dispose()
+  MarVector  |  ctor(Void*); ctor(Double,Double,Double); ctor()  |  AngleToVector(MarVector); AngleToVectorWithSign(MarVector,MarVector); BlankProduct(Double); BoxProduct(MarVector,MarVector); CompareVector(MarVector,Double); DotProduct(MarVector); AbsoluteLargestComponentAxis(); AbsoluteLargestComponentAxisPML(); Length(); ProjectOnLine(MarLine); ProjectOnVector(MarVector); ProjectOnPlane(MarPlane); Rotate(Double,MarVector); Round(Double); Round(Int32); ScalarComponentOnLine(MarLine); SetComponents(Double,Double,Double); SetFromCrossProduct(MarVector,MarVector); SetFromPoints(MarPoint,MarPoint); SetFromVector(MarVector); SetFromVectorDifference(MarVector,MarVector); SetFromVectorSum(MarVector,MarVector); SetLength(Double); SetToUnitVector(); Transform(MarTransformation); Assign(MarVector); Dispose()
+  MarVectorPlanar  |  ctor(Void*); ctor(Double,Double); ctor()  |  BlankProduct(Double); LargestComponentAxis(); CompareVector(MarVectorPlanar,Double); DotProduct(MarVectorPlanar); Length(); Rotate(Double); Round(Double); ScalarComponentOnVector(MarVectorPlanar); SetComponents(Double,Double); SetFromPoints(MarPointPlanar,MarPointPlanar); SetFromVector(MarVectorPlanar); SetFromVectorDifference(MarVectorPlanar,MarVectorPlanar); SetFromVectorSum(MarVectorPlanar,MarVectorPlanar); SetLength(Double); SetToUnitVector(); Assign(MarVectorPlanar); Dispose()
+## ns: Aveva.Marine.Geometry.MarContourOperations (1 types)
+  MarBooleanOperations  |  ctor(Void*); ctor(MarContourPlanar,MarContourPlanar); ctor()  |  ConvertContour(MarContourPlanar); ConvertContourPML(MarContourPlanar); GetInsideSegments(Hashtable); GetInsideSegments(Object[,]); GetOuterSegments(Hashtable); GetOuterSegments(Object[,]); GetConditionalSegments(Hashtable); GetConditionalSegments(Object[,]); IsOuterSegment(Hashtable); IsOuterSegment(Object[]); IsOuterPoint(MarPointPlanar); ChooseNextSegment(Hashtable,Hashtable,Hashtable); ChooseNextSegment(Object[],Object[,],Object[,]); DifferNextSegment(Hashtable,Hashtable,Hashtable); DifferNextSegment(Object[],Object[,],Object[,]); CompositeContour(Hashtable); CompositeContour(MarPointPlanar[]); ChooseDifStartPoint(Hashtable,Hashtable); ChooseDifStartPoint(Object[,],Object[,]); CommonContour(Hashtable); CommonContour(MarPointPlanar[]); DifferContour(Hashtable); DifferContour(MarPointPlanar[]); IsSamePoint(MarPointPlanar,MarPointPlanar); IsPointInPoints(MarPointPlanar,Hashtable); IsPointInPoints(MarPointPlanar,MarPointPlanar[]); Assign(MarBooleanOperations); Dispose()
+## ns: Aveva.Marine.Production (2 types)
+  MarPinProfiles  |  ctor()  |  GenerateSketch(String,String&); Dispose()
+  [special] PinApiProfile
+## ns: Aveva.Marine.Tools (1 types)
+  MarMiscTools  |  ctor()  |  Assign(MarMiscTools); Dispose()
+## ns: Aveva.Marine.UI (4 types)
+  MarButtonState  |  ctor(Void*); ctor()  |  Assign(MarButtonState); Dispose()
+  MarStatPointPlanarReq  |  ctor(Void*); ctor()  |  Assign(MarStatPointPlanarReq); Dispose()
+  MarStatPointReq  |  ctor(Void*); ctor()  |  Assign(MarStatPointReq); Dispose()
+  MarUi  |  ctor()  |  Assign(MarUi); AnswerReq(String,String); AnswerReqPML(String,String); PointPlanarReq(String,MarPointPlanar); PointPlanarReq(String,MarPointPlanar,MarStatPointPlanarReq); PointPlanarReq(String,MarPointPlanar,MarStatPointPlanarReq,MarButtonState); PointPlanarReqPML(String,MarPointPlanar); PointPlanarReqPML(String,MarPointPlanar,MarStatPointPlanarReq); PointPlanarReqPML(String,MarPointPlanar,MarStatPointPlanarReq,MarButtonState); PointReq(String,MarPoint); PointReq(String,MarStatPointReq,MarPoint); PointReqPML(String,MarPoint); PointReqPML(String,MarStatPointReq,MarPoint); MessageConfirm(String); MessageNoConfirm(String); ModelInfo(); ModelInfoPML(); AppWindowMinimize(); AppWindowMaximize(); AppWindowRefresh(); AppWindowRestore(); FormCancel(Double); FormCancel(Int32); FormChangeabilitySet(Double,String,Double); FormChangeabilitySet(Int32,String,Int32); FormCompile(String); FormCompilePML(String); FormEdit(Double); FormEdit(Int32); FormEnumGet(Double,String); FormEnumGet(Int32,String); FormEnumSet(Double,String,String); FormEnumSet(Int32,String,String); FormIntegerGet(Double,String); FormIntegerGet(Int32,String); FormIntegerSet(Double,String,Double); FormIntegerSet(Int32,String,Int32); FormRealGet(Double,String); FormRealGet(Int32,String); FormRealSet(Double,String,Double); FormRealSet(Int32,String,Double); FormReferenceGet(String); FormReferenceGetPML(String); FormStringGet(Double,String); FormStringGet(Int32,String); FormStringSet(Double,String,String); FormStringSet(Int32,String,String); FormToggleGet(Double,String); FormToggleGet(Int32,String); FormToggleSet(Double,String,Double); FormToggleSet(Int32,String,Int32); ChoiceSelect(String,String,String[]); ChoiceSelect(String,String,MarStringlist); ChoiceSelect(String,String,Hashtable,Double&); ChoiceSelect(String,String,String[],Int32&); ChoiceSelect(String,String,MarStringlist,Double&); ChoiceSelect(String,String,MarStringlist,Int32&); ColourSelect(String,MarColour); ColourSelectPML(String,MarColour); StringSelect(String,String,String,String[]); StringSelect(String,String,String,MarStringlist); StringSelect(String,String,String,Hashtable,Double&); StringSelect(String,String,String,String[],Int32&); StringSelect(String,String,String,MarStringlist,Double&); StringSelect(String,String,String,MarStringlist,Int32&); SymbolSelect(String,MarSymbollist); SymbolSelect(String,Int32); SymbolSelect(String,MarSymbollist,Double&,Double&); SymbolSelect(String,MarSymbollist,Int32&,Int32&); SymbolSelect(String,Double,Double&); SymbolSelect(String,Int32,Int32&); IntReq(String); IntReq(String,Double&); IntReq(String,Int32&); IntReq(String,Double&,Double); IntReq(String,Int32&,Int32); RealReq(String); RealReq(String,Double&); RealReq(String,Double&,Double); RealReqPML(String,Double&); RealReqPML(String,Double&,Double); StringReq(String); StringReq(String,String&); StringReq(String,String&,String); StringReqPML(String,String&); StringReqPML(String,String&,String); LabelCreate(); DimCreate(Double); DimCreate(Int32); ModLabel(); ModDimension(); IntReqArray(String,Int32); RealReqArray(String,Double); StringReqArray(String,String); Dispose()
+## ns: Aveva.Marine.Utility (25 types)
+  HashTableConvert  |  ctor()  |  PackDoubleArrayToHashtable(Double[]); PackHashtableToDoubleArray(Hashtable); PackDoubleArray2DToHashtable(Double[,]); PackHashtableToDouble2dArray(Hashtable); PackIntArrayToHashtable(Int32[]); PackHashtableToIntArray(Hashtable); PackStringArrayToHashtable(String[]); PackHashtableToStringArray(Hashtable); PackPointArrayToHashtable(MarPoint[]); PackHashtableToPointArray(Hashtable); PackVectorArrayToHashtable(MarVector[]); PackHashtableToVectorArray(Hashtable); PackPointPlanarArrayToHashtable(MarPointPlanar[]); PackHashtableToPointPlanarArray(Hashtable); PackElementHandleArrayToHashtable(MarElementHandle[]); PackHashtableToElementHandle(Hashtable); PackDocumentRefernceArrayToHashtable(MarDocumentReference[]); PackHashtableToDocumentRefernce(Hashtable); PackLayerArrayToHashtable(MarLayer[]); PackHashtableToLayerArray(Hashtable); PackModelArrayToHashtable(MarModel[]); PackHashtableToModelArray(Hashtable); PackPlaneArrayToHashtable(MarPlane[]); PackHashtableToPlaneArray(Hashtable); PackContourArrayToHashtable(MarContourPlanar[]); PackHashtableToContourArray(Hashtable); PackSpaceContourArrayToHashtable(MarContour[]); PackHashtableToSpaceContourArray(Hashtable); PackStringStringDictArrayToHashtable(StringStringDictionary[]); PackHashtableToStringStringDictArray(Hashtable); PackObjectArrayToHashtable(Object[]); PackHashtableToObjectArray(Hashtable); PackObject2dArrayToHashtable(Object[,]); PackHashtableToObject2dArray(Hashtable); PackString2dArrayToHashtable(String[,]); PackHashtableToString2dArray(Hashtable); PackShEndDefArrayToHashtable(MarShEndDef[]); PackHashtableToShEndDefArray(Hashtable); PackMarObjectArrayToHashtable(MarObject[]); PackHashtableToMarObjectArray(Hashtable)
+  MarCommonProperties  |  ctor(Void*); ctor()  |  SetTypeCode(Double,Double); SetTypeCode(Int32,Int32); GetTypeCode(); GetTypeCodePML(); SetAlias(Double,String); SetAlias(Int32,String); GetAlias(); GetAliasPML(); Assign(MarCommonProperties); Dispose()
+  MarDataBase  |  ctor()  |  Assign(MarDataBase); ObjectListGet(MarObjectCriteria,String); ObjectListGetPML(MarObjectCriteria,String); DwgListGetPML(Double,String); DwgListGet(Int32,String); Dispose()
+  MarDate  |  ctor(Void*); ctor(Double,Double,Double); ctor(Int32,Int32,Int32); ctor()  |  SetDate(MarDate); SetDate(Double,Double,Double); SetDate(Int32,Int32,Int32); GetDate(Double&,Double&,Double&); GetDate(Int32&,Int32&,Int32&); Assign(MarDate); Dispose()
+  MarDateTime  |  ctor(Void*); ctor(Double,Double,Double,Double,Double,Double,Double); ctor(Int32,Int32,Int32,Int32,Int32,Int32,Int32); ctor()  |  SetDateTime(MarDateTime); SetDateTime(Double,Double,Double,Double,Double,Double,Double); SetDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32); GetDateTime(Double&,Double&,Double&,Double&,Double&,Double&,Double&); GetDateTime(Int32&,Int32&,Int32&,Int32&,Int32&,Int32&,Int32&); Assign(MarDateTime); Dispose()
+  MarError  |  ctor()  |  ThrowLastError(String&); ThrowLastError(); ThrowLastErrorWithTraceback(); ThrowError(String); Dispose()
+  MarInternalComm  |  ctor()  |  Assign(MarInternalComm); CurvePointGet(Double,Double,String,MarPoint); CurvePointGet(Int32,Int32,String,MarPoint); LengthPtopGet(Double,Double,Double,Double,MarPoint,MarPoint); LengthPtopGet(Int32,Int32,Int32,Int32,MarPoint,MarPoint); DivPointGet(Double,Double,Double,Double,MarPoint); DivPointGet(Int32,Int32,Int32,Int32,MarPoint); DivPointGet(Double,Double,Double,Double,Double,Double,MarPoint,MarPoint,MarPoint); DivPointGet(Int32,Int32,Int32,Int32,Int32,Int32,MarPoint,MarPoint,MarPoint); LengthCtocGet(Double,Double,Double,Double); LengthCtocGet(Int32,Int32,Int32,Int32); LayerDescGet(Double); LayerDescGet(Int32); FontNameGet(Double); FontNameGet(Int32); LinetypesGet(); ColourNamesGet(); ColourNamesGetPML(); TransfRotate2d(MarTransformationPlanar,MarPointPlanar,Double); TransfInvert2d(MarTransformationPlanar); TransfTranslate2d(MarTransformationPlanar,MarVectorPlanar); TransfScale2d(MarTransformationPlanar,Double); TransfReflect2d(MarTransformationPlanar,MarPointPlanar,MarVectorPlanar); TransfCombine2d(MarTransformationPlanar,MarTransformationPlanar); TransfDecompose2d(MarTransformationPlanar); TransfDecompose2dPML(MarTransformationPlanar); CompBoxSet(MarSymbolicView); CompBoxSet(MarSymbolicView,MarPointPlanar); IntersectionPointsGet(MarContourPlanar,MarContourPlanar); IntersectionPointsGetPML(MarContourPlanar,MarContourPlanar); ContourSplit(MarContourPlanar,MarPointPlanar,Double,MarPointPlanar,Double); ContourSplit(MarContourPlanar,MarPointPlanar,Int32,MarPointPlanar,Int32); PartnameSide(MarModel); PartnameSidePML(MarModel); Dispose()
+  MarNone  |  ctor()  |  
+  MarObject  |  ctor(Void*); ctor()  |  Assign(MarObject); Dispose()
+  MarObjectCriteria  |  ctor(Void*); ctor()  |  SetName(String); SetName(); GetName(); SetNamePML(String); SetNamePML(); GetNamePML(); SetCodeOne(Int32); SetCodeOne(); GetCodeOne(); SetCodeOnePML(Double); SetCodeOnePML(); GetCodeOnePML(); SetCodeTwo(Int32); SetCodeTwo(); GetCodeTwo(); SetCodeTwoPML(Double); SetCodeTwoPML(); GetCodeTwoPML(); SetSize(String,Int32); SetSize(Int32); SetSize(); SetSizePML(String,Double); SetSizePML(Double); SetSizePML(); GetSize(); GetSizePML(); SetCreationDate(String,MarDateTime); SetCreationDate(MarDateTime,MarDateTime); SetCreationDate(); SetCreationDatePML(String,MarDateTime); SetCreationDatePML(MarDateTime,MarDateTime); SetCreationDatePML(); GetCreationDate(); GetCreationDatePML(); Assign(MarObjectCriteria); Dispose()
+  MarPythonEngine  |  ctor()  |  RunPythonScript(String); Assign(MarPythonEngine); Dispose()
+  MarPythonObject  |  ctor()  |  CreatePythonObject(String); BeginInvoke(String); AddArgument(MarPythonObject); AddArgument(String); AddArgument(Double); AddArgument(Int32); InvokeMethod(String,MarPythonObject&); InvokeMethod(String,String&); InvokeMethod(String,Double&); InvokeMethod(String,Int32&); InvokeMethod(String); GetProperty(String,MarPythonObject&); GetProperty(String,String&); GetProperty(String,Double&); GetProperty(String,Int32&); SetProperty(String,MarPythonObject); SetProperty(String,String); SetProperty(String,Double); SetProperty(String,Int32); Dispose()
+  MarPythonObjectPML  |  ctor()  |  Assign(MarPythonObjectPML); CreatePythonObject(String); BeginInvoke(String); AddIntArgument(Double); AddDoubleArgument(Double); AddStringArgument(String); AddObjectArgument(MarPythonObjectPML); InvokeMethod(String); InvokeIntMethod(String); InvokeDoubleMethod(String); InvokeStringMethod(String); InvokeObjectMethod(String); GetIntProperty(String); GetDoubleProperty(String); GetStringProperty(String); GetObjectProperty(String); SetIntProperty(String,Double); SetDoubleProperty(String,Double); SetStringProperty(String,String); SetObjectProperty(String,MarPythonObjectPML); Dispose()
+  MarPythonUtil  |  ctor(Void*); ctor()  |  AppendPythonPath(String); Assign(MarPythonUtil); Dispose()
+  MarRunModeOptions  |  ctor(Void*); ctor()  |  Assign(MarRunModeOptions); Dispose()
+  MarStringlist  |  ctor(Void*); ctor(String); ctor()  |  AddString(String); Assign(MarStringlist); Dispose()
+  MarTbBaseException  |  ctor(Void*); ctor()  |  Dispose()
+  MarTime  |  ctor(Void*); ctor()  |  SetTime(MarTime); SetTime(Double,Double,Double,Double); SetTime(Int32,Int32,Int32,Int32); GetTime(Double&,Double&,Double&,Double&); GetTime(Int32&,Int32&,Int32&,Int32&); Assign(MarTime); Dispose()
+  MarUtil  |  ctor()  |  Assign(MarUtil); Success(); SuccessPML(); Failure(); FailurePML(); Yes(); YesPML(); No(); NoPML(); All(); AllPML(); Undo(); UndoPML(); Options(); OptionsPML(); Reject(); RejectPML(); OperationComplete(); OperationCompletePML(); ExitFunction(); ExitFunctionPML(); Ok(); OkPML(); Cancel(); CancelPML(); Quit(); QuitPML(); ULock(); ULockPML(); VLock(); VLockPML(); Unlock(); UnlockPML(); CoordToPos(Double,Double,Double&,Double&); CoordToPos(Int32,Double,Int32&,Double&); CoordToPos(Int32,Double); PosToCoord(Double,Double,Double&); PosToCoord(Int32,Int32,Double&); PosToCoord(Int32,Int32); AddCommand(String); SwitchApplication(String); ApplicationNumber(String); ApplicationNumberPML(String); TBEnvironmentGet(String); TBEnvironmentSet(String,String); TraCoordShip(MarPointPlanar,String,MarPoint); TraCoordShip(Double,Double,String); TraCoordPan(MarPointPlanar,String,MarPoint); TraCoordPan(Double,Double,String); AppBasicDesign(); AppCable(); AppCurvedHull(); AppDiagram(); AppDrafting(); AppPlanarHull(); AppNesting(); AppPipe(); AppVentilation(); AppStructure(); TriggerAbort(); TriggerAbortPML(); TriggerOk(); TriggerOkPML(); TriggerOverride(); TriggerOverridePML(); ExitProgram(); CleanWorkspace(); AppPlcm(); Dispose()
+  MarVitesseException  |  ctor(String,String,String); ctor(String); ctor()  |  Assign(MarVitesseException); ToString(); Dispose()
+  Misc  |  ctor()  |  Login(String,String,String,String,Boolean,Int32,String,Boolean,Boolean); Login(String,String,String,String,Boolean,Int32,String); Login(String,String,String,String,Boolean,Int32); Login(String,String,String,String,Boolean); Init(Int32); InitMessage(); Terminate(); SetCanvas(IntPtr,Int32,Int32,Int32); Redraw(IntPtr,IntPtr); GotFocus(IntPtr); SetMessageWindow(IntPtr); DoCommand(String); MouseDown(IntPtr,Int32,Int32,Int32,Int32); MouseMove(IntPtr,Int32,Int32,Int32,Int32); ToUtf8(String,basic_string<char\,std::char_traits<char>\,std::allocator<char> >*); IsAnsiOnly(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*); FromUtf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*); Dispose()
+  PythonDictionary  |  ctor(Void*); ctor()  |  FromDictionary(StringStringArrayDictionary); FromDictionary(IntStringArrayDictionary); FromDictionary(StringDoubleArrayDictionary); FromDictionary(StringIntDictionary); FromDictionary(StringStringDictionary); ToDictionary(StringStringArrayDictionary); ToDictionary(IntStringArrayDictionary); ToDictionary(StringDoubleArrayDictionary); ToDictionary(StringIntDictionary); ToDictionary(StringStringDictionary); Dispose()
+  PythonList  |  ctor(Void*); ctor()  |  FromArray(Int32[]); FromArray(String[,]); FromArray(String[]); FromArray(Double[,]); FromArray(Double[]); ToArray(Double[,]); ToArray(Int32[]); ToArray(String[]); ToArray(Double[]); Size(); Dispose()
+  PythonTuple  |  ctor(Void*); ctor()  |  ToArray(String[]); ToArray(Int32[,]); ToArray(Int32[]); ToArray(Double[,]); ToArray(Double[]); Size(); Dispose()
+  Tools  |  ctor()  |  CopyTo(String[,],vector<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >*); CopyTo(Int32[,],vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >*); CopyTo(Double[,],vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >*); CopyTo(vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >*,Int32[,]); CopyTo(vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >*,Double[,]); CopyTo(vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*,String[]); CopyTo(vector<int\,std::allocator<int> >*,Int32[]); CopyTo(vector<double\,std::allocator<double> >*,Double[]); CopyTo(String[],vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*); CopyTo(Int32[],vector<int\,std::allocator<int> >*); CopyTo(Double[],vector<double\,std::allocator<double> >*); ToVector(String[,],vector<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >*); ToVector(Double[,],vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >*); ToVector(String[],vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*); ToVector(Int32[],vector<int\,std::allocator<int> >*); ToVector(Double[],vector<double\,std::allocator<double> >*); ConvertFromPyObject(Void*,Int32*); GetKeysFromStringStringDictionary(StringStringDictionary); GetValuesFromStringStringDictionary(StringStringDictionary)
+## ns: Aveva.Marine.Utility.MarDictionaries (5 types)
+  IntStringArrayDictionary  |  ctor()  |  Add(Int32,String[]); Contains(Int32); Remove(Int32)
+  StringDoubleArrayDictionary  |  ctor()  |  Add(String,Double[]); Contains(String); Remove(String)
+  StringIntDictionary  |  ctor()  |  Add(String,Int32); Contains(String); Remove(String)
+  StringStringArrayDictionary  |  ctor()  |  Add(String,String[]); Contains(String); Remove(String)
+  StringStringDictionary  |  ctor()  |  GetItem(String); SetItem(String,String); Add(String,String); Contains(String); Remove(String); Assign(StringStringDictionary); KeysPML(); ValuesPML()
+## ns: Aveva.Marine.Vitesse (2 types)
+  MarContour2D  |  ctor(Void*); ctor(MarPoint2D); ctor()  |  AddLine(MarPoint2D); AddArc(MarPoint2D,Double); IsPoint(); SetPoint(MarPoint2D); IsClosed(); IsInside(MarPoint2D); Length(); Area(); Distance(MarPoint2D); IsPointOnContour(MarPoint2D); GetPointOnContour(MarPoint2D); Direction(); GetCenterPoint(MarPoint2D,MarPoint2D,Double); Dispose()
+  MarPoint2D  |  ctor(Void*); ctor(Double,Double); ctor()  |  DistanceToPoint(MarPoint2D); Move(Double,Double); Round(Int32); SetCoordinates(Double,Double); SetFromMidpoint(MarPoint2D,MarPoint2D); SetFromPoint(MarPoint2D); Dispose()
+## ns: Aveva.Marine.Welding (4 types)
+  MarWeld  |  ctor(Void*); ctor()  |  SetWeldName(Double,Double); SetWeldName(Int32,Int32); SetBevelCode(Double,Double); SetBevelCode(Int32,Double); GetBevelCode(Double); GetBevelCode(Int32); SetThickness(Double,Double); SetThickness(Int32,Double); GetThickness(Double); GetThickness(Int32); SetQuality(Double,String); SetQuality(Int32,String); GetQuality(Double); GetQuality(Int32); SetPoint(MarPoint); AddArc(MarPoint,MarVector); AddLine(MarPoint); GetNoSegments(); GetNoSegmentsPML(); Assign(MarWeld); Dispose()
+  MarWeldedJoint  |  ctor(Void*); ctor()  |  SetJointName(Double); SetJointName(Int32); SetAssemblyName(Double,String); SetAssemblyName(Int32,String); GetAssemblyName(Double); GetAssemblyName(Int32); SetPartName(Double,String); SetPartName(Int32,String); GetPartName(Double); GetPartName(Int32); SetExtendedPartName(Double,String); SetExtendedPartName(Int32,String); GetExtendedPartName(Double); GetExtendedPartName(Int32); SetPartType(Int32,Int32); GetPartType(Int32); SetPartTypePML(Double,Double); GetPartTypePML(Double); GetNumberWelds(); GetNumberWeldsPML(); SetWeld(Double,MarWeld); SetWeld(Int32,MarWeld); GetWeld(Double); GetWeld(Int32); AddWeld(MarWeld); Assign(MarWeldedJoint); Dispose()
+  MarWeldMod  |  ctor()  |  Assign(MarWeldMod); WeldCalculation(String,Double); WeldCalculation(String,Int32); WeldPropertiesGet(String,MarWeldTable); WeldPropertiesSet(String,MarWeldTable); WeldDelete(String); Dispose()
+  MarWeldTable  |  ctor(Void*); ctor()  |  SetWeldedJoint(Double,MarWeldedJoint); SetWeldedJoint(Int32,MarWeldedJoint); GetWeldedJoint(Double); GetWeldedJoint(Int32); GetNumberWeldedJoints(); GetNumberWeldedJointsPML(); AddWeldedJoint(MarWeldedJoint); Assign(MarWeldTable); Dispose()
+## ns: Define_the_symbol__ATL_MIXED (1 types)
+  [special] Thank_you
+## ns: Inconsistent_definition_of_symbol__ATL_MIXED (1 types)
+  [special] _Please_define_it_the_same_throughout_your_project
+## ns: MSXML2 (11 types)
+  [special] _SCHEMACONTENTTYPE
+  [special] _SCHEMADERIVATIONMETHOD
+  [special] _SCHEMAPROCESSCONTENTS
+  [special] _SCHEMATYPEVARIETY
+  [special] _SCHEMAUSE
+  [special] _SCHEMAWHITESPACE
+  [special] _SERVERXMLHTTP_OPTION
+  [special] _SOMITEMTYPE
+  [special] _SXH_PROXY_SETTING
+  [special] _SXH_SERVER_CERT_OPTION
+  [special] tagDOMNodeType
+## ns: std (195 types)
+  [special] _Aux_cont
+  [special] _Bxty
+  [special] _Bxty
+  [special] _Container_base
+  [special] _Container_base_aux
+  [special] _Container_base_aux_alloc_empty<std::allocator<double> >
+  [special] _Container_base_aux_alloc_empty<std::allocator<int> >
+  [special] _Container_base_aux_alloc_empty<std::allocator<mStiffenerData> >
+  [special] _Container_base_aux_alloc_empty<std::allocator<mStiffenerDimensions> >
+  [special] _Container_base_aux_alloc_empty<std::allocator<sSeamRecord> >
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::vector<double\,std::allocator<double> > > >
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::vector<int\,std::allocator<int> > > >
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >
+  [special] _Dummy_enum
+  [special] _Fac_node
+  [special] _Fmtflags
+  [special] _Fnarray
+  [special] _Iosarray
+  [special] _Iosb<int>
+  [special] _Iostate
+  [special] _Iterator_base_aux
+  [special] _Iterator_base_secure
+  [special] _Locimp
+  [special] _Locinfo
+  [special] _Mutex
+  [special] _Node
+  [special] _Nonscalar_ptr_iterator_tag
+  [special] _Openmode
+  [special] _Range_checked_iterator_tag
+  [special] _Ranit_base<char\,int\,char const \*\,char const \&\,std::_Iterator_base_secure>
+  [special] _Redbl
+  [special] _Scalar_ptr_iterator_tag
+  [special] _Secure_char_traits_tag
+  [special] _Seekdir
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Size_type_nosscl
+  [special] _Size_type_nosscl
+  [special] _String_const_iterator<char\,std::char_traits<char>\,std::allocator<char> >
+  [special] _String_iterator<char\,std::char_traits<char>\,std::allocator<char> >
+  [special] _String_val<char\,std::allocator<char> >
+  [special] _String_val<wchar_t\,std::allocator<wchar_t> >
+  [special] _Swap_move_tag
+  [special] _Timevec
+  [special] _Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0>
+  [special] _Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree_ptr<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree_val<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Undefined_move_tag
+  [special] _Uninitialized
+  [special] _Vector_const_iterator<double\,std::allocator<double> >
+  [special] _Vector_const_iterator<int\,std::allocator<int> >
+  [special] _Vector_const_iterator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] _Vector_const_iterator<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >
+  [special] _Vector_const_iterator<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >
+  [special] _Vector_const_iterator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >
+  [special] _Vector_iterator<double\,std::allocator<double> >
+  [special] _Vector_iterator<int\,std::allocator<int> >
+  [special] _Vector_iterator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] _Vector_iterator<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >
+  [special] _Vector_iterator<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >
+  [special] _Vector_iterator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >
+  [special] _Vector_val<double\,std::allocator<double> >
+  [special] _Vector_val<int\,std::allocator<int> >
+  [special] _Vector_val<mStiffenerData\,std::allocator<mStiffenerData> >
+  [special] _Vector_val<mStiffenerDimensions\,std::allocator<mStiffenerDimensions> >
+  [special] _Vector_val<sSeamRecord\,std::allocator<sSeamRecord> >
+  [special] _Vector_val<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] _Vector_val<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >
+  [special] _Vector_val<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >
+  [special] _Vector_val<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >
+  [special] allocator<char>
+  [special] allocator<double>
+  [special] allocator<int>
+  [special] allocator<mStiffenerData>
+  [special] allocator<mStiffenerDimensions>
+  [special] allocator<sSeamRecord>
+  [special] allocator<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node \*>
+  [special] allocator<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node>
+  [special] allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] allocator<std::vector<double\,std::allocator<double> > >
+  [special] allocator<std::vector<int\,std::allocator<int> > >
+  [special] allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] allocator<void>
+  [special] allocator<wchar_t>
+  [special] bad_alloc
+  [special] bad_cast
+  [special] bad_exception
+  [special] basic_ios<char\,std::char_traits<char> >
+  [special] basic_ios<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_ios<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_iostream<char\,std::char_traits<char> >
+  [special] basic_iostream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_istream<char\,std::char_traits<char> >
+  [special] basic_istream<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_istream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_ostream<char\,std::char_traits<char> >
+  [special] basic_ostream<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_ostream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_streambuf<char\,std::char_traits<char> >
+  [special] basic_streambuf<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_streambuf<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_string<char\,std::char_traits<char>\,std::allocator<char> >
+  [special] basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >
+  [special] char_traits<char>
+  [special] char_traits<unsigned short>
+  [special] char_traits<wchar_t>
+  [special] codecvt_base
+  [special] codecvt<char\,char\,int>
+  [special] codecvt<unsigned short\,char\,int>
+  [special] codecvt<wchar_t\,char\,int>
+  [special] const_iterator
+  [special] ctype_base
+  [special] ctype_byname<char>
+  [special] ctype<char>
+  [special] ctype<unsigned short>
+  [special] ctype<wchar_t>
+  [special] dateorder
+  [special] domain_error
+  [special] event
+  [special] exception
+  [special] facet
+  [special] failure
+  [special] fpos<int>
+  [special] id
+  [special] Init
+  [special] invalid_argument
+  [special] ios_base
+  [special] istreambuf_iterator<char\,std::char_traits<char> >
+  [special] istreambuf_iterator<wchar_t\,std::char_traits<wchar_t> >
+  [special] iterator
+  [special] length_error
+  [special] less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] locale
+  [special] logic_error
+  [special] map<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] messages_base
+  [special] money_base
+  [special] num_get<char\,std::istreambuf_iterator<char\,std::char_traits<char> > >
+  [special] num_get<wchar_t\,std::istreambuf_iterator<wchar_t\,std::char_traits<wchar_t> > >
+  [special] num_put<char\,std::ostreambuf_iterator<char\,std::char_traits<char> > >
+  [special] num_put<wchar_t\,std::ostreambuf_iterator<wchar_t\,std::char_traits<wchar_t> > >
+  [special] numpunct<char>
+  [special] numpunct<wchar_t>
+  [special] ostreambuf_iterator<char\,std::char_traits<char> >
+  [special] ostreambuf_iterator<wchar_t\,std::char_traits<wchar_t> >
+  [special] out_of_range
+  [special] overflow_error
+  [special] pair<std::_Tree<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::iterator\,bool>
+  [special] pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] pattern
+  [special] random_access_iterator_tag
+  [special] range_error
+  [special] rebind<char>
+  [special] rebind<char>
+  [special] rebind<double>
+  [special] rebind<int>
+  [special] rebind<mStiffenerData>
+  [special] rebind<mStiffenerDimensions>
+  [special] rebind<sSeamRecord>
+  [special] rebind<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node \*>
+  [special] rebind<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node>
+  [special] rebind<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] rebind<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] rebind<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] rebind<std::vector<double\,std::allocator<double> > >
+  [special] rebind<std::vector<int\,std::allocator<int> > >
+  [special] rebind<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] rebind<wchar_t>
+  [special] runtime_error
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] time_base
+  [special] underflow_error
+  [special] vector<double\,std::allocator<double> >
+  [special] vector<int\,std::allocator<int> >
+  [special] vector<mStiffenerData\,std::allocator<mStiffenerData> >
+  [special] vector<mStiffenerDimensions\,std::allocator<mStiffenerDimensions> >
+  [special] vector<sSeamRecord\,std::allocator<sSeamRecord> >
+  [special] vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] vector<std::vector<double\,std::allocator<double> >\,std::allocator<std::vector<double\,std::allocator<double> > > >
+  [special] vector<std::vector<int\,std::allocator<int> >\,std::allocator<std::vector<int\,std::allocator<int> > > >
+  [special] vector<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,std::allocator<std::vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > > >
+## ns: std.tr1 (16 types)
+  [special] _Nil
+  [special] _Ph<1>
+  [special] _Ph<10>
+  [special] _Ph<2>
+  [special] _Ph<3>
+  [special] _Ph<4>
+  [special] _Ph<5>
+  [special] _Ph<6>
+  [special] _Ph<7>
+  [special] _Ph<8>
+  [special] _Ph<9>
+  [special] _Ref_count_base
+  [special] bad_function_call
+  [special] bad_weak_ptr
+  [special] hash<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] hash<std::basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> > >
+## ns: vc_attributes (2 types)
+  [special] AccessType
+  [special] YesNoMaybe
+##### MarEnv.dll
+## ns:  (108 types)
+  [special] $_s__CatchableTypeArray$_extraBytes_12
+  [special] $_s__CatchableTypeArray$_extraBytes_8
+  [special] $_s__RTTIBaseClassArray$_extraBytes_12
+  [special] $_s__RTTIBaseClassArray$_extraBytes_16
+  [special] $_s__RTTIBaseClassArray$_extraBytes_4
+  [special] $_s__RTTIBaseClassArray$_extraBytes_8
+  [special] $_TypeDescriptor$_extraBytes_19
+  [special] $_TypeDescriptor$_extraBytes_20
+  [special] $_TypeDescriptor$_extraBytes_21
+  [special] $_TypeDescriptor$_extraBytes_22
+  [special] $_TypeDescriptor$_extraBytes_23
+  [special] $_TypeDescriptor$_extraBytes_24
+  [special] $_TypeDescriptor$_extraBytes_25
+  [special] $_TypeDescriptor$_extraBytes_26
+  [special] $_TypeDescriptor$_extraBytes_27
+  [special] $_TypeDescriptor$_extraBytes_30
+  [special] $_TypeDescriptor$_extraBytes_32
+  [special] $_TypeDescriptor$_extraBytes_46
+  [special] $_TypeDescriptor$_extraBytes_48
+  [special] $_TypeDescriptor$_extraBytes_50
+  [special] $_TypeDescriptor$_extraBytes_52
+  [special] $_TypeDescriptor$_extraBytes_54
+  [special] $UnnamedClass$0x88cc1e1d$301$
+  [special] $UnnamedClass$0x88cc1e1d$302$
+  [special] $UnnamedClass$0x88cc1e1d$303$
+  [special] $UnnamedClass$0x88cc1e1d$304$
+  [special] $UnnamedClass$0x88cc1e1d$309$
+  [special] $UnnamedClass$0x88cc1e1d$310$
+  [special] $UnnamedClass$0x88cc1e1d$311$
+  [special] __enative_startup_state
+  [special] _ACL_INFORMATION_CLASS
+  [special] _ACTIVATION_CONTEXT_INFO_CLASS
+  [special] _AUDIT_EVENT_TYPE
+  [special] _CM_ERROR_CONTROL_TYPE
+  [special] _CM_SERVICE_LOAD_TYPE
+  [special] _CM_SERVICE_NODE_TYPE
+  [special] _Collvec
+  [special] _COMPUTER_NAME_FORMAT
+  [special] _Ctypevec
+  [special] _Cvtvec
+  [special] _DEVICE_POWER_STATE
+  [special] _ENLISTMENT_INFORMATION_CLASS
+  [special] _EXCEPTION_DISPOSITION
+  [special] _EXCEPTION_POINTERS
+  [special] _FINDEX_INFO_LEVELS
+  [special] _FINDEX_SEARCH_OPS
+  [special] _GET_FILEEX_INFO_LEVELS
+  [special] _GUID
+  [special] _HEAP_INFORMATION_CLASS
+  [special] _iobuf
+  [special] _JOBOBJECTINFOCLASS
+  [special] _KTMOBJECT_TYPE
+  [special] _ldiv_t
+  [special] _LOGICAL_PROCESSOR_RELATIONSHIP
+  [special] _MANDATORY_LEVEL
+  [special] _MEMORY_RESOURCE_NOTIFICATION_TYPE
+  [special] _PROC_THREAD_ATTRIBUTE_NUM
+  [special] _PROCESSOR_CACHE_TYPE
+  [special] _PS_RATE_PHASE
+  [special] _RESOURCEMANAGER_INFORMATION_CLASS
+  [special] _s__CatchableType
+  [special] _s__RTTIBaseClassDescriptor2
+  [special] _s__RTTIClassHierarchyDescriptor
+  [special] _s__RTTICompleteObjectLocator
+  [special] _s__ThrowInfo
+  [special] _SC_ACTION_TYPE
+  [special] _SC_ENUM_TYPE
+  [special] _SC_STATUS_TYPE
+  [special] _SECURITY_ATTRIBUTES
+  [special] _SECURITY_IMPERSONATION_LEVEL
+  [special] _SID_NAME_USE
+  [special] _STREAM_INFO_LEVELS
+  [special] _SYSTEM_POWER_STATE
+  [special] _TAPE_DRIVE_PROBLEM_TYPE
+  [special] _TOKEN_ELEVATION_TYPE
+  [special] _TOKEN_INFORMATION_CLASS
+  [special] _TOKEN_TYPE
+  [special] _TP_CALLBACK_ENVIRON
+  [special] _TRANSACTION_INFORMATION_CLASS
+  [special] _TRANSACTION_OUTCOME
+  [special] _TRANSACTION_STATE
+  [special] _TRANSACTIONMANAGER_INFORMATION_CLASS
+  [special] <unnamed-type-s>
+  [special] <unnamed-type-u>
+  [special] EHExceptionRecord
+  [special] EHParameters
+  [special] gcroot<System::String ^>
+  [special] HDC__
+  [special] HINSTANCE__
+  [special] HWND__
+  [special] IMAGE_AUX_SYMBOL_TYPE
+  [special] IMPORT_OBJECT_NAME_TYPE
+  [special] IMPORT_OBJECT_TYPE
+  [special] lconv
+  [special] localeinfo_struct
+  [special] MarEnvAPI
+  [special] ReplacesCorHdrNumericDefines
+  [special] SYSGEOCLASS
+  [special] SYSGEOTYPE
+  [special] SYSNLS_FUNCTION
+  [special] tagACTCTXW
+  [special] tagMSG
+  [special] tagPROPVARIANT
+  [special] tagRECT
+  [special] tagTEXTMETRICA
+  [special] tagVARIANT
+  [special] tm
+  [special] type_info
+## ns: <CppImplementationDetails> (43 types)
+  [special] $ArrayType$$$BY00$$CBD
+  [special] $ArrayType$$$BY00Q6MPBXXZ
+  [special] $ArrayType$$$BY01$$CBD
+  [special] $ArrayType$$$BY01$$CBH
+  [special] $ArrayType$$$BY01Q6AXXZ
+  [special] $ArrayType$$$BY02$$CBD
+  [special] $ArrayType$$$BY02D
+  [special] $ArrayType$$$BY02Q6AXXZ
+  [special] $ArrayType$$$BY04$$CBD
+  [special] $ArrayType$$$BY04D
+  [special] $ArrayType$$$BY04Q6AXXZ
+  [special] $ArrayType$$$BY05$$CBD
+  [special] $ArrayType$$$BY05D
+  [special] $ArrayType$$$BY06Q6AXXZ
+  [special] $ArrayType$$$BY07D
+  [special] $ArrayType$$$BY08$$CB_W
+  [special] $ArrayType$$$BY08$$CBD
+  [special] $ArrayType$$$BY08Q6AXXZ
+  [special] $ArrayType$$$BY09Q6AXXZ
+  [special] $ArrayType$$$BY0A@P6AHXZ
+  [special] $ArrayType$$$BY0A@P6AXXZ
+  [special] $ArrayType$$$BY0BA@$$CBD
+  [special] $ArrayType$$$BY0BA@Q6AXXZ
+  [special] $ArrayType$$$BY0BC@$$CBD
+  [special] $ArrayType$$$BY0BE@$$CBD
+  [special] $ArrayType$$$BY0BF@$$CBD
+  [special] $ArrayType$$$BY0BG@$$CBD
+  [special] $ArrayType$$$BY0BH@$$CBD
+  [special] $ArrayType$$$BY0BI@$$CBD
+  [special] $ArrayType$$$BY0BJ@$$CBD
+  [special] $ArrayType$$$BY0BM@$$CBD
+  [special] $ArrayType$$$BY0CA@D
+  [special] $ArrayType$$$BY0DM@D
+  [special] $ArrayType$$$BY0EA@D
+  [special] $ArrayType$$$BY0FG@$$CBD
+  [special] $ArrayType$$$BY0GM@D
+  [special] $ArrayType$$$BY0IH@$$CBD
+  [special] $ArrayType$$$BY0M@Q6AXXZ
+  [special] $ArrayType$$$BY0N@$$CBD
+  [special] $ArrayType$$$BY0N@Q6AXXZ
+  [special] $ArrayType$$$BY0O@$$CBD
+  [special] $ArrayType$$$BY0P@$$CBD
+  [special] $ArrayType$$$BY0P@Q6AXXZ
+## ns: <CrtImplementationDetails> (10 types)
+  [special] ActivationContext
+  [special] AtExitLock
+  [special] DefaultDomain
+  [special] LanguageSupport
+  [special] NativeDll
+  [special] Progress
+  [special] State
+  [special] State
+  [special] ThisModule
+  [special] TriBool
+## ns: Aveva.Marine.Environment (1 types)
+  Projects  |  ctor()  |  ListProjects(); {dtor}()
+## ns: Aveva.Marine.Environment.ProjectDefinition (1 types)
+  ProjectDefinition  |  ctor()  |  GetVariables(String); LocateMARDirectory(String); LocateD065file(String,String); LocateD065file(String); LocateD065fileInPath(String); RenameD065File(String,String); {dtor}()
+## ns: Aveva.Marine.Environment.Runtime (1 types)
+  EnvVars  |    |  SetReadPerformanceOption(); Instance(); Release(); Init(String); Reload(); Get(String,String&); Set(String,String); RemoveAll(); Remove(String); UnSet(String); Store(); GetProjectVariables(); GetUserVariables(); GetSystemVariables(); GetAll(); GetType(String,String&)
+## ns: std (130 types)
+  [special] _Aux_cont
+  [special] _Bxty
+  [special] _Bxty
+  [special] _Container_base
+  [special] _Container_base_aux
+  [special] _Container_base_aux_alloc_empty<std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] _Dummy_enum
+  [special] _Fac_node
+  [special] _Fmtflags
+  [special] _Fnarray
+  [special] _Iosarray
+  [special] _Iosb<int>
+  [special] _Iostate
+  [special] _Iterator_base_aux
+  [special] _Iterator_base_secure
+  [special] _Locimp
+  [special] _Locinfo
+  [special] _Mutex
+  [special] _Node
+  [special] _Openmode
+  [special] _Range_checked_iterator_tag
+  [special] _Secure_char_traits_tag
+  [special] _Seekdir
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Sentry_base
+  [special] _Size_type_nosscl
+  [special] _Size_type_nosscl
+  [special] _String_val<char\,std::allocator<char> >
+  [special] _String_val<wchar_t\,std::allocator<wchar_t> >
+  [special] _Timevec
+  [special] _Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0>
+  [special] _Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree_ptr<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree_val<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Tree<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >
+  [special] _Uninitialized
+  [special] allocator<char>
+  [special] allocator<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node \*>
+  [special] allocator<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node>
+  [special] allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] allocator<void>
+  [special] allocator<wchar_t>
+  [special] bad_alloc
+  [special] bad_cast
+  [special] bad_exception
+  [special] basic_ios<char\,std::char_traits<char> >
+  [special] basic_ios<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_ios<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_iostream<char\,std::char_traits<char> >
+  [special] basic_iostream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_istream<char\,std::char_traits<char> >
+  [special] basic_istream<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_istream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_ostream<char\,std::char_traits<char> >
+  [special] basic_ostream<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_ostream<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_streambuf<char\,std::char_traits<char> >
+  [special] basic_streambuf<unsigned short\,std::char_traits<unsigned short> >
+  [special] basic_streambuf<wchar_t\,std::char_traits<wchar_t> >
+  [special] basic_string<char\,std::char_traits<char>\,std::allocator<char> >
+  [special] basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >
+  [special] char_traits<char>
+  [special] char_traits<unsigned short>
+  [special] char_traits<wchar_t>
+  [special] codecvt_base
+  [special] codecvt<char\,char\,int>
+  [special] codecvt<unsigned short\,char\,int>
+  [special] codecvt<wchar_t\,char\,int>
+  [special] const_iterator
+  [special] ctype_base
+  [special] ctype_byname<char>
+  [special] ctype<char>
+  [special] ctype<unsigned short>
+  [special] ctype<wchar_t>
+  [special] dateorder
+  [special] domain_error
+  [special] event
+  [special] exception
+  [special] facet
+  [special] failure
+  [special] fpos<int>
+  [special] id
+  [special] Init
+  [special] invalid_argument
+  [special] ios_base
+  [special] istreambuf_iterator<char\,std::char_traits<char> >
+  [special] istreambuf_iterator<wchar_t\,std::char_traits<wchar_t> >
+  [special] iterator
+  [special] length_error
+  [special] less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] locale
+  [special] logic_error
+  [special] map<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > > >
+  [special] messages_base
+  [special] money_base
+  [special] num_get<char\,std::istreambuf_iterator<char\,std::char_traits<char> > >
+  [special] num_get<wchar_t\,std::istreambuf_iterator<wchar_t\,std::char_traits<wchar_t> > >
+  [special] num_put<char\,std::ostreambuf_iterator<char\,std::char_traits<char> > >
+  [special] num_put<wchar_t\,std::ostreambuf_iterator<wchar_t\,std::char_traits<wchar_t> > >
+  [special] numpunct<char>
+  [special] numpunct<wchar_t>
+  [special] ostreambuf_iterator<char\,std::char_traits<char> >
+  [special] ostreambuf_iterator<wchar_t\,std::char_traits<wchar_t> >
+  [special] out_of_range
+  [special] overflow_error
+  [special] pair<std::_Tree<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::iterator\,bool>
+  [special] pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] pattern
+  [special] random_access_iterator_tag
+  [special] range_error
+  [special] rebind<char>
+  [special] rebind<char>
+  [special] rebind<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node \*>
+  [special] rebind<std::_Tree_nod<std::_Tmap_traits<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::less<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >\,std::allocator<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >\,0> >::_Node>
+  [special] rebind<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] rebind<std::pair<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > const \,std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >
+  [special] rebind<wchar_t>
+  [special] runtime_error
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] sentry
+  [special] time_base
+  [special] underflow_error
+## ns: std.tr1 (16 types)
+  [special] _Nil
+  [special] _Ph<1>
+  [special] _Ph<10>
+  [special] _Ph<2>
+  [special] _Ph<3>
+  [special] _Ph<4>
+  [special] _Ph<5>
+  [special] _Ph<6>
+  [special] _Ph<7>
+  [special] _Ph<8>
+  [special] _Ph<9>
+  [special] _Ref_count_base
+  [special] bad_function_call
+  [special] bad_weak_ptr
+  [special] hash<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > >
+  [special] hash<std::basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> > >
+## ns: vc_attributes (2 types)
+  [special] AccessType
+  [special] YesNoMaybe
+##### Aveva.Marine.Assemblyplanning.Utilities.dll
+## ns:  (1 types)
+  AssemblyVersion  |  ctor()  |  
+## ns: Aveva.Marine.AssemblyPlanning.Utilities (1 types)
+  AssemblySelection  |  ctor(); ctor(String)  |  Equals(Object); Assign(AssemblySelection); Add(DbElement[],DbElement[]); Changed(DbElement[],DbElement[]); RaiseEvent(); Assemblies(); Parts(); Remove(); AssemblySelections()
+##### EvaluateMarineDrawingTypes.dll
+## ns:  (1 types)
+  AssemblyVersion  |  ctor()  |  
+## ns: EvaluateMarineDrawingTypes (1 types)
+  GetMarDrawingTypes  |  ctor()  |  Assign(GetMarDrawingTypes); Evaluate()

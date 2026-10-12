@@ -1,0 +1,243 @@
+------------------------------------------------------------------------
+--
+-- File:            mypicker.pmlfrm
+--   Type:          Form Definition
+--   Module:        myco
+--   Author:        myco
+--   Created:       2026-09-26
+-- Description:     Interactive 3D element picker with highlight toggle,
+--                  collected list, batch attribute check, and export.
+--                  Demonstrates: EDGPACKET + APPMENU entry + list gadget
+--                  + highlight + progress + batch write + undo.
+------------------------------------------------------------------------
+-- Methods defined:
+--  Method call                      Return   Description
+--  ===========                      ======   ===========
+--  .mypicker()                      -        constructor
+--  .startPick()                     -        start EDG pick event
+--  .onPick(!pickData)               -        EDG action callback per pick
+--  .removePick()                    -        remove EDG event + clear highlights
+--  .checkAll()                      -        batch attribute check on collected
+--  .export()                        -        export list to Excel
+--  .onShow()                        -        initcall handler
+------------------------------------------------------------------------
+
+import 'GridControl'
+  handle (1000,0)
+  endhandle
+
+setup form !!mypicker dialog resizeable VarChars NoAlign
+  title 'My Interactive Picker'
+  !this.formRevision = '1.0'
+
+  member .elems     is ARRAY
+  member .grid      is NETGRIDCONTROL
+  member .picking   is BOOLEAN
+
+  path down
+  frame .fmeBtns 'Pick'
+    path right
+    button .btnStart  'Start Pick'  callback '!this.startPick()'  tooltip 'Start picking in 3D view'
+    button .btnStop   'Done'        callback '!this.removePick()' tooltip 'Stop picking, keep list'
+    button .btnClear  'Clear All'   callback '!this.clearAll()'   tooltip 'Clear list and highlights'
+  exit
+  frame .fmeAct 'Check'
+    path right
+    button .btnCheck  'Check All'   callback '!this.checkAll()'   tooltip 'Verify bore consistency'
+    button .btnXls    'Export...'   callback '!this.export()'     tooltip 'Save to Excel'
+  exit
+  container .netFrame 'Results' nobox pmlNetControl width 60 height 14 anchor all
+exit
+
+------------------------------------------------------------------------
+--
+-- Method:      .mypicker()
+-- Description: Constructor. Set up undoable + init call.
+--
+------------------------------------------------------------------------
+define method .mypicker()
+  !this.initcall = '!this.onShow()'
+  !this.cancelCall = '!this.removePick()'
+  !this.picking = FALSE
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .onShow()
+-- Description: initcall - build grid control, bind empty datasource.
+--
+------------------------------------------------------------------------
+define method .onShow()
+  !this.grid = object NETGRIDCONTROL()
+  !this.netFrame.control = !this.grid.handle()
+  !heads = ARRAY()
+  !heads[1] = 'Name'
+  !heads[2] = 'Bore'
+  !heads[3] = 'Connected'
+  !ds = object NETDATASOURCE('MyPicker', !heads, ARRAY())
+  handle (1000,0)
+    !!alert.error(!!error.text)
+  endhandle
+  !this.grid.bindToDataSource(!ds)
+  !this.grid.setNameColumnImage()
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .startPick()
+-- Description: Create EDG packet for continuous element picking.
+--              remove=FALSE means event stays active until .remove.
+--
+------------------------------------------------------------------------
+define method .startPick()
+  !this.removePick()
+  !packet = object EDGPACKET()
+  !packet.description  = 'MyCo Element Picker'
+  !packet.elementPick('Pick equipment <esc> to finish')
+  !packet.action = '!!mypicker.onPickEDG(!this.return[1])'
+  !packet.close  = '!!mypicker.picksDone()'
+  !!edgCntrl.add(!packet)
+  handle (1000,0)
+    !!alert.error('Failed to start pick: ' & !!error.text)
+  endhandle
+  !this.picking = TRUE
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .onPickEDG(!pd is EDGPICKDATA)
+-- Description: Called by EDG system for each pick.
+--              Toggle highlight, add/remove from .elems array.
+--
+------------------------------------------------------------------------
+define method .onPickEDG(!pd is ANY)
+  !elem = !pd.item
+  -- walk up to EQUI if a lower-level element was picked
+  do
+    if (!elem.type.eq(|EQUI|) or !elem.type.eq(|WORL|)) then
+      break
+    else
+      !elem = !elem.owner
+    endif
+  enddo
+  if (!elem.type.neq(|EQUI|)) then
+    return
+  endif
+  -- toggle: add if new, remove if already present
+  !idx = !this.elems.findfirst(!elem)
+  if (!idx.unset()) then
+    !this.elems.append(!elem)
+    !!gphDrawlists.drawlists[1].highlight(!elem, 314)
+  else
+    !this.elems.remove(!idx)
+    !!gphDrawlists.drawlists[1].unhighlight(!elem)
+  endif
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .picksDone()
+-- Description: EDG close callback - called when event is removed.
+--
+------------------------------------------------------------------------
+define method .picksDone()
+  !this.picking = FALSE
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .removePick()
+-- Description: Remove EDG event and unhighlight all collected elements.
+--
+------------------------------------------------------------------------
+define method .removePick()
+  !!edgCntrl.remove('MyCo Element Picker')
+  do !e values !this.elems
+    !!gphDrawlists.drawlists[1].unhighlight(!e)
+  enddo
+  !this.elems.clear()
+  !this.picking = FALSE
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .clearAll()
+-- Description: Full reset - remove event, unhighlight, clear list + grid.
+--
+------------------------------------------------------------------------
+define method .clearAll()
+  !this.removePick()
+  !this.elems.clear()
+  !this.grid.clearGrid()
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .checkAll()
+-- Description: Batch check bore consistency on collected EQUIs.
+--              Uses template 3 pattern: MARKDB + progress + per-item handle.
+--
+------------------------------------------------------------------------
+define method .checkAll()
+  if (!this.elems.size() eq 0) then
+    !!alert.warning('No elements collected.')
+    return
+  endif
+  !!FMSYS.setInterrupt(!!fmstop.stopButton)
+  !increment = 100 / !this.elems.size()
+  !badCount = 0
+  do !i index !this.elems
+    !!FMSYS.setProgress(!i * !increment)
+    !elem = !this.elems[!i]
+    handle (2,109)
+      !badCount = !badCount + 1
+      skip
+    elsehandle NONE
+      -- check bore attribute exists and is non-zero
+      !bore = !elem.hbore
+      handle (2,201)
+        !badCount = !badCount + 1
+        skip
+      elsehandle NONE
+        if (!bore.unset() or !bore.eq(0)) then
+          !badCount = !badCount + 1
+        endif
+      endhandle
+    endhandle
+  enddo
+  !!FMSYS.setProgress(0)
+  if (!badCount eq 0) then
+    !!alert.message('All ' & !this.elems.size().string() & ' elements OK.')
+  else
+    !!alert.warning(!badCount.string() & ' of ' & !this.elems.size().string() & ' elements have issues.')
+  endif
+endmethod
+
+------------------------------------------------------------------------
+--
+-- Method:      .export()
+-- Description: Export collected elements to Excel via public function.
+--
+------------------------------------------------------------------------
+define method .export()
+  if (!this.elems.size() eq 0) then
+    !!alert.warning('Nothing to export.')
+    return
+  endif
+  -- rebuild grid data from elems
+  !heads = ARRAY()
+  !heads[1] = 'Name'
+  !heads[2] = 'Bore'
+  !rows = ARRAY()
+  do !i index !this.elems
+    !row = ARRAY()
+    !row[1] = !this.elems[!i].flnn
+    !row[2] = !this.elems[!i].hbore.string()
+    !rows.append(!row)
+  enddo
+  !ds = object NETDATASOURCE('MyPicker Export', !heads, !rows)
+  !this.grid.bindToDataSource(!ds)
+  !!exportToExcel(!this.grid, ||, |Save Element List|)
+endmethod
+
+-- End of form definition for !!mypicker

@@ -1,0 +1,80 @@
+------------------------------------------------------------------------
+--
+-- File:            mybatchdraw.pmlfnc
+--   Type:          Function Definition
+--   Module:        myco
+--   Author:        myco
+--   Created:       2026-09-26
+-- Description:     Batch create/open Marine Drafting sheets, add symbolic
+--                  view, draw frame, save, export DXF (template 4)
+------------------------------------------------------------------------
+-- Methods defined:
+--  Method call                      Return   Description
+--  ===========                      ======   ===========
+--  !!myBatchDraw(ARRAY,STRING)      ARRAY    batch draw, returns failed names
+------------------------------------------------------------------------
+
+import 'marAPI'
+  handle (1000,0)
+    -- already imported
+  endhandle
+
+using namespace 'AVEVA.Marine.Drafting'
+using namespace 'AVEVA.Marine.Geometry'
+
+define function !!myBatchDraw(!sheetNames is ARRAY, !outDir is STRING) is ARRAY
+
+  !failed = ARRAY()
+  if (!sheetNames.size() eq 0) then
+    !!alert.warning('No sheets to process.')
+    return !failed
+  endif
+
+  !drafting = object MARDRAFTING()
+  !total = !sheetNames.size()
+  !!FMSYS.setInterrupt(!!fmstop.stopButton)
+
+  do !i index !sheetNames
+    !!FMSYS.setProgress((!i - 1) * (100 / !total))
+    !name = !sheetNames[!i]
+
+    -- close previous drawing if open
+    if (!drafting.dwgCurrent()) then
+      if (!drafting.dwgIsModified()) then
+        !drafting.dwgSave()
+        handle (1000,0) endhandle
+      endif
+      !drafting.dwgClose()
+    endif
+
+    -- open or create
+    if (!drafting.dwgExist(!name)) then
+      !drafting.dwgActivate(!name)
+    else
+      !drafting.dwgNew(!name, 'MyBatch')
+      handle (1000,0)
+        !failed.append(!name & ' (create failed)')
+        skip
+      elsehandle NONE
+      endhandle
+    endif
+
+    -- symbolic view
+    !symbDef = object MARSYMBOLICVIEW()
+    !hView = !drafting.viewSymbolicNew(!symbDef)
+    handle (1000,0)
+      !failed.append(!name & ' (view failed)')
+      skip
+    elsehandle NONE
+      !drafting.viewScale(!hView, 0.5)
+    endhandle
+
+    -- export DXF
+    !drafting.dwgSave()
+    !drafting.dwgDxfExport(!outDir & '\' & !name & '.dxf')
+  enddo
+  !!FMSYS.setProgress(0)
+  return !failed
+
+endfunction
+-- End of function !!myBatchDraw

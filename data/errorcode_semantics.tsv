@@ -1,0 +1,331 @@
+code	blocks	distinct_msgs	top_messages	example
+(2,109)	803	35	Support Datum does not exist(x137) || Cannot find templates for this configuration. Please contact your PDMS administrator(x107) || Hanger(x52) || The symbolic template(x15)	aba\Forms\abanewdrwgs.pmlfrm:613 Cannot find ABA area LIBY $!gadget - Check ABA defaults file
+(61,528)	505	4	SCTN not identified. The Anchor-Stop has been created to suit the current insulation thick(x1) || SCTN or BOX not identified. The Anchor-Stop has been created to suit the default DESPARS(x1) || SCTN not identified. The Stop has been created to suit the default DESPARS(x1) || SCTN not identified. The Strap has been created to suit the default DESPARS(x1)	mds\design\objects\MdsFrameAncills.pmlobj:2105 SCTN not identified. The Anchor-Stop has been created to suit the current insulation thick
+(2,752)	421	8	Unable to locate the broken hole association member. Unable to fix the hole association(x2) || Unable to locate the broken association member. Unable to fix the association(x1) || Invalid parameter: PARAM[(x1) || Invalid parameter: DESPAR[(x1)	design\forms\holemanmain.pmlfrm:4100 Unable to locate the broken association member. Unable to fix the association
+(7,3)	272	2	Component has incompatible connection types - Assembly Creation Aborted(x4) || Cannot connect component. Do you want to force connect?(x1)	design\objects\hvacassembly.pmlobj:1394 Component has incompatible connection types - Assembly Creation Aborted
+(61,567)	264	2	|Cannot create extracts from selected database | & !adminDbRef.name.substring(3) )(x1) || Unable to modify this support. It is not a general ancillary(x1)	admin\forms\admextract.pmlfrm:674 |Cannot create extracts from selected database | & !adminDbRef.name.substring(3) )
+(2,113)	180	6	Material is deleted. Can not do dressing.(x2) || The overlay does not contain a VIEW. Please create one and try again.(x1) || Could not split panel(x1) || ERROR: Maximum height allowed is(x1)	aba\Forms\ababuildkeyplan.pmlfrm:135 The overlay does not contain a VIEW. Please create one and try again.
+(41,66)	162	0		
+(2,201)	155	5	Ref element does not have a position.(x2) || Error looking up the %TTFENA attribute!(x1) || Current element(x1) || !error)(x1)	admin\objects\admfontmanager.pmlobj:684 Error looking up the %TTFENA attribute!
+(41,12)	116	12	!error)(x4) || An element of this name already exists. Please rename and try again.(x2) || |This Acr Group already exists!|)(x2) || !!messageFile.messageString(141, 103,  !this.name.val))(x2)	aba\Forms\abaarea.pmlfrm:525 An element of this name already exists. Please rename and try again.
+(1000,0)	116	9	The system failed in attempting to write to an open file. Please close MS Excel and try ag(x4) || Could not write file:(x4) || Unable to write to file.  File is in use.(x3) || !!error.text)(x2)	assembly\forms\assypartslist.pmlfrm:260 The system failed in attempting to write to an open file. Please close MS Excel and try ag
+(2,751)	109	3	Cabling System Application not loaded. Please load Cabling System Application(x3) || !!error.text)(x1) || Form(x1)	common\objects\comsysopt.pmlobj:677 !!error.text)
+(2,107)	101	9	|Recent element no longer available|)(x2) || Tag rule(x1) || |This element cannot be found. It may have been deleted - the list will be updated|)(x1) || One or more associations are no longer valid(x1)	aba\Forms\abatagging.pmlfrm:420 Tag rule
+(2,754)	92	8	Unable to find the connecting reference for the hanger, aborting modification(x9) || SUPF data element does not exist in /MDS/PRELIMINARY/DEFAULTS. Please upgrade Aveva DB.(x3) || Current element(x1) || Ok to change Key element from(x1)	design\forms\desdragmove.pmlfrm:464 Current element
+(2,822)	91	10	Nothing to delete(x3) || 3D Model Reference unset(x3) || Previous current element has been deleted - check hierarchy(x2) || Element(x1)	asl\objects\dbeaslstrflt.pmlobj:3020 Element
+(2,111)	82	21	You need to be positioned at a DRWG, SHEE or VIEW to Update Changes!(x2) || Navigate to required drwg(x2) || Must be at OVER or below to build the keyplan(x1) || No Views Available for Modification(x1)	aba\Forms\ababuildkeyplan.pmlfrm:130 Must be at OVER or below to build the keyplan
+(47,15)	77	18	|Value entered is not valid for this attribute|)(x4) || Something wrong with(x2) || |Invalid expression:(x2) || |Cannot set Rule - Please modify and try again|)(x1)	aba\Forms\abatagrules.pmlfrm:246 |Cannot set Rule - Please modify and try again|)
+(2,252)	74	0		
+(2,441)	67	8	Cannot convert string to REAL(x6) || |Both X and Y offsets should be numerical or both set to(x3) || Field Accepts only real value(x2) || |Number required|)(x2)	asl\forms\aslstrtwr.pmlfrm:3904 Field Accepts only real value
+(2,779)	67	2	Please check the tray open direction. Branch cannot be drawn correctly(x3) || Unable to search answers as there seems to be a problem with the specification for this co(x1)	design\forms\cblCway.pmlfrm:1185 Please check the tray open direction. Branch cannot be drawn correctly
+(2,759)	63	6	Menus Structure needed for(x2) || Branch tail is connected. Do not create another point after(x1) || !!error.text +(x1) || Cannot Find Category(x1)	design\forms\cblCable.pmlfrm:2815 Branch tail is connected. Do not create another point after
+(42,64)	60	3	Unable to select guide(x2) || Unable to select hstu for(x1) || Unable to select tubing from the Pipe Specification(x1)	design\objects\branchconnection.pmlobj:372 Unable to select hstu for
+(2,813)	52	7	No default tag Library defined - Edit defaults and try Again(x1) || Entered value is not a valid direction. Setting it to default direction.(x1) || Enter a Valid Direction. Switching back to Last Updated(x1) || Passed Line is a Vertical line(x1)	aba\Forms\abatagging.pmlfrm:93 No default tag Library defined - Edit defaults and try Again
+(61,620)	41	3	|This is a single selection operation only|)(x1) || Selected component must have 3D geometry!(x1) || Atta is a MDS Support(x1)	admin\objects\admstamp.pmlobj:1308 |This is a single selection operation only|)
+(61,7)	40	1	Unable to orientate Elbow in required direction(x4)	mds\design\functions\Mdstrundirtt36.pmlfnc:116 Unable to orientate Elbow in required direction
+(47,62)	37	11	|Invalid geometry set reference!|)(x4) || |Invalid negative geometry set reference!|)(x3) || |Scope selection field is incomplete|)(x2) || Invalid generic type(x2)	admin\forms\admscope.pmlfrm:407 |Scope selection field is incomplete|)
+(2,207)	36	4	Selected component does not have the property cDia - Component invalid(x1) || Selected component does not have the property cHei - Component invalid(x1) || Selected component does not have the property fLen - Component invalid(x1) || Property Code DIAM not found in dataset of the selected Jacket Leg - SCTN(x1)	design\objects\pipestubinconnection.pmlobj:769 Selected component does not have the property cDia - Component invalid
+(41,319)	30	11	Access Denied. Check write access to(x4) || |Unable to open an existing configuration file or create a new one|)(x2) || Directory(x2) || Invalid Batch Directory - Please Reinput(x1)	aba\Forms\ababatchmode.pmlfrm:436 Invalid Batch Directory - Please Reinput
+(73,214)	29	0		
+(2,766)	26	5	GADACTCNTRL.process(): Unknown or incompatible gadget -(x1) || GADACTCNTRL.process(): Unknown toggle gadget -(x1) || GADACTCNTRL.process(): Unknown or incompatible toggle gadget -(x1) || Cannot derive weld positions from current data - Please Define Start and End(x1)	common\objects\gadactcntrl.pmlobj:100 GADACTCNTRL.process(): Unknown or incompatible gadget -
+(64,314)	26	0		
+(2,18)	25	7	Element(x2) || Identified element is locked(x2) || Unable to modify atta as it is locked(x1) || ** Warning **(x1)	design\forms\cblCable.pmlfrm:2189 Element
+(2,785)	24	1	Invalid profile(x1)	design\forms\stlcreatepanelusingsctn.pmlfrm:243 Invalid profile
+(99,532)	24	1	|UDA definition :HXYsize not found|)(x1)	integrator\objects\IntegratorHvac.pmlobj:1339 |UDA definition :HXYsize not found|)
+(1,500)	22	3	!message)(x3) || !!messageFile.messageString(141, 709,(x2) || !!messageFile.messageString(141, 704, !!error.text.after((x1)	global\forms\glbrmtexpunge.pmlfrm:418 !!messageFile.messageString(141, 704, !!error.text.after(
+(2,765)	21	1	Unable to find edit method for(x2)	accommodation\forms\accflrcoverdefinition.pmlfrm:3689 Unable to find edit method for
+(64,313)	21	0		
+(2,796)	20	0		
+(41,8)	19	7	!!error.text)(x7) || Cannot create a VIEW at this level.(x1) || |Cannot create nozzle at this level| )(x1) || cannot create sub volume model at current position in hierarchy(x1)	aba\Forms\abauserview.pmlfrm:1040 Cannot create a VIEW at this level.
+(2,870)	18	5	Pick another line, last pick was parallel to first line(x2) || Unable to connect wall ends, walls are parallel.(x1) || These ends cannot make a fillet!!(x1) || Fillet cannot act on parallel sections!!(x1)	common\objects\edgpicktype.pmlobj:909 Pick another line, last pick was parallel to first line
+(2,756)	18	0		
+(2,204)	17	1	Element does not contain Support attributes(x2)	psi\design\forms\PSIEditSupportData.pmlfrm:156 Element does not contain Support attributes
+(41,322)	16	2	Unable to continue as the file(x13) || The FILE(x1)	mds\design\forms\Mdsautoname.pmlfrm:460 The FILE
+(1,29)	16	0		
+(41,6)	16	0		
+(2,891)	15	0		
+(41,52)	15	2	No other spring types(x4) || Unable to choose other spring types for size:(x1)	mds\design\forms\Mdsmodfh.pmlfrm:980 Unable to choose other spring types for size:
+(41,232)	14	3	The database is not of the correct version in which to create the libraries - See your Sys(x1) || Unable to modify the material of(x1) || No COCO Selected, reselect COCO Association required(x1)	aba\Forms\abacrhierarchy.pmlfrm:134 The database is not of the correct version in which to create the libraries - See your Sys
+(2,202)	14	3	Cannot find Representation Style - (RRSF)(x1) || Cannot populate route list, Please check your data for any invalid references(x1) || !!error.text)(x1)	aba\Forms\abauserview.pmlfrm:2007 Cannot find Representation Style - (RRSF)
+(2,605)	14	2	!!error.text)(x10) || Cannot create welds if owning branch has not been CLAIMed.(x2)	mds\design\functions\Mdssetdattt36.pmlfnc:280 !!error.text)
+(43,383)	13	1	!!error.text)(x10)	mds\design\functions\Mdssetdattt36.pmlfnc:280 !!error.text)
+(2,812)	12	5	Design parameter number $!numb is not a valid distance(x2) || Design parameter number $!numb is not a valid angle(x2) || Design parameter number $!numb is not a number(x2) || Design parameter number $!numb is not a valid temperature(x1)	mds\paragon\forms\mdsstdsancil.pmlfrm:1874 Design parameter number $!numb is not a valid distance
+(2,357)	12	2	Unable to determine the direction. Please reposition the datum atta and try again(x2) || Selected Atta is sitting directly on the associated cross bar. Do you want to continue?(x1)	mds\design\functions\Mdscrft25.pmlfnc:247 Selected Atta is sitting directly on the associated cross bar. Do you want to continue?
+(2,805)	11	0		
+(1,3)	11	0		
+(61,274)	11	0		
+(64,382)	11	0		
+(2,795)	10	0		
+(1,4)	10	4	!!messageFile.messageString(141,175, !dbName))(x1) || !!messageFile.messageString(141, 153, !dbName))(x1) || ERROR: db MDS/MDSAPPDEFAULTS -- Unable to continue the MDB Upgrade --(x1) || ERROR: db MASTER/MDSDICT -- Unable to continue the MDB Upgrade --(x1)	admin\forms\admdb.pmlfrm:598 !!messageFile.messageString(141,175, !dbName))
+(61,251)	10	2	|Cannot access plotfile for reading?|)(x5) || Sorry - No plot for(x2)	mds\design\functions\Mdsaddancill.pmlfnc:88 |Cannot access plotfile for reading?|)
+(41,69)	10	1	Support structure has not been created(x2)	mds\design\functions\Mdsfieldweld.pmlfnc:54 Support structure has not been created
+(06,003)	9	0		
+(1,5)	9	0		
+(61,566)	9	0		
+(2,500)	9	3	!!error.text)(x7) || !dataPType &(x1) || Template not deleted -(x1)	common\objects\compropdata.pmlobj:1033 !dataPType &
+(2,614)	9	4	!!error.text)(x2) || !!Error.text)(x2) || Unable to select flat lugs (styp LS(x1) || Unable to select flat lugs (styp LUF) another user has the branch claimed(x1)	mds\design\functions\Mdsiancill.pmlfnc:70 !!error.text)
+(160,46)	9	1	the current mdsHangerMacros environment variable is not set to a valid directory for stori(x1)	mds\design\forms\mdsInterfaceManageMacros.pmlfrm:91 the current mdsHangerMacros environment variable is not set to a valid directory for stori
+(41,325)	9	1	Error in reading line(x1)	mds\design\functions\Mdsreadpars.pmlfnc:116 Error in reading line
+(2,873)	8	0		
+(44,33)	8	4	Data file(x2) || !!error.text)(x1) || Cannot file file(x1) || No file to load(x1)	common\forms\rptoutputopts.pmlfrm:307 !!error.text)
+(64,353)	8	0		
+(2,604)	8	2	!!error.text )(x6) || !!error.text)(x1)	common\forms\lstclaim.pmlfrm:1154 !!error.text )
+(2,794)	8	2	Unable to modify the material of(x6) || Item is not a spec(x1)	common\forms\systemHierarchy.pmlfrm:431 Item is not a spec
+(2,830)	8	2	The picked penetrated object does not intersect with the virtual hole. Unable to fix the p(x1) || The picked penetrated object does not intersect with the virtual hole. Unable to add to th(x1)	design\forms\holemanmain.pmlfrm:4056 The picked penetrated object does not intersect with the virtual hole. Unable to fix the p
+(61,154)	8	1	!!error.text +(x8)	design\objects\desmovecommand.pmlobj:759 !!error.text +
+(64,12)	8	0		
+(61,93)	8	0		
+(61,618)	8	0		
+(160,9)	7	2	The specified defaults file does not exist(x2) || Loading error! The defaults file DRA-ISO-SEARCH does not exist. Please contact your System(x1)	aba\Forms\abadefaults.pmlfrm:505 The specified defaults file does not exist
+(61,115)	7	1	File $!filename exists. Use OVERWRITE mode to force write.(x5)	mds\design\functions\Mdsadp.pmlfnc:182 File $!filename exists. Use OVERWRITE mode to force write.
+(61,113)	7	0		
+(2,761)	7	0		
+(2,121)	7	0		
+(42,94)	7	1	Unable to select hstu for(x1)	design\objects\branchconnection.pmlobj:441 Unable to select hstu for
+(61,122)	7	0		
+(42,501)	7	2	Can not select a support for bore:(x2) || Cannot select this STYPE(x1)	mds\design\functions\Mdsresetbore.pmlfnc:262 Cannot select this STYPE
+(2,142)	7	2	Support Datum does not exist(x1) || Cannot find templates for this configuration. Please contact your PDMS administrator(x1)	mds\design\functions\Mdsift42.pmlfnc:169 Support Datum does not exist
+(64,503)	6	0		
+(46,28)	6	0		
+(61,604)	6	0		
+(2,603)	6	3	!!error.text )(x3) || An Extract Claim command has been issued! A Local Claim will not be available(x2) || Extract Claim commands has been issued! Local Claims will not be available(x1)	common\forms\lstclaim.pmlfrm:651 !!error.text )
+(12,004)	6	0		
+(2,29)	6	3	Invalid Rule Definition for Position.(x2) || Invalid Rule Definition for Extension.(x2) || Invalid Rule Definition for Direction.(x2)	design\forms\tmpdptscrt.pmlfrm:713 Invalid Rule Definition for Position.
+(2,9)	6	2	Too many characters (max 120) to store on UDA :MDSNote(x1) || !!error.text)(x1)	mds\design\forms\mdsancnote.pmlfrm:282 Too many characters (max 120) to store on UDA :MDSNote
+(2,102)	6	1	Pipe specification of pipe not set for identified pipe(x1)	mds\design\functions\Mdsaddpipe.pmlfnc:202 Pipe specification of pipe not set for identified pipe
+(61,52)	6	1	The NEW position of the support will be in the SAME position as the previous component. Do(x1)	mds\design\functions\mdscheckthro.pmlfnc:124 The NEW position of the support will be in the SAME position as the previous component. Do
+(2,253)	6	2	Tail option for piping components only(x1) || Head option for piping components only(x1)	mds\design\functions\Mdsposthro.pmlfnc:452 Tail option for piping components only
+(2,235)	6	0		
+(2,106)	5	1	Datum support atta has not been created(x1)	mds\design\functions\Mdsithroplane.pmlfnc:43 Datum support atta has not been created
+(64,153)	5	0		
+(2,707)	5	0		
+(2,173)	5	2	The current Database password you entered is incorrect. Database password not changed(x1) || The current Database password you entered is incorrect. Database password not deleted(x1)	admin\forms\admdb.pmlfrm:651 The current Database password you entered is incorrect. Database password not changed
+(1,501)	5	2	!!error.text)(x3) || !!messageFile.messageString(141, 560, !db.name.substring(3), !!error.text, !!ce.curloc.nam(x1)	admin\forms\adminapplic.pmlfrm:730 !!error.text)
+(47,8)	5	0		
+(2,25)	5	0		
+(2,875)	5	0		
+(44,15)	5	0		
+(41,324)	5	1	File $!filename exists. Use OVERWRITE mode to force write.(x5)	mds\design\functions\Mdsadp.pmlfnc:182 File $!filename exists. Use OVERWRITE mode to force write.
+(2,502)	5	0		
+(2,767)	5	0		
+(39,5)	5	0		
+(43,252)	5	1	!error)(x1)	monitor\functions\login.pmlfnc:127 !error)
+(64,358)	4	1	Given size is not a legal paper size(x2)	aba\Forms\abadrtmplatt.pmlfrm:1020 Given size is not a legal paper size
+(61,104)	4	0		
+(61,123)	4	0		
+(2,360)	4	0		
+(2,211)	4	3	!errorString)(x1) || Cannot position with respect to specified element type(x1) || Cannot position with respect to this element because it has no orientation attribute. Plea(x1)	common\forms\pos3dexplicit.pmlfrm:720 !errorString)
+(2,849)	4	1	Removed invalid expression for(x1)	design\forms\holemanmain.pmlfrm:4535 Removed invalid expression for
+(46,87)	4	1	!errorMessage)(x2)	pipefabricationmanager\design\functions\pfFabExplorer.pmlfnc:43 !errorMessage)
+(2,836)	4	0		
+(61,162)	4	2	!!messageFile.messageString(61,164))(x2) || No spec components available(x1)	design\forms\chooseoption.pmlfrm:549 No spec components available
+(42,55)	4	1	!!error.text.after((x1)	design\objects\hvacControl.pmlobj:485 !!error.text.after(
+(61,200)	4	1	!!error.text)(x4)	design\forms\equimportmanager.pmlfrm:1490 !!error.text)
+(41,229)	4	0		
+(64,548)	4	1	The grid is too small to show. Setting to 5 times the snap grid(x1)	isometricadp\forms\isoedit.pmlfrm:1731 The grid is too small to show. Setting to 5 times the snap grid
+(61,125)	4	0		
+(64,324)	4	0		
+(160,8)	4	1	Zone(x3)	mds\design\forms\Mdsautoname.pmlfrm:206 Zone
+(61,2)	4	0		
+(41,25)	4	0		
+(61,230)	4	1	Sorry - No plot for(x4)	paragon\forms\catDisplayPlot.pmlfrm:75 Sorry - No plot for
+(17,7)	4	3	!message)(x2) || |Heading could not be changed - specification would contain duplicate entries.|)(x1) || |Error (17,7) Duplicate entries are trying to be defined in the spec, or the same search h(x1)	paragon\objects\catspecviews.pmlobj:5528 |Heading could not be changed - specification would contain duplicate entries.|)
+(61,47)	4	0		
+(2,223)	3	0		
+(61,275)	3	0		
+(61,278)	3	0		
+(64,277)	3	0		
+(06,106)	3	0		
+(16,212)	3	0		
+(2,856)	3	1	!!error.text)(x1)	common\forms\group.pmlfrm:731 !!error.text)
+(2,839)	3	0		
+(2,224)	3	0		
+(2,1)	3	0		
+(2,899)	3	0		
+(61,273)	3	1	!!error.text )(x3)	common\forms\rptoutput.pmlfrm:2890 !!error.text )
+(2,780)	3	0		
+(79,10)	3	0		
+(2,890)	3	0		
+(61,164)	3	0		
+(2,430)	3	0		
+(2,434)	3	0		
+(2,618)	3	1	Drawings are already claimed by another user, correct and re-run(x2)	isometricadp\objects\isodrwg.pmlobj:310 Drawings are already claimed by another user, correct and re-run
+(2,470)	3	0		
+(7,35)	3	0		
+(61,34)	3	0		
+(2,232)	3	0		
+(83,15)	3	1	!!error.text &(x1)	spooler\objects\splweldn.pmlobj:388 !!error.text &
+(46,58)	3	0		
+(64,417)	2	2	Cannot find entered plotfile. The backing sheet remains unset.(x1) || Backing Sheet(x1)	aba\Forms\abadrtmplatt.pmlfrm:597 Cannot find entered plotfile. The backing sheet remains unset.
+(64,10)	2	1	Backing Sheet size does not match the size of the sheet. Backing sheet set to nulref.(x1)	aba\Forms\abatemplatesht.pmlfrm:974 Backing Sheet size does not match the size of the sheet. Backing sheet set to nulref.
+(64,508)	2	0		
+(64,510)	2	1	Sheet(x1)	isometricadp\objects\isomodule.pmlobj:102 Sheet
+(64,188)	2	0		
+(1,141)	2	1	You c(x2)	admin\forms\admbacktrack.pmlfrm:223 You c
+(06,523)	2	0		
+(06,545)	2	0		
+(1,129)	2	1	!group +(x1)	admin\forms\admmess.pmlfrm:480 !group +
+(06,734)	2	0		
+(1,17)	2	0		
+(06,026)	2	0		
+(39,4)	2	1	$!errorString(x1)	admin\objects\admvirtdbset.pmlobj:154 $!errorString
+(2,303)	2	0		
+(64,347)	2	0		
+(41,303)	2	0		
+(2,622)	2	2	Attempting a Global claim. Please wait and click Status button to view progress(x1) || Attempting a Global claim. Please wait and click Global Status button to view progress(x1)	common\forms\admextractcntrol.pmlfrm:1643 Attempting a Global claim. Please wait and click Status button to view progress
+(61,615)	2	0		
+(2,118)	2	0		
+(43,409)	2	0		
+(61,563)	2	0		
+(2,874)	2	0		
+(2,433)	2	0		
+(152,4)	2	1	!!error.text)(x2)	common\objects\namopt.pmlobj:665 !!error.text)
+(2,220)	2	0		
+(2,877)	2	1	These ends cannot make a fillet!!(x2)	design\objects\mergegensectpane.pmlobj:554 These ends cannot make a fillet!!
+(2,808)	2	0		
+(146,9)	2	0		
+(64,285)	2	0		
+(64,384)	2	0		
+(06,517)	2	0		
+(1,431)	2	0		
+(2,442)	2	0		
+(161,7)	2	0		
+(61,143)	2	0		
+(61,41)	2	1	No intersection between Direction of movement and selected Pline(x2)	mds\design\functions\Mdsalignhanger.pmlfnc:98 No intersection between Direction of movement and selected Pline
+(2,257)	2	0		
+(79,4)	2	1	!!Error.text &(x2)	mds\design\objects\mdshvacreport.pmlobj:1122 !!Error.text &
+(2,222)	2	0		
+(61,558)	2	0		
+(43,258)	2	0		
+(43,251)	2	0		
+(16,39)	2	1	|Value entered is not valid for this attribute|)(x1)	paragon\forms\catmodifyattribs.pmlfrm:1171 |Value entered is not valid for this attribute|)
+(46,73)	2	1	Field values are not complete.(x1)	paragon\forms\diametertable.pmlfrm:457 Field values are not complete.
+(2,775)	2	1	!error)(x1)	paragon\forms\sftdefinemain2.pmlfrm:872 !error)
+(160,44)	2	0		
+(43,364)	2	0		
+(83,14)	2	1	!!error.text)(x2)	spooler\objects\splfieldn.pmlobj:133 !!error.text)
+(83,6)	2	1	!!error.text &(x2)	spooler\objects\splfieldn.pmlobj:221 !!error.text &
+(61,299)	2	0		
+(64,836)	1	1	!!error.text)(x1)	aba\Forms\ababuildkeyplan.pmlfrm:393 !!error.text)
+(2,556)	1	1	ALL cannot be used with this command as too many items will be selected(x1)	aba\Forms\abadiscipline.pmlfrm:333 ALL cannot be used with this command as too many items will be selected
+(64,831)	1	1	TrueType fonts are incompatible with the other settings. The font has not been set!(x1)	aba\Forms\abadrtmplatt.pmlfrm:510 TrueType fonts are incompatible with the other settings. The font has not been set!
+(64,837)	1	1	The chosen sheet is not valid as it contains incompatible font setting.(x1)	aba\Forms\abadrtmplatt.pmlfrm:581 The chosen sheet is not valid as it contains incompatible font setting.
+(64,832)	1	0		
+(2,640188)	1	1	Can only provide information for orthogonal views(x1)	aba\Functions\abawhat.pmlfnc:65 Can only provide information for orthogonal views
+(1,427)	1	1	You cannot replace an extract database or a database owning extracts(x1)	admin\forms\admdb.pmlfrm:609 You cannot replace an extract database or a database owning extracts
+(1,267)	1	0		
+(06,183)	1	0		
+(1,70)	1	0		
+(1,793)	1	1	!!error.text)(x1)	admin\forms\admdb.pmlfrm:786 !!error.text)
+(1,18)	1	0		
+(06,160)	1	0		
+(06,161)	1	0		
+(161,50)	1	1	The date entered is invalid(x1)	admin\forms\admdb.pmlfrm:2898 The date entered is invalid
+(06,178)	1	0		
+(06,181)	1	0		
+(06,153)	1	0		
+(06,158)	1	0		
+(06,182)	1	0		
+(44,7)	1	1	!!error.text &(x1)	admin\forms\adminapplic.pmlfrm:719 !!error.text &
+(06,007)	1	0		
+(43,429)	1	0		
+(2,857)	1	1	Cannot delete DB(x1)	admin\forms\adminelem.pmlfrm:615 Cannot delete DB
+(1,584)	1	1	!!error.text)(x1)	admin\forms\adminelem.pmlfrm:675 !!error.text)
+(1,12)	1	0		
+(06,203)	1	0		
+(06,185)	1	0		
+(1,36)	1	0		
+(06,307)	1	0		
+(06,308)	1	0		
+(43,41)	1	1	!error)(x1)	admin\functions\admexpungeall.pmlfnc:53 !error)
+(06,025)	1	0		
+(06,019)	1	0		
+(06,054)	1	0		
+(06,173)	1	0		
+(03,065)	1	0		
+(1,138)	1	1	!!error.text.after((x1)	admin\objects\admstamp.pmlobj:407 !!error.text.after(
+(1,139)	1	0		
+(61,686)	1	0		
+(1,319)	1	1	$!errorString(x1)	admin\objects\admvirtdbset.pmlobj:139 $!errorString
+(2,432)	1	0		
+(41,243)	1	1	Release:(x1)	common\forms\admextractcntrol.pmlfrm:784 Release:
+(43,403)	1	1	Unable to abandon changes in(x1)	common\forms\admextractcntrol.pmlfrm:865 Unable to abandon changes in
+(41,385)	1	0		
+(43,380)	1	1	Unable to issue changes in(x1)	common\forms\admextractcntrol.pmlfrm:1449 Unable to issue changes in
+(2,636)	1	1	Attempting a Global claim. Please wait and click Status button to view progress(x1)	common\forms\admextractcntrol.pmlfrm:1649 Attempting a Global claim. Please wait and click Status button to view progress
+(12,003)	1	0		
+(2,6)	1	0		
+(160,47)	1	1	File has exceeded 10000 lines. Cannot view(x1)	common\functions\fileviewer.pmlfnc:55 File has exceeded 10000 lines. Cannot view
+(61,702)	1	0		
+(61,110)	1	0		
+(43,388)	1	0		
+(2,423)	1	0		
+(61,176)	1	0		
+(61,177)	1	0		
+(2,112)	1	0		
+(61,86)	1	1	Component ((x1)	design\forms\componentselection.pmlfrm:2475 Component (
+(2,851)	1	1	Cannot create an NXTR at this level.(x1)	design\forms\dbenextrusion.pmlfrm:1269 Cannot create an NXTR at this level.
+(47,50)	1	0		
+(43,384)	1	1	There are outstanding updates in your extract. Do you want to do a SAVEWORK?(x1)	design\forms\holemanmain.pmlfrm:4573 There are outstanding updates in your extract. Do you want to do a SAVEWORK?
+(2,852)	1	1	The branch(x1)	design\forms\pipesplitting.pmlfrm:3397 The branch
+(2,834)	1	1	Shape has self-intersecting lines(x1)	design\forms\shapedefinitioneditor.pmlfrm:446 Shape has self-intersecting lines
+(2,886)	1	0		
+(69,8)	1	0		
+(69,11)	1	0		
+(69,80)	1	0		
+(69,81)	1	0		
+(69,111)	1	0		
+(2,21)	1	0		
+(41,369)	1	0		
+(2,78)	1	0		
+(2,888)	1	0		
+(2,878)	1	0		
+(64,280)	1	0		
+(06,614)	1	0		
+(1,646)	1	1	!!error.text)(x1)	global\forms\glbloc.pmlfrm:1461 !!error.text)
+(1,459)	1	1	!!error.text &(x1)	global\forms\glbloc.pmlfrm:1619 !!error.text &
+(06,716)	1	0		
+(1,446)	1	0		
+(61,165)	1	0		
+(61,609)	1	0		
+(61,571)	1	0		
+(2,827)	1	0		
+(39,15)	1	1	|Unable to enter |& !nextModule.dText & | as there is no MDB set. You will need to go into(x1)	limbo\functions\moduleswitch.pmlfnc:287 |Unable to enter |& !nextModule.dText & | as there is no MDB set. You will need to go into
+(143,91)	1	0		
+(46,89)	1	1	Cannot switch module from the command line...(x1)	mds\common\functions\kcheckcommand.pmlfnc:89 Cannot switch module from the command line...
+(61,225)	1	0		
+(41,31)	1	0		
+(61,498)	1	0		
+(2,473)	1	0		
+(2,256)	1	1	This Hanger has no ppoints (P41 or P42) for rod length calculations!(x1)	mds\design\functions\Mdsgetrod.pmlfnc:105 This Hanger has no ppoints (P41 or P42) for rod length calculations!
+(2,115)	1	1	Cannot navigate to support from picked element. It has an invalid spref.(x1)	mds\design\functions\mdsgetsuppname.pmlfnc:201 Cannot navigate to support from picked element. It has an invalid spref.
+(2,757)	1	0		
+(73,202)	1	0		
+(61,495)	1	0		
+(2,608)	1	0		
+(61,1)	1	0		
+(2,631)	1	0		
+(61,220)	1	0		
+(64,332)	1	0		
+(41,54)	1	1	Cannot change a read only database(x1)	mds\design\objects\MdsWeld.pmlobj:389 Cannot change a read only database
+(61,578)	1	0		
+(1,59)	1	1	!!error.text)(x1)	monitor\forms\changepass.pmlfrm:141 !!error.text)
+(39,6)	1	0		
+(2,820)	1	1	|Value entered is not valid for this attribute|)(x1)	paragon\forms\catmodifyattribs.pmlfrm:1329 |Value entered is not valid for this attribute|)
+(2,771)	1	0		
+(16,13)	1	1	!!error.text &(x1)	paragon\functions\catsetmodelparams.pmlfnc:137 !!error.text &
+(2,758)	1	0		
+(2,230)	1	0		
+(17,59)	1	0		
+(2,793)	1	0		
+(17,19)	1	1	!!error.text)(x1)	paragon\objects\catupgradespec.pmlobj:501 !!error.text)
+(2,208)	1	0		
+(33,157)	1	0		
+(2,791)	1	0		
+(69,85)	1	0		
+(61,18)	1	0		
+(41,323)	1	1	OK to overwrite file(x1)	reviewinterface\forms\cdxattdump.pmlfrm:252 OK to overwrite file
+(2,583)	1	0		
+(62,707)	1	0		
+(61,565)	1	0		
+(7,41)	1	1	!!error.text)(x1)	spooler\forms\splcreatweld.pmlfrm:326 !!error.text)
