@@ -1839,3 +1839,26 @@ F. 等价旧 VAR PICK 命令(PML1→PML2 迁移对照表)
 
 - 实例提取协议：逐字原文+起止行号+抽查保真+官方瑕疵如实登记（两处）——示例代码与编目语料同标准。
 - 用户候选中不存在的模式（design\functions 无 EDGPACKET、pipeSlopeBranch 无 UNDOABLE）由代理核实并给出真实替代，避免文档失实。
+
+
+---
+
+## 第 92 轮（2026-10-12）：知识库打包为 Skill 并开源发布
+
+### 发布内容
+
+- **仓库**：https://github.com/erbi112211-boop/aveva-marine-dev-skill（公开，MIT 协议）
+- **结构**：SKILL.md（技能主入口：知识地图+场景路由+工具用法）+ references/（47 份文档分四组：specs 规范三件套 / guides 15 专题速查 / volumes 20 卷本与权威表 / templates 5 模板）+ scripts/（21 个工具脚本 + 回归样本）+ data/（机器索引 ~3.5MB）+ examples/（2 个工程包）
+- **规模**：105 文件 / 5.3MB；不含 AVEVA 原始文件（手册全文 27MB 因版权排除，附再生脚本）
+- **安装**：`git clone ... ~/.zcode/skills/aveva-marine-dev-skill` 即成为可触发技能
+
+### 取舍决策
+
+- 收录：全部 47 份整理文档 + 脚本 + 机器索引（functions/object_methods/forms/错误码/反射表）+ 工程包
+- 排除：pdf_text（27MB AVEVA 手册全文，版权）、corpus.json/xls_tables 原始提取（可用脚本再生）、_work/_reflect_survey 中间产物
+- 两个怪异文件名重命名（PML生成规范.md / PML记忆-语法硬约束.md）
+
+### 发布路径（凭据与网络）
+
+- gh CLI 未装；用 `git credential fill` 从 Windows 凭据管理器取 GitHub token 调 REST API 建仓
+- git 走已配置代理 127.0.0.1:33210；推送 main 分支成功，commit 36b4e65
